@@ -11,11 +11,13 @@ tags:
 
 # 实现需求
 
-v>Logo通过<a href="https://www.designevo.com/cn/" title="免费在线logo制作软件">DesignEvo</a>设计制作</div>
+Logo通过<a href="https://www.designevo.com/cn/" title="免费在线logo制作软件">DesignEvo</a>设计制作
+
+icon通过<a href="https://realfavicongenerator.net/" title="免费在线favicon制作软件">DesignEvo</a>设计制作
 
 ```
-git rm -r --cached .
 git add .
-git commit -m 'update .gitignore'
+git commit -m 'update'
+git push origin master
 
 ```
