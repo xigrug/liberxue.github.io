@@ -1,8 +1,8 @@
 # ----------- CONFIGURABLE START -----------
-title:            "LiberXue|FullStack|独立开发者|jekyll blog|GitHub blog"
-description:      "Full Stack独立开发者|欢迎来到 LiberXue「角落」侃侃理想、谈谈人生、敲敲代码。"
+title:            "XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog"
+description:      "环境气象践行者|欢迎来到 XiGrug「角落」不做无聊之事 何遣有涯之生"
 url:              https://xigrug.github.io # 域名
-signoff:          "LiberXue" # Your name
+signoff:          "XiGrug" # Your name
 facebook_appid:   #liberxue
 google_analytics: UA-101222464-1
 share:            true 
