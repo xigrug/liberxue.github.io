@@ -7,12 +7,21 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>c#交互JavaScript开发建立捕获前端错误日志</title>
-        <category>Javascript</category>
-        <description>实现目的之前开发winfrom和前端交互时间开发工程一直预留了debug console（chormeF12）功能，但是很多时间在项目上线和用户使用过程难免会出现部分错误和异常想实现一个前端日志...</description>
-        <pubDate>2017-07-28 10:04:49 </pubDate>
-        <link>http://localhost:4000/2017/07/28/jserrorlog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/28/jserrorlog.html</guid>
+        <title>Git忽略规则及.gitignore规则正确姿势</title>
+        <category>git</category>
+        <description>实现需求在git中如果想忽略掉某个文件或者文件夹，不想这个文件或者文件夹提交到版本库中，可以使用修改根目录中 .gitignore 文件的方法（如无，则需自己手工建立此文件）。这个文件每一行保存...</description>
+        <pubDate>2017-07-16 23:45:56 </pubDate>
+        <link>http://localhost:4000/2017/07/16/gitignore.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/16/gitignore.html</guid>
+      </item>
+    
+      <item>
+        <title>GitHub当作私密的版本控制系统远端版本库私有化哈</title>
+        <category>git</category>
+        <description>目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个...</description>
+        <pubDate>2017-03-07 00:00:00 </pubDate>
+        <link>http://localhost:4000/2017/03/07/githubyaunchengjiami.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/07/githubyaunchengjiami.html</guid>
       </item>
     
   </channel>
