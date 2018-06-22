@@ -49,8 +49,20 @@
 - [x] Automatic generation of feed.xml
 - [x] Automatic paging generation
 - [x] Modify _config.yml's links for your menu
-- [x] Modify the _config.yml of paginate for how many pages you want to page
+- [x] Madify the _config.yml of paginate for how many pages you want to page
 
+##Features
+
+###Rake
+```
+  rake new // 新建文章
+  rake post["TitleName"] // 生成纯净文章模版配置
+  rake deploy "message"="Commit Message" //一键发布文章
+  rake preview //一键预览(还会自主协助打开浏览器)
+  rake build //Build the site
+  rake post["Title"] //创建文章(tags,keywords等洁净的)
+```
+###pygments
 
 * [Issues](https://github.com/Liberxue/liberxue.github.io/issues)
  

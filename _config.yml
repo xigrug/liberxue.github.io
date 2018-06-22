@@ -6,6 +6,12 @@ signoff:          "XiGrug" # Your name
 facebook_appid:   #liberxue
 google_analytics: UA-101222464-1
 share:            true 
+pygments: true
+safe: true
+auto: true
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 # 分页
 paginate: 15
 paginate_path: "liberxuepage:num"
@@ -36,3 +42,5 @@ permalink: /:year/:month/:day/:title.html
 defaults:
   - values:
       layout: "default"
+redcarpet:
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
