@@ -207,6 +207,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
       
      
 </p>
+
 <h2 id="目的">目的</h2>
 
 <p>我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程托管版本库的服务器不应该知道文件里面的内容。</p>
@@ -288,6 +289,23 @@ git add . &amp;&amp; git ci -m "update"
 
 <p>用这种方法，可以用<code>git</code>管理一些私密又需要协作的信息（比如服务器配置）， 也可以把github当作私密的版本控制系统来用（commit的消息还是明文的）。</p>
 
+
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'xigrug',
+    repo: 'StoreComments',
+    id: '<%= page.date %>'
+    oauth: {
+        client_id: '04fd3f6cb617a99d3937',
+        client_secret: '99f6cf4374f687c4942270d0c997ff89fd55ac35',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 
 		<p class="post-info">
 			本文由 <a href="/">xigrug</a> 创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external nofollow">知识共享署名4.0</a> 国际许可协议进行许可<br>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名<br>最后编辑时间为:2017-03-07 00:00:00</p>
