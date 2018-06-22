@@ -60,6 +60,6 @@ git:
   branch: master
 transfer:
   command: rsync
-  settings: -av
+  settings: -av --delete
   source: _site/
   destination: ~/Git/xigrug.github.com/
