@@ -127,6 +127,7 @@ task :new do
 	open(@post_name, 'a') do |file|
 			file.puts "---"
 			file.puts "layout: post"
+                        file.puts "background-image:"
 			file.puts "title: #{@name}"
 			file.puts "date: #{Time.now}"
 			file.puts "categories: #{@categories}"
