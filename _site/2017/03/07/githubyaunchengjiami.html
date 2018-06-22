@@ -33,7 +33,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   <meta property="og:type" content="article">
   <meta property="og:title" content="GitHub当作私密的版本控制系统远端版本库私有化哈 - XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog">
   <meta name="og:keywords"  content="GitHub当作私密的版本控制系统远端版本库私有化哈 - XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog|目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程..." property='og:description' />
-  <meta name="theme-Jekyll by liberxue" content="#eb5055"> 
+  <meta name="theme-Jekyll by xigrug" content="#eb5055"> 
   <link rel="icon" type="image/png" href="http://localhost:4000/style/favicons/favicon.ico" />
   <link href="http://localhost:4000/style/favicons/favicon.ico" rel="shortcut icon" type="image/png">
   <link rel="canonical" href="http://localhost:4000/">
@@ -44,7 +44,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   <meta name="keywords"  content="目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程..." property='og:description' />
   <meta name="description" content="nothing is more practicla than a good theory" />
   <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
-  <link href="http://localhost:4000/style/style-liberxue.css" rel="stylesheet">
+  <link href="http://localhost:4000/style/style-xigrug.css" rel="stylesheet">
 
   <meta content='http://localhost:4000/2017/03/07/githubyaunchengjiami.html' property='og:url' />
   <meta content="http://localhost:4000/2017/03/07/githubyaunchengjiami.html|目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程..." property='og:description' />
@@ -65,7 +65,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
 <body class="" gtools_scp_screen_capture_injected="true">
 <header id="header" class="header bg-white">
     <div class="navbar-container">
-      <a href="/?liberxue" title="访问 XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog" class="navbar-logo"> <img src="http://localhost:4000/style/images/logo-liberxue.png" alt="XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog"> </a>
+      <a href="/?xigrug" title="访问 XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog" class="navbar-logo"> <img src="http://localhost:4000/style/images/logo-xigrug.png" alt="XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog"> </a>
         <div class="navbar-menu">
                          
             <a href="http://localhost:4000/">首页</a>
@@ -236,7 +236,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
 </div>
 <h6 id="记录一下生成的key的id">记录一下生成的key的ID，</h6>
 
-<p>比如2048R/liberxue013里面的liberxue013，2048代表加密轮数，越多越不容易破解</p>
+<p>比如2048R/xigrug013里面的xigrug013，2048代表加密轮数，越多越不容易破解</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>gpg --list-keys
 </code></pre>
 </div>
@@ -249,15 +249,15 @@ git add . &amp;&amp; git ci -m "update"
 </div>
 <h5 id="创建一个测试project">创建一个测试project</h5>
 
-<p>在你的github上面创建一个project，比如：https://github.com/liberxue</p>
+<p>在你的github上面创建一个project，比如：https://github.com/xigrug</p>
 
 <h6 id="配置远端加密版本库">配置远端加密版本库</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git remote add cryptremote gcrypt::git@github.com:liberxue/liberxue.git
+<div class="highlighter-rouge"><pre class="highlight"><code>git remote add cryptremote gcrypt::git@github.com:xigrug/xigrug.git
 </code></pre>
 </div>
 <h6 id="最好指定用哪个key加密">最好指定用哪个key加密</h6>
 <p>这样可以共享这个key给其他人用</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>git config remote.cryptremote.gcrypt-participants "liberxue013"
+<div class="highlighter-rouge"><pre class="highlight"><code>git config remote.cryptremote.gcrypt-participants "xigrug013"
 </code></pre>
 </div>
 <h6 id="push到远端">push到远端</h6>
@@ -283,12 +283,12 @@ git add . &amp;&amp; git ci -m "update"
 </code></pre>
 </div>
 <h6 id="下载代码">下载代码</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone gcrypt::git@github.com:liberxue/liberxue.git test2 // test2是git clone 在本地的文
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone gcrypt::git@github.com:xigrug/xigrug.git test2 // test2是git clone 在本地的文
 件名
 </code></pre>
 </div>
 <h6 id="也要指定一下用什么key加密">也要指定一下用什么key加密</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git config remote.cryptremote.gcrypt-participants "liberxue013"
+<div class="highlighter-rouge"><pre class="highlight"><code>git config remote.cryptremote.gcrypt-participants "xigrug013"
 
 </code></pre>
 </div>
@@ -395,11 +395,11 @@ $(function () {
 })();
 </script>
 
-<!--liberxueconnnet-menu-->
+<!--xigrugconnnet-menu-->
 <div id="directory-content" class="directory-content">
     <div id="directory"></div>
 </div>
-<!--liberxueconnnet-menu-->
+<!--xigrugconnnet-menu-->
 <script>
 var postDirectoryBuild = function() {
     var postChildren = function children(childNodes, reg) {

@@ -19,7 +19,6 @@ redirect_from:
  
 <iframe src="http://ghbtns.com/github-btn.html?user=liberxue&repo=liberxue.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
  
-
 博客图片使用七牛云加速
 
  
@@ -35,10 +34,10 @@ redirect_from:
 ### 使用语言
   
   ``Python`` |``shell`` |``ncl``|
-  ``fortran``|
+  ``fortran``|``git``   |``Matlab``
  
 
- 目前主攻``GO``
+ 目前主攻``Python``
   
 ### 个人爱好
 
