@@ -50,9 +50,9 @@
 - [x] Modify _config.yml's links for your menu
 - [x] Madify the _config.yml of paginate for how many pages you want to page
 
-##Features
+## Features
 
-###Rake
+### Rake
 ```
   rake new // 新建文章
   rake post["TitleName"] // 生成纯净文章模版配置
@@ -61,7 +61,7 @@
   rake build //Build the site
   rake post["Title"] //创建文章(tags,keywords等洁净的)
 ```
-###pygments
+### pygments
 
 * [Issues](https://github.com/Liberxue/liberxue.github.io/issues)
  
