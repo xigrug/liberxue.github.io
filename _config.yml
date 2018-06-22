@@ -10,8 +10,10 @@ share:            true
 #safe: true
 #auto: true
 # Build settings
-#markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+kramdown:
+    syntax_highlighter: syntax_highlighter_opts
 # 分页
 paginate: 15
 paginate_path: "liberxuepage:num"
@@ -47,3 +49,17 @@ defaults:
       layout: "default"
 #redcarpet:
 #    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: atom
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/xigrug.github.com/
