@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "linux 替换"
 date:  2018-06-21 19:33:56
 category: tools

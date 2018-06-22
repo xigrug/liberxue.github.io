@@ -33,7 +33,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   <meta property="og:type" content="article">
   <meta property="og:title" content="GitHub当作私密的版本控制系统远端版本库私有化哈 - XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog">
   <meta name="og:keywords"  content="GitHub当作私密的版本控制系统远端版本库私有化哈 - XiGrug|Python|WRF_MODEL|jekyll blog|GitHub blog|目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程..." property='og:description' />
-  <meta name="theme-Jekyll by xigrug" content="#eb5055"> 
+  <meta name="theme-Jekyll by liberxue" content="#eb5055"> 
   <link rel="icon" type="image/png" href="http://localhost:4000/style/favicons/favicon.ico" />
   <link href="http://localhost:4000/style/favicons/favicon.ico" rel="shortcut icon" type="image/png">
   <link rel="canonical" href="http://localhost:4000/">
@@ -44,7 +44,7 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   <meta name="keywords"  content="目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程..." property='og:description' />
   <meta name="description" content="nothing is more practicla than a good theory" />
   <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
-  <link href="http://localhost:4000/style/style-xigrug.css" rel="stylesheet">
+  <link href="http://localhost:4000/style/style-liberxue.css" rel="stylesheet">
 
   <meta content='http://localhost:4000/2017/03/07/githubyaunchengjiami.html' property='og:url' />
   <meta content="http://localhost:4000/2017/03/07/githubyaunchengjiami.html|目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程..." property='og:description' />
@@ -72,6 +72,8 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
                              
             <a href="http://localhost:4000/book">书籍</a>
                              
+            <a href="http://localhost:4000/tools">工具</a>
+                             
             <a href="http://localhost:4000/road">旅游</a>
                              
             <a href="http://localhost:4000/archives">归档</a>
@@ -96,6 +98,8 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
                 <li><a href="http://localhost:4000/">首页</a></li>
                             
                 <li><a href="http://localhost:4000/book">书籍</a></li>
+                            
+                <li><a href="http://localhost:4000/tools">工具</a></li>
                             
                 <li><a href="http://localhost:4000/road">旅游</a></li>
                             
@@ -213,57 +217,50 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
 
 <ol>
   <li>
-    <p><code class="highlighter-rouge">git-crypt</code>：可以加密部分文件，原理是加上了加密的fiter和diff， 但是官方说只适合加密部分文件，而不适合全版本库加密。部分文件加密很容易造成信息泄漏，一定要全版本库加密才适合。</p>
+    <p><code>git-crypt</code>：可以加密部分文件，原理是加上了加密的fiter和diff， 但是官方说只适合加密部分文件，而不适合全版本库加密。部分文件加密很容易造成信息泄漏，一定要全版本库加密才适合。</p>
   </li>
   <li>
-    <p>串联<code class="highlighter-rouge">sshfs</code>和远程服务器加密文件系统<code class="highlighter-rouge">encfs</code>：首先用<code class="highlighter-rouge">sshfs</code>加载远端文件系统，然后用<code class="highlighter-rouge">encfs</code>创建加密文件系统。 我估计无法解决多人同时<code class="highlighter-rouge">push</code>情况下的竞争条件，并且encfs有安全漏洞，使用<code class="highlighter-rouge">上push/pull</code>之前需要加载两层文件系统，不是很方便。</p>
+    <p>串联<code>sshfs</code>和远程服务器加密文件系统<code>encfs</code>：首先用<code>sshfs</code>加载远端文件系统，然后用<code>encfs</code>创建加密文件系统。 我估计无法解决多人同时<code>push</code>情况下的竞争条件，并且encfs有安全漏洞，使用<code>上push/pull</code>之前需要加载两层文件系统，不是很方便。</p>
   </li>
   <li>
-    <p><code class="highlighter-rouge">git-remote-gcryp</code>t用<code class="highlighter-rouge">gpg</code>进行远端加密。 比较符合我预期的模式，但是用<code class="highlighter-rouge">gpg</code>不是特别方便协作。但是别的方法走不通，只有这个方法可用。</p>
+    <p><code>git-remote-gcryp</code>t用<code>gpg</code>进行远端加密。 比较符合我预期的模式，但是用<code>gpg</code>不是特别方便协作。但是别的方法走不通，只有这个方法可用。</p>
   </li>
 </ol>
 
 <h4 id="使用方法">使用方法</h4>
 
 <h6 id="安装git-remote-gcrypt和gnupg">安装git-remote-gcrypt和gnupg</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install git-remote-gcrypt gnupg
+<pre><code>sudo apt-get install git-remote-gcrypt gnupg
 </code></pre>
-</div>
 <h6 id="创建一个gpg的key">创建一个gpg的key，</h6>
 <p>需要设置用户名，邮箱，描述等，不要设置过期时间</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>gpg --gen-key
+<pre><code>gpg --gen-key
 </code></pre>
-</div>
 <h6 id="记录一下生成的key的id">记录一下生成的key的ID，</h6>
 
-<p>比如2048R/xigrug013里面的xigrug013，2048代表加密轮数，越多越不容易破解</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>gpg --list-keys
+<p>比如2048R/liberxue013里面的liberxue013，2048代表加密轮数，越多越不容易破解</p>
+<pre><code>gpg --list-keys
 </code></pre>
-</div>
 <h6 id="生成一个测试版本库">生成一个测试版本库</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>mkdir test1 &amp;&amp; cd test1
+<pre><code>mkdir test1 &amp;&amp; cd test1
 git init .
 echo "test" &gt; a.txt
 git add . &amp;&amp; git ci -m "update"
 </code></pre>
-</div>
 <h5 id="创建一个测试project">创建一个测试project</h5>
 
-<p>在你的github上面创建一个project，比如：https://github.com/xigrug</p>
+<p>在你的github上面创建一个project，比如：https://github.com/liberxue</p>
 
 <h6 id="配置远端加密版本库">配置远端加密版本库</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git remote add cryptremote gcrypt::git@github.com:xigrug/xigrug.git
+<pre><code>git remote add cryptremote gcrypt::git@github.com:liberxue/liberxue.git
 </code></pre>
-</div>
 <h6 id="最好指定用哪个key加密">最好指定用哪个key加密</h6>
 <p>这样可以共享这个key给其他人用</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>git config remote.cryptremote.gcrypt-participants "xigrug013"
+<pre><code>git config remote.cryptremote.gcrypt-participants "liberxue013"
 </code></pre>
-</div>
 <h6 id="push到远端">push到远端</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git push cryptremote master
+<pre><code>git push cryptremote master
 </code></pre>
-</div>
 <ul>
   <li>访问远端版本库，看看文件内容，和commit里面的信息，是不是都是加密的？</li>
 </ul>
@@ -271,29 +268,25 @@ git add . &amp;&amp; git ci -m "update"
 <h2 id="如何分享给其他人">如何分享给其他人</h2>
 
 <h5 id="导出key">导出key</h5>
-<div class="highlighter-rouge"><pre class="highlight"><code>gpg --export-secret-key -a "share@share.com" &gt; secretkey.asc
+<pre><code>gpg --export-secret-key -a "share@share.com" &gt; secretkey.asc
 </code></pre>
-</div>
 <ul>
   <li>把secretkey.asc分享给其他人，拷贝的时候记得先压缩加密一下再发送，更安全</li>
 </ul>
 
 <h6 id="别人电脑里面导入">别人电脑里面导入</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>gpg --import secretkey.asc
+<pre><code>gpg --import secretkey.asc
 </code></pre>
-</div>
 <h6 id="下载代码">下载代码</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone gcrypt::git@github.com:xigrug/xigrug.git test2 // test2是git clone 在本地的文
+<pre><code>git clone gcrypt::git@github.com:liberxue/liberxue.git test2 // test2是git clone 在本地的文
 件名
 </code></pre>
-</div>
 <h6 id="也要指定一下用什么key加密">也要指定一下用什么key加密</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>git config remote.cryptremote.gcrypt-participants "xigrug013"
+<pre><code>git config remote.cryptremote.gcrypt-participants "liberxue013"
 
 </code></pre>
-</div>
 
-<p>用这种方法，可以用<code class="highlighter-rouge">git</code>管理一些私密又需要协作的信息（比如服务器配置）， 也可以把github当作私密的版本控制系统来用（commit的消息还是明文的）。</p>
+<p>用这种方法，可以用<code>git</code>管理一些私密又需要协作的信息（比如服务器配置）， 也可以把github当作私密的版本控制系统来用（commit的消息还是明文的）。</p>
 
 
 		<p class="post-info">
@@ -322,11 +315,9 @@ git add . &amp;&amp; git ci -m "update"
 	<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
-	 <a class="social segmentfault" target="blank" href="https://segmentfault.com/u/xigrug" title="访问 XiGrug_Twitter" data-hover="Segmentfault">Segmentfault</a>
-    <a class="social github" target="blank" href="https://github.com/xigrug" title="访问 XiGrug_Twitter" data-hover="GitHub">GitHub</a>
+	 <a class="social weibo" target="blank" href="https://weibo.com/u/2007603705" title="访问 XiGrug_Weibo" data-hover="Weibo">Weibo</a>
+    <a class="social github" target="blank" href="https://github.com/xigrug" title="访问 XiGrug_Github" data-hover="GitHub">GitHub</a>
     <a class="social twitter" target="blank" href="http://twitter.com/xigrug" title="访问 XiGrug_Twitter" data-hover="Twitter">Twitter</a>
-     <a class="social stackoverflow" target="blank" href="https://stackoverflow.com/users/6902190/xigrug" title="访问 XiGrug_stackoverflow" data-hover="StackOverflow">StackOverflow</a>
-          <a class="social oschina" target="blank" href="https://my.oschina.net/bolanzw" title="访问 XiGrug_Oschina" data-hover="Oschina">Oschina</a>
      <a class="social rss" target="blank" href="/feed.xml"title="访问 XiGrug_RSS" data-hover="RSS">RSS</a>
 	</div>
 		</div>
@@ -342,7 +333,7 @@ git add . &amp;&amp; git ci -m "update"
                         <p>Powered by <a href="http://localhost:4000/tags/#Jekyll" title="Jekyll" data-hover="Jekyll" target="_blank" rel="nofollow">Jekyll</a></p>
                         <p>&copy; 2017 <a href="/feed.xml"  title="访问 xigrug blog RSS" data-hover="xigrug blog RSS">xigrug blog RSS</a></p>
                         <p>总计文章：篇</p>
-                      <p>本blog已开源点击Fork</p><iframe src="http://ghbtns.com/github-btn.html?user=xigrug&repo=xigrug.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+                   <!--   <p>本blog已开源点击Fork</p><iframe src="http://ghbtns.com/github-btn.html?user=xigrug&repo=xigrug.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe> -->
                     </div>
                 </div>
             </div>
@@ -351,11 +342,11 @@ git add . &amp;&amp; git ci -m "update"
      <!--置顶-->
     
       
-      <li><a href="/2017/07/16/gitignore.html" title="访问 Git忽略规则及.gitignore规则正确姿势" data-hover="Git忽略规则及.gitignore规则正确姿势">Git忽略规则及.gitignore规则正确姿势</a></li>
+    
       
     
       
-      <li><a href="/2017/03/07/githubyaunchengjiami.html" title="访问 GitHub当作私密的版本控制系统远端版本库私有化哈" data-hover="GitHub当作私密的版本控制系统远端版本库私有化哈">GitHub当作私密的版本控制系统远端版本库私有化哈</a></li>
+    
       
     
         <!--置顶-->
@@ -363,6 +354,10 @@ git add . &amp;&amp; git ci -m "update"
             <div class="meta-item meta-comments">
                 <h3 class="meta-title">最新文章</h3>
           
+      
+            
+      
+            
       
             
       
