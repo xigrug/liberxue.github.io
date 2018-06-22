@@ -12,7 +12,7 @@ tags:
 # 批量替换
 
 
-```
+```{r, engine='bash'}
  sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`
 
 ```
