@@ -104,9 +104,11 @@ task :new do
   @dir = STDIN.gets.chomp
   puts "Input File Name(for Url)："
 	@url = STDIN.gets.chomp
+	puts "Input BACK Image(for Article)："
+	@imagename = STDIN.gets.chomp
 	puts "Input Article Title(for Article)："
 	@name = STDIN.gets.chomp
-	puts "Input Article Categories(工具｜资源｜生活｜技术｜读书 Separated By Spaces)："
+	puts "Input Article Categories(tool｜res｜life｜tech｜book Separated By Spaces)："
 	@categories = STDIN.gets.chomp
   puts "Input Article Tags(Separated By ,)"
   @tags = STDIN.gets.chomp
@@ -126,8 +128,8 @@ task :new do
 	FileUtils.touch(@post_name)
 	open(@post_name, 'a') do |file|
 			file.puts "---"
-			file.puts "layout: post"
-                        file.puts "background-image:"
+			file.puts "layout: blog"
+                        file.puts "background-image: #{@imagename}"
 			file.puts "title: #{@name}"
 			file.puts "date: #{Time.now}"
 			file.puts "categories: #{@categories}"
