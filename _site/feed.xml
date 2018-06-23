@@ -52,15 +52,6 @@
       </item>
     
       <item>
-        <title>WRF 安装运行入门指南</title>
-        <category>tech</category>
-        <description>WRF user_guide_v4 视频教程WRF 安装运行入门指南（WPS WRF_SI WRFV2.2 NCARG GrADS）2007.04.   by aioply 编辑整理   WRF...</description>
-        <pubDate>2018-06-22 18:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/22/wrfmanual.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/wrfmanual.html</guid>
-      </item>
-    
-      <item>
         <title>LATEX</title>
         <category>tools</category>
         <description>网络资源NJU-THESIS</description>
@@ -103,6 +94,15 @@
         <pubDate>2018-06-21 19:33:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/21/gitignore.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/21/gitignore.html</guid>
+      </item>
+    
+      <item>
+        <title>Wrfmanual</title>
+        <category></category>
+        <description>—   layout: blog   tech: true   istop: false   title: “WRF 安装运行入门指南”   background-image: https://...</description>
+        <pubDate>2018-06-22 00:00:00 </pubDate>
+        <link>https://xigrug.github.io/2018/06/22/wrfmanual.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/wrfmanual.html</guid>
       </item>
     
       <item>
