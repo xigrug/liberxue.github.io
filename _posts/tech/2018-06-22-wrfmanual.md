@@ -11,6 +11,9 @@ tags:
 - quick
 - wrf
 ---
+
+[WRF user_guide_v4](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/)
+[视频教程](https://pan.baidu.com/s/1AMu-xaqW0OMH1GtzuybZdg)
 # WRF 安装运行入门指南
 
 （WPS WRF_SI WRFV2.2 NCARG GrADS）
@@ -53,7 +56,7 @@ by aioply 编辑整理
 - 附录 4 ：一些简单的UNIX命令 ・・・・・・・・・・・・・・・・・・・・・・・・・・・
 
 
-#前言
+# 前言
 
 连我自己也没想到，还会接着WRF版本的更新，不自量力地整理出第三版入门指南。但我想这将是
 自己能整理出来的最后一个版本了。曾经在发布第二版时承诺要增加WRF的namelist.input和WRF2GrADS
@@ -95,7 +98,7 @@ windrisingdl的无私的帮助。namelist.input的翻译也是多亏有tanghao�
 指南中以绿色书写的部分为UNIX的命令文，蓝色为链接部分。
 
 
-#1 ．＜WRF模式简介＞
+# 1 ．＜WRF模式简介＞
 
 Weather Research and Forecasting Model(WRF)被誉为是次世代的中尺度天气预报模式。二战后，由于计算
 机技术的迅猛发展，气象预报技术也随之突飞猛进。短短的几十年里，世界各地的气象研究机关开发出了
@@ -138,7 +141,7 @@ WRF的最新版本是 2006 年的圣诞节前 12 月 22 日推出的Ver2.2。这
 出处：User’s Guide for Advanced Research WRF (ARW) Modeling System Version 2.
 ```
 
-#2 ．＜准备工作＞
+# 2 ．＜准备工作＞
 
 注:本文所记述的安装过程仅是在编译器等软件安装完备的条件下进行的。限于笔者的知识水平有限，对这
 些基本环境的设定不能进行意义描述，十分抱歉。
@@ -215,7 +218,7 @@ Bash 和 Csh
 ¾ source ~/.bashrc
 
 
-#3 ．＜WPS+WRFV2.2安装运行简介＞
+# 3 ．＜WPS+WRFV2.2安装运行简介＞
 
 请参照网页http://www.mmm.ucar.edu/wrf/OnLineTutorial/index.htm，内有详细的Online Tutorial。本章的内容
 是参照上述网页的内容进行翻译，并结合自己在操作过程中遇到的困难进行归纳整理而完成的。其中，本
@@ -284,7 +287,7 @@ Case Study
 ### WPS是和WRFV2.2一同被推出的，可以看成是WRF_SI的进化版。
 
 
-##3.1． ～安装前奏～
+## 3.1． ～安装前奏～
 
 Get Source Code
 下载WPS和WRFV2.2的source code。。
@@ -322,7 +325,7 @@ Compile WRFV2.2 First
 择安装项。具体的安装方法请参考附录 1 。
 
 
-##3.2. ～安装WPS～
+## 3.2. ～安装WPS～
 
 Examine the Source Code
 进入到/home/user/you/WRF/WPS/目录下
@@ -428,7 +431,7 @@ rd_intermediate.exe Read intermediate files
 文件的有无并不会影响到WRF的正常运行。
 You are now ready to run the WPS.
 ```
-##3.3. ～运行WPS～
+## 3.3. ～运行WPS～
 
 WPS用来建立WRFV2的输入文件。其流程如下图所示：
 
@@ -453,7 +456,7 @@ Get Terrestrial Input Data
 解压后，会自动生成名为geog/的目录。在geog/目录里包含有这 4 种解像度的目录，每个目录里都有介绍
 数据的index文件。
 
-Run geogrid.exe
+* Run geogrid.exe
 编辑namelist.wps文件，作以下领域设定的修改。为方便初学者学习，未考虑嵌套问题。
 max_dom = 1,
 e_we = 75,
@@ -468,9 +471,9 @@ geog_data_path = '/home/user/you/WRF/WPS_GEOG/geog'
 
 我们可以使用NCAR Graphic来查看我们的领域设定。具体方法请参考WRF网站的Tutorial。
 如果满意，继续运行geogrid.exe，生成静态数据。
-¾ ./geogrid.exe
+* ./geogrid.exe
 如果使用并行（4CPUs）计算的话，
-¾ mpirun –np 4 geogrid.exe
+* mpirun –np 4 geogrid.exe
 在运行过程当中，会出现如下的画面信息：
 
 ```
@@ -508,7 +511,7 @@ geogrid.log文件。
 这里生成的.nc文件是NetCDF格式的文件。如果安装了graphical tool，我们还可以将这些数据进行可视化处
 理。
 
-Run ungrid.exe
+* ./ungrid.exe
 整个练习用的数据可以计算 72 小时（网上的Tutorial 里只进行了最先的 24 小时的计算）。所以namelist.wps
 里的设定如下：
 start_date = '2005-08-28_00:00:00',
@@ -520,7 +523,7 @@ interval_seconds = 21600
 from 2005082800 to 2005083100。然后使用gunzip和tar来解压。
 使用link_grib.csh文件把这些数据链接到WPS目录下。
 例如，把这些数据解压后放到了/home/user/you/WRF/DATA/Katrina/目录下，其链接方法如下：
-¾ ./link_grib.csh /home/user/you/WRF/DATA/Katrina/avn_
+* ./link_grib.csh /home/user/you/WRF/DATA/Katrina/avn_
 然后，我们会看到WPS目录里多了以下文件：
 
 
@@ -573,9 +576,9 @@ found in the input file and on which level these fields are available.
 
 Run metgrid.exe
 最后一部最简单，只要输入下面的命令即可：
-¾ ./metgrid.exe
+* ./metgrid.exe
 如果使用并行（4CPUs）计算的话，
-¾ mpirun –np 4 metgrid.exe
+* mpirun –np 4 metgrid.exe
 运行结束后屏幕出现这样的信息：
 Processing domain 1 of 1.
 Processing 2005-08-28_00:00:
@@ -614,7 +617,7 @@ Processing 2005-08-31_00:00:
 You are now ready to run the WRFV2.
 
 
-##3.4. ～安装WRFV2.2～
+## 3.4. ～安装WRFV2.2～
 
 这里，如果是运行real case，流程示意图如下：
 
@@ -688,7 +691,7 @@ Environment Variable-NetCDF
 
 Configure WRFV
 键入：
-¾ ./configure
+* ./configure
 在此，会显示出计算机所支持的平台。
 
 
@@ -735,7 +738,7 @@ configure.wrf 文件被做成。如果有必要，对此文件的compile options
 
 
 Compile WRFV2
-¾ ./compile
+* ./compile
 然后屏幕出现：
 Usage:
 compile wrf compile wrf in run dir (NOTE: no real.exe, ndown.exe, or ideal.exe generated)
@@ -754,11 +757,11 @@ compile -h help message
 
 因为要运行WRF ARW real data case，所以选择em_real。
 然后开始编译模块。
-¾ ./compile em_real >& compile.log
+* ./compile em_real >& compile.log
 运行会稍微花一点时间。（如果在./configure处选择了 3 ，你会有将近 30 分钟左右的时间来喝杯咖啡）
 如果在进行过程当中自己弄出错了，或者要更改configure、compile等的选项，可以用 “clean -a”的命令来
 清理所有的 built files，including configure.wrf。
-¾ ./clean -a
+* ./clean -a
 然后开始重新编译WRFV2.2。
 
 编译结束后，打开compile.log确认是否有错误信息存在。如果编辑成功，在main/目录下会有以下的文件被
@@ -776,7 +779,7 @@ wrf.exe用于WRF model integration
 不过之后会生成ideal.exe可执行文件）
 
 
-##3.5. ～运行WRFV2.2～
+## 3.5. ～运行WRFV2.2～
 
 Edit namelist.input
 到run/ 或 test/em_real 目录下运行WRFV2.2。在这里，我选择后者。
@@ -873,10 +876,10 @@ Link
 
 Run real.exe
 进行single processor运行。例如本次的演习。
-¾ ./real.exe
+* ./real.exe
 如果是DM(distributed memory) parallel systems，就会需要mpirun command。例如，如果是Linux cluster，
 实行4CPUs的MPI code的命令就是：
-¾ mpirun –np 4 real.exe
+* mpirun –np 4 real.exe
 可以根据自己的条件选择CPU的个数。同时不要忘记，在./configure 处要选择与之相对应的平台。
 在键入./real.exe 后，最好不要打扰计算机的运行。如果运行成功的话，最后会有wrfbdy_d01和wrfinput_d01
 文件生成。
@@ -895,25 +898,25 @@ SUCCESS COMPLETE REAL_EM INIT
 因为wrf.exe也会生成同名的log文件，所以把上面的rsl.out.*和rsl.error.*移动到其他目录，或者删掉。
 
 Run wrf.exe
-¾ ./wrf.exe
+* ./wrf.exe
 如果是 single processor machine，输入./wrf.exe。
 如果是DM(distributed memory) parallel systems，会有需要mpirun command的场合。例如，如果是Linux
 cluster，实行4CPUs的MPI code的命令就是：
-¾ mpirun –np 4 wrf.exe
+* mpirun –np 4 wrf.exe
 
 如果全部进行顺利的话，新的wrfout_d01 file将会被做成。
 从 2005082800 到 2005083100 的 72 小时份的文件将被做成。用ncdump可以查看wrfout_d01 file里的信息。
-¾ ncdump –h wrfout_d01_2005-08-28_00:00:00 参照
+* ncdump –h wrfout_d01_2005-08-28_00:00:00 参照
 
 wrf: SUCCESS COMPLETE WRF
 
 
-#4．＜WRF_SI+WRFV2.2的安装运行＞
+# 4．＜WRF_SI+WRFV2.2的安装运行＞
 
 请参照网页http://www.mmm.ucar.edu/wrf/OnLineTutorial/WRFSI/，内有详细的Online Tutorial。
 本章的内容是参照上述网页的内容进行翻译，并结合自己在操作过程中遇到的困难进行归纳整理完成的。
 
-##4.0. ～收集数据～
+## 4.0. ～收集数据～
 
 Get Source Code
 和WPS+为WRFV2.2一样，把所需要的，最新的Source_Codes收集在一起，分类放到同一个目录下。
@@ -924,26 +927,26 @@ Get Source Code
 
 Unpack the Code
 在/home/user/you/目录下建立一个名为WRF的工作目录：
-¾ mkdir WRF
+* mkdir WRF
 把下载到的wrfsi_v2.1.2.tar.gz和WRFV2.TAR.gz文件复制到新建的WRF目录下。然后解压和展开。
-¾ cp wrfsi_v2.1.2.tar.gz /home/user/you/WRF/ （可参考cp命令的使用方法）
-¾ cp WRFV2.TAR.gz /home/user/you/WRF/
+* cp wrfsi_v2.1.2.tar.gz /home/user/you/WRF/ （可参考cp命令的使用方法）
+* cp WRFV2.TAR.gz /home/user/you/WRF/
 解压：
-¾ gunzip wrfsi_v2.1.2.tar.gz （对文件进行解压）
-¾ gunzip WRFV2.TAR.gz
+* gunzip wrfsi_v2.1.2.tar.gz （对文件进行解压）
+* gunzip WRFV2.TAR.gz
 打开TAR file。
-¾ tar –xvf wrfsi_v2.1.2.tar （不要忘记 –xvf ）
-¾ tar –xvf WRFV2.TAR
+* tar –xvf wrfsi_v2.1.2.tar （不要忘记 –xvf ）
+* tar –xvf WRFV2.TAR
 于是，会有wrfsi/和WRFV2/目录被做成。
 
-##4.1. ～安装WRF_SI～
+## 4.1. ～安装WRF_SI～
 
-###4.1.1． ～定义环境变量～
+### 4.1.1． ～定义环境变量～
 Examine the Source Code
 在/home/user/you/WRF/目录下
-¾ cd wrfsi
+* cd wrfsi
 检查目录中的内容。
-¾ ls –all （ls –a亦可）
+* ls –all （ls –a亦可）
 会有如下内容表示：
 total 156
 drwxr-xr-x 9 you user 4096 Mar 10 08:08.
@@ -980,61 +983,61 @@ file that the grib_prep 时输入。
 
 NetCDF
 安装WRFV2之前，要对NetCDF的环境变量进行定义。
-¾ NETCDF=/home/user/you;export NETCDF
+ NETCDF=/home/user/you;export NETCDF
 
 SOURCE_ROOT
 定义source root directory路径。
-¾ SOURCE_ROOT=/home/user/you/WRF/wrfsi;export SOURCE_ROOT
+ SOURCE_ROOT=/home/user/you/WRF/wrfsi;export SOURCE_ROOT
 
 INSTALLROOT
 定义install root directory路径。
-¾ INSTALLROOT=/home/user/you/WRF/wrfsi;export INSTALLROOT
+ INSTALLROOT=/home/user/you/WRF/wrfsi;export INSTALLROOT
 
 
 ### EXR_DATAROOT
 
 定义degribed （媒体）的directory路径。
-¾ EXT_DATAROOT=/home/user/you/WRF/wrfsi/extdata;export EXT_DATAROOT
+ EXT_DATAROOT=/home/user/you/WRF/wrfsi/extdata;export EXT_DATAROOT
 
 TEMPLATES
 放置templates directory的地方。这个目录里包含有为修正自己构筑的case时所需要的SI namelist 文件。
 仅和运行SI（不使用GUI）时相关联。
-¾ TEMPLATES=/home/user/you/WRF/wrfsi/templates;export TEMPLATES
+ TEMPLATES=/home/user/you/WRF/wrfsi/templates;export TEMPLATES
 
 DATAROOT & MOAD_DATAROOT
 DARAROOT可以把含有复数的sundirectory（MOAD_DATAROOT）放置在最上部的directory。如果那里
 仅有一个MOAD_DATAROOT时，MOAD_DATAROOT可以和DATAROOT directory相同。
-¾ DATAROOT=/home/user/you/WRF/wrfsi/domains;export DATAROOT
+ DATAROOT=/home/user/you/WRF/wrfsi/domains;export DATAROOT
 但是，不可设定为wrfsi/data directory。
 MOAD_DATAROOT是用来运行个别案例的目录。对于此环境变量，并没有设定其初期值。通常是如下
 定义：（现在并不需要输入下面的语句，仅作参考用。对此环境变量的指定还会在后面进行描述。）
-¾ MOAD_DATAROOT=/home/user/you/WRF/wrfsi/domains/case-name;export MOAD_DATAROOT
+ MOAD_DATAROOT=/home/user/you/WRF/wrfsi/domains/case-name;export MOAD_DATAROOT
 
 GEOG_DATAROOT
 此环境变量可以指定自己的terrestrial input data（terrain，landuse，etc.）的目录。
 总之，在此处（即为GEOG），必须事先放入最初下载的Source_Codes。一共 21 个gz文件。这些数据可以
 从WRF_SI处下载得到。把数据放到/WRF/wrfsi/extdata/GEOG内，然后用前面用过的gunzip 和 tar 命令逐
 个进行解冻。定义：
-¾ GEOG_DATAROOT=/home/user/you/WRF/wrfsi/extdata/GEOG;export GEOG_DATAROOT
+ GEOG_DATAROOT=/home/user/you/WRF/wrfsi/extdata/GEOG;export GEOG_DATAROOT
 
 NCL_COMMAND
 如果要使用GUI，我们还要进行环境变量的设定。使用GUI，可以制作出terrestrial input data的画像。
-¾ NCL_COMMAND=/home/user/you/ncl;export NCL_COMMAND
+ NCL_COMMAND=/home/user/you/ncl;export NCL_COMMAND
 
 ```
 为方便使用，我们可以将这些环境变量也登录到 .bashrc里。
 1 ） 在/home/user/you/目录下输入
-¾ vi .bashrc
+* vi .bashrc
 2 ） 输入上面除了MOAD_DATAROOT以外的８个环境变量。其中，NetCDF在上面已经登
 录过。然后键入 <Esc> : w q保存退出。
 3 ） 键入下面命令即可定义环境变量：
-¾ source ~/.bashrc
+* source ~/.bashrc
 ```
 
 ### 4.1.2． ～安装 WRF_SI～
 
 Install WRF_SI
-¾ perl install_wrfsi.pl
+* perl install_wrfsi.pl
 在画面上会出现下面的对话：
 Routine: Install_wrfsi
 Path to perl: /usr/bin/perl
@@ -1044,11 +1047,11 @@ Do you want to install the WRF SI graphical user interface? [y|n]:
 
 在此处，如果选择“n”的话，只会安装WRF_SI。选择“y”，会一起安装GUI。
 我们在此选择“y”。（例：如下表示。“n”，“y”）
-¾ y
+* y
 
 如果安装成功，在下面的目录里会有下面几个可执行文件生成。
-¾ cd /home/user/you/WRF/wrfsi/bin
-¾ ls –l
+* cd /home/user/you/WRF/wrfsi/bin
+* ls –l
 -rwxr-xr-x 1 you user 870534 Jul 12 16:01 grib_prep.exe
 -rwxr-xr-x 1 you user 1901081 Jul 12 16:02 gridgen_model.exe
 -rwxr-xr-x 1 you user 1760763 Jul 12 16:01 hinterp.exe
@@ -1056,32 +1059,32 @@ Do you want to install the WRF SI graphical user interface? [y|n]:
 -rwxr-xr-x 1 you user 1754324 Jul 12 16:02 staticpost.exe
 -rwxr-xr-x 1 you user 2018603 Jul 12 16:01 vinterp.exe
 还有，检查一下在下面的目录里是否有makefile生成。
-¾ cd /home/user/you/WRF/wrfsi/src/include
+* cd /home/user/you/WRF/wrfsi/src/include
 makefile_alpha.inc.in
 ＊ 如果install 失败了... ... 在ARW OnLine Tutorial里登载了一些error解决办法，请参考使用。
 
-###4.1.3． ～使用WRF_SI的GUI～
+### 4.1.3． ～使用WRF_SI的GUI～
 Run WRF_SI with GUI
 如果想运行GUI，会使用到X-window软件。我使用的是名为EXODUS的软件，需要通过SSH软件和超算进
 行连接。再有，这里的记述的方法也许仅适用于我所使用的超算，仅供参考。WRF_SI web site上的方法自
 己没有研究过，在这里不能详细写出，请原谅。在输入下面语句之前要先打开X-window。
-¾ ssh –Y login.wrftest.ac.cn (自己的host name)
-¾ export DISPLAY=192.168.111.111:0.0 （自己的PC的IP地址）
-¾ LANG=C
-¾ export LANG
-¾ qmon &
+ ssh –Y login.wrftest.ac.cn (自己的host name)
+ export DISPLAY=192.168.111.111:0.0 （自己的PC的IP地址）
+ LANG=C
+ export LANG
+ qmon &
 （到这里是连接UNIX系统和X-window的命令语句，在使用画图软件GrADS时也会用到）
 
 
 ### 然后打开WRF_SI的GUI系统：
 
-¾ cd /home/user/you/WRF/wrfsi
-¾ ./wrf_tools
+ cd /home/user/you/WRF/wrfsi
+ ./wrf_tools
 在画面上会有GUI显现。详细信息请参照WRF_SI web site。
 （以上的操作方法有可能会和其它软件不同。例如，x-win，x-winPro等软件就不需要什么特殊的设定。跳
 过4.1.3节，仍可继续运行WRFV2。）
 
-##4.2． ～运行WRF_SI～
+## 4.2． ～运行WRF_SI～
 
 WRF_SI里主要有三个步骤，并且每一步都需要对相应的namelist文件进行编辑：
 STEP1：设定领域 ——〉 编辑wrfsi.nl的 1 、 2 部分
@@ -1095,15 +1098,15 @@ Localization所必需的script: /home/user/you/WRF/wrfsi/etc/window_domain_rt.pl
 Namelist: wrfsi.nl
 
 此处把存放模拟用的数据的目录命名为OnlineTut 。在/WRF/wrfsi/下：
-¾ cd domains
-¾ mkdir OnlineTut
+ cd domains
+ mkdir OnlineTut
 设定环境变量（在上面Set Environment Variables处描述过）
-¾ MOAD_DATAROOT=/home/user/you/WRF/wrfsi/domains/OnlineTut;export MOAD_DATAROOT
+ MOAD_DATAROOT=/home/user/you/WRF/wrfsi/domains/OnlineTut;export MOAD_DATAROOT
 做成TEMPLATE。
-¾ cd /home/user/you/WRF/wrfsi/templates
-¾ cp –r default OnlineTut
-¾ chmod –R u+w OnlineTut
-¾ cd OnlineTut
+ cd /home/user/you/WRF/wrfsi/templates
+ cp –r default OnlineTut
+ chmod –R u+w OnlineTut
+ cd OnlineTut
 
 Edit wrfsi.nl
 wrfsi.nl文件被用于step1（localization）和step3（interpolation of data）。在wrfsi.nl网页中：红色部分与step1，
@@ -1122,8 +1125,8 @@ wrfsi.nl文件被用于step1（localization）和step3（interpolation of data�
 步骤下还要变更LEVELS。对此次的数值模拟，我们使用的初期值为31 levels。
 4.检查si_path是否被定义在intermediate files（/home/user/you/WRF/wrfsi/extdata/）处。
 通过对模式构成的编辑，调整模式领域的适用准备。
-¾ cd /home/user/you/WRF/wrfsi
-¾ ./etc/window_domain_rt.pl –w wrfsi –t /home/user/you/WRF/wrfsi/templates/OnlineTut
+ cd /home/user/you/WRF/wrfsi
+ ./etc/window_domain_rt.pl –w wrfsi –t /home/user/you/WRF/wrfsi/templates/OnlineTut
 运行后，有这样的画面出现。中间会停顿十几秒，最后表示的是设定完成的提示信息：
 
 *****************************************
@@ -1299,7 +1302,7 @@ lbctime = 2005-08-31_00
 ```
 到此处你也成功了的话，我们就已经做好运行WRF ARM模式的准备好了。
 
-##4.3. ～安装WRFV2.2～
+## 4.3. ～安装WRFV2.2～
 
 Examine the Source Code
 ¾ cd WRFV2
@@ -1424,11 +1427,11 @@ compile -h help message
 因为要对WRF ARW real data case进行编辑，所以选择em_real。
 
 然后开始编译模块。
-¾ ./compile em_real >& compile.log
+* ./compile em_real >& compile.log
 运行会稍微花一点时间。（如果在./configure处选择了 3 ，这时你会有将近 30 分钟左右的时间来喝杯咖啡。）
 如果在进行过程当中自己弄出错了，或者要更改configure、compile等的选项，可以用 “clean -a”的命令来
 清理所有的 built files，including configure.wrf。
-¾ ./clean -a
+* ./clean -a
 然后再重新编译WRFV2.2。
 
 编译结束后，打开compile.log确认是否有错误信息存在。如果编辑成功，在main/目录下会有以下的文件被
@@ -1445,7 +1448,7 @@ wrf.exe用于WRF model integration
 （如果运行其它idealized cases，方法也一样。在./compile em_real >& compile.log处选择相应的文件选项。
 不过做后会生成ideal.exe）
 
-##4.4. ～运行WRFV2.2～
+## 4.4. ～运行WRFV2.2～
 
 Edit namelist.input
 移动到run/ 或 test/em_real 目录下。无论哪个都可以。在这里，我们选择后者。
@@ -1490,17 +1493,17 @@ Grid distance: 30km
 
 Link
 把在WRF_SI处做成的wrf_real_input* files链接到WRFV2/test/em_run/ 目录下。
-¾ ln -sf /home/user/you/WRF/wrfsi/domains/OnlineTut/siprd/wrf_real_input_em.d01.2005-08-*.
+* ln -sf /home/user/you/WRF/wrfsi/domains/OnlineTut/siprd/wrf_real_input_em.d01.2005-08-*.
 使用方法可以参考ln 命令
 
 Run real.exe
 进行single processor 运行。
-¾ ./real.exe
+* ./real.exe
 如果是DM(distributed memory) parallel systems，就会需要mpirun command 。例如，对于Linux cluster，
 
 
 要运行 4 个CPU的MPI code的命令文就是：
-¾ mpirun –np 4 real.exe
+* mpirun –np 4 real.exe
 可以根据自己的条件选择CPU的个数。同时不要忘记，在./configure 处要选择对应的平台。
 在键入./real.exe 后，最好不要打扰计算机的运行。如果运行成功的话，最后会有 wrfbdy_d01 和
 wrfinput_d01文件生成。
@@ -1519,19 +1522,19 @@ SUCCESS COMPLETE REAL_EM INIT
 
 Run wrf.exe
 进行single processor 运行。
-¾ ./wrf.exe
+* ./wrf.exe
 如果是DM(distributed memory) parallel systems，会有需要mpirun command的场合。例如，如果是Linux
 cluster，实行4CPUs的MPI code的命令就是：
-¾ mpirun –np 4 wrf.exe
+* mpirun –np 4 wrf.exe
 
 如果全部进行顺利的话，会有wrfout_d01_file被做成。
 从 2005082800 到 2005083100 的 72 小时份的文件将被做成。用ncdump可以查看wrfout_d01 file里的信息。
-¾ ncdump –h wrfout_d01_2005-08-28_00:00:00 参照
+* ncdump –h wrfout_d01_2005-08-28_00:00:00 参照
 
 wrf: SUCCESS COMPLETE WRF
 
 
-#5.＜安装使用WRF2GrADS＞
+# 5.＜安装使用WRF2GrADS＞
 
 在WRF的tool里直接介绍了四种气象作图的工具，并为他们提供了相应的文件格式的转换工具。
 它们是：
@@ -1563,9 +1566,9 @@ wrf_to_grads.F
 
 Edit Makefile & control_file
 在使用WRF2GrADS之前，一定要仔细阅读其自带的README文件。
-¾ cd WRF2GrADS
+ cd WRF2GrADS
 我们需要通过编辑Makefile来选择一款适合于自己计算机的描述。
-¾ vi Makefile
+ vi Makefile
 
 
 ### 比如，适合我使用的计算机的描述是：
@@ -1605,12 +1608,12 @@ CPPFLAGS = -I. -C -traditional -DRECL4
 ```
 注意：一定要去掉描述语句前的 # 字符号。然后<Esc> : w q 保存退出。
 然后键入:
-¾ make
+ make
 在目录下会自动生成名为 wrf_to_grads 的可执行文件。
 
 通过对control_file文件的编辑，使wrf2grads可以生成时间相对应的output文件。生成的文件为可使用在
 GrADS里的.ctl和.dat文件。例如：
-¾ vi control_file
+ vi control_file
 
 
 ### 然后，主要对以下信息进行编辑：
@@ -1743,7 +1746,7 @@ ga>
 关于GrADS的具体使用方法，可以参考LASG编的《GrADS实用手册》。
 
 
-#7.＜利用其它数据的练习＞
+# 7.＜利用其它数据的练习＞
 
 通过对《WRF V2安装运行入门指南》的前面的 6 节的学习，大家应该都了解了WRF的基本运行步骤了。
 这时，你也一定想通过运行一些其它领域和时间的案例，来巩固和验证自己对WRF的理解和运用。我们
@@ -1849,7 +1852,7 @@ Set Environment Variables
 ....
 
 
-###附录1:安装NCARG （NCAR Graphic）
+### 附录1:安装NCARG （NCAR Graphic）
 NCARG是NCAR Graphic，由NCAR开发的视图工具。与GrADS相比，NCARG的应用并不广泛。但作
 为NCAR 的产品，被积极地用在了WPS的领域查看和设计等中途工作，而且对于有些工作也可以使用
 gradsnc来代替执行。但NCAR既然提到了使用NCARG，就 姑 且 把NCARG的安装方法一并记述下来，以
@@ -1858,12 +1861,12 @@ NCARG的下载方法和详细的安装方法，请参考其主页。
 
 Install NCARG
 把NCARG下载到WRF/目录下并解压。
-¾ gunzip ncarg-4.4.1.src.tar.gz
-¾ tar –xvf ncarg-4.4.1.src.tar
+* gunzip ncarg-4.4.1.src.tar.gz
+* tar –xvf ncarg-4.4.1.src.tar
 这时，WRF/目录下会生成名为ncarg-4.4.1的目录。然后定义环境变量。
-¾ NCARG=/home/user/you/WRF/ncarg-4.4.1;export NCARG
-¾ cd ncarg-4.4.1
-¾ ./Configure –v
+* NCARG=/home/user/you/WRF/ncarg-4.4.1;export NCARG
+* cd ncarg-4.4.1
+* ./Configure –v
 
 如果顺利，屏幕开始出现一些对话，你会被问到几个问题。这时你必须要清楚自己使用的计算机的环境设
 定状况：安装NCARG时的默认设置是/usr/local/ncarg/lib等等，这些都必须更改为NCARG的路径（例如，
@@ -1934,7 +1937,7 @@ Metafile file is named cpex08.ncgm.
 关于如何在WPS中使用NCARG，请参考WPS的网页。
 
 
-###附录2:
+### 附录2:
 在WRF_SI阶段，对wrfsi.nl的设定极为重要。这是我在网上（LASG的动力论坛）收集到的有关wrfsi.nl
 的参数配置的中文说明。大家也可到原地址下载。
 
@@ -2131,7 +2134,7 @@ F. SI_PATHS Section
 4. CONSTANTS_PATH: 对于所有时间段文件名为CONSTANTS_FULL_NAME 中所包括的文件的路径。
 
 
-###附录3:
+### 附录3:
 在WRF本体计算里，namelist.input的设定最重要。这里记述了大部分的运行设置情报。这些参数
 变量的翻译是在tanghao（动力论坛）提供的WRFV2.0版本的namelist.input的翻译基础之上做了一些补
 充。同时也十分感谢windrisingdl作的补充工作。限于个人的精力，全部的翻译工作没有完成。
@@ -2585,17 +2588,17 @@ nproc_y -1 区域分解时，指定x方向上的上的线程数，默认值为�
 
 
 ### 附录4:一些简单的UNIX命令：
-
-① cd 命令
+```
+ cd 命令
 cd directory 改变工作目录
-② ls 命令
+ ls 命令
 -a 显示目录下所有子目录与文件(包括隐藏文件)
 -l 显示文件的详细信息
-③ cp命令
-¾ cp –r default OnlineTut
+ cp命令
+ cp –r default OnlineTut
 -r 递归复制源目录下所有的子目录和文件
-④ chmod 命令
-¾ chmod -R u+w OnlineTut
+ chmod 命令
+ chmod -R u+w OnlineTut
 chmod ：chang mode 改变文件或目录的访问权限
 -R 以递回的方式逐个对当前目录下的所有档案与子目录进行相同的权
 限变更
@@ -2604,8 +2607,8 @@ chmod ：chang mode 改变文件或目录的访问权限
 - 取消权限
 u 表示该档案的拥有者
 w 表示可写入权
-⑤ vi 命令
-¾ vi file_name 开始编辑或者创建一个文件
+ vi 命令
+ vi file_name 开始编辑或者创建一个文件
 编辑命令： <Esc> 模式切换
 x 删除光标所在文字
 dd 删除光标所在行
@@ -2615,28 +2618,29 @@ o 在光标下方新增一行
 O 在光标上方新增一行
 :wq 以原档案名保存并退出
 :q! 不保存文档强制退出
-⑥ rm命令
+ rm命令
 rm file_name 删除文件
 rm –r deirectory_name 递归删除全部目录和子目录
-⑦ mkdir命令
+ mkdir命令
 mkdir directory_name 创建新目录
-⑧ rmdir 命令
+ rmdir 命令
 rmdir directory_name 删除空目录
-⑨ unzip命令
-¾ gunzip xxxxx.tar.gz 解压缩。
+ unzip命令
+ gunzip xxxxx.tar.gz 解压缩。
 
 
-⑩ tar命令
-¾ tar –xvf xxxxx.tar 解压文件
+ tar命令
+ tar –xvf xxxxx.tar 解压文件
 x 从档案文件中释放文件
 v 详细报告tar处理的文件信息
 f 使用档案文件或设备，这个选项通常是必选的
 可以和上面的⑨合写成 tar xvfz xxxxx.tar.gz
-⑪ clear命令
+ clear命令
 清除屏幕上的信息
-⑫ pwd 命令
-¾ pwd 显示出当前工作目录的绝对路径
-⑬ <Ctrl> + C
+ pwd 命令
+ pwd 显示出当前工作目录的绝对路径
+ <Ctrl> + C
 强制放弃正在执行的任务
-⑭ exit 命令
+ exit 命令
 退出UNIX系统（包括退出SSH）
+```

@@ -4,7 +4,7 @@ book: true
 background-image: http://www.cbdio.com/image/attachement/jpg/site2/20170810/f04da2247c301af63d0815.jpg
 title: python_video
 date: 2018-06-23 13:39:51 +0800
-categories: tech
+category: tech
 tags: python,video
 keywords: python
 description: python video mask
