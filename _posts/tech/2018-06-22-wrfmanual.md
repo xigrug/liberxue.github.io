@@ -26,390 +26,390 @@ by aioply 编辑整理
  ## WRF安装运行入门指南    
 
   - 前言 ···································· 目录    
-<br/>- 1. WRF模式简介 ································    
-<br/>- 2. 准备工作（SSH和NetCDF） ·························    
-<br/>- 3. WPS+WRFV2.2安装运行简介 ·························    
-*   - 3.0. ～收集数据～ ····························    
-*   - 3.1. ～安装前奏～ ····························    
-*   - 3.2. ～安装WPS～ ····························· ～ WPS ～    
-*   - 3.3. ～运行WPS～ ·····························    
-*   - 3.4. ～安装WRFV2.2～ ····························· ～ WRFV2.2 ～    
-*   - 3.5. ～运行WRFV2.2～ ····························    
-<br/>- 4. WRF_SI+WRFV2.2安装运行简介 ······················    
-*   - 4.0. ～收集数据～ ······························    
-*   - 4.1. ～安装WRF_SI～ ···························· ～ WRF_SI ～    
+- 1. WRF模式简介 ································    
+- 2. 准备工作（SSH和NetCDF） ·························    
+- 3. WPS+WRFV2.2安装运行简介 ·························    
+   - 3.0. ～收集数据～ ····························    
+   - 3.1. ～安装前奏～ ····························    
+   - 3.2. ～安装WPS～ ····························· ～ WPS ～    
+   - 3.3. ～运行WPS～ ·····························    
+   - 3.4. ～安装WRFV2.2～ ····························· ～ WRFV2.2 ～    
+   - 3.5. ～运行WRFV2.2～ ····························    
+- 4. WRF_SI+WRFV2.2安装运行简介 ······················    
+   - 4.0. ～收集数据～ ······························    
+   - 4.1. ～安装WRF_SI～ ···························· ～ WRF_SI ～    
      - 4.1.1. ～定义环境变量～ ·························    
      - 4.1.2. ～安装WRF_SI～ ·························    
      - 4.1.3. ～使用WRFSI的GUI～ ······················    
-*   - 4.2. ～运行WRF_SI～ ···························    
+   - 4.2. ～运行WRF_SI～ ···························    
      - STEP1: Localize model domain and create static files ··············    
      - STEP2: DeGrib GRIB files ························    
      - STEP3: Interpolate meteorological data ··················    
-*   - 4.3. ～安装WRFV2.2～ ··························· ～ WRFV2.2 ～    
-*   - 4.4. ～运行WRFV2.2～ ···························    
-<br/>- 5. 安装运行WRF2GrADS ·····························    
-<br/>- 6. 在UNXI下安装GrADS ·····························    
-<br/>- 7. 利用其它数据的练习 （ds083.2） ·······················    
-<br/>- 附录 1 ：安装NCAR Graphic ····························    
-<br/>- 附录 2 ：关于WRF_SI2.0中wrfsi.nl的参数配置说明（中文版） ·············    
-<br/>- 附录 3 ：关于WRFV2.2中namelist.input的参数配置说明（中文版） ············    
-<br/>- 附录 4 ：一些简单的UNIX命令 ···························    
+   - 4.3. ～安装WRFV2.2～ ··························· ～ WRFV2.2 ～    
+   - 4.4. ～运行WRFV2.2～ ···························    
+- 5. 安装运行WRF2GrADS ·····························    
+- 6. 在UNXI下安装GrADS ·····························    
+- 7. 利用其它数据的练习 （ds083.2） ·······················    
+- 附录 1 ：安装NCAR Graphic ····························    
+- 附录 2 ：关于WRF_SI2.0中wrfsi.nl的参数配置说明（中文版） ·············    
+- 附录 3 ：关于WRFV2.2中namelist.input的参数配置说明（中文版） ············    
+- 附录 4 ：一些简单的UNIX命令 ···························    
 
 
  # 前言    
 
-<br/>连我自己也没想到，还会接着WRF版本的更新，不自量力地整理出第三版入门指南。但我想这将是    
+连我自己也没想到，还会接着WRF版本的更新，不自量力地整理出第三版入门指南。但我想这将是    
 
-<br/>自己能整理出来的最后一个版本了。曾经在发布第二版时承诺要增加WRF的namelist.input和WRF2GrADS    
+自己能整理出来的最后一个版本了。曾经在发布第二版时承诺要增加WRF的namelist.input和WRF2GrADS    
 
-<br/>的control_file文件的翻译以及NCARG和WRF-3DVAR的安装运行入门等相关内容。可惜自己的能力和精    
+的control_file文件的翻译以及NCARG和WRF-3DVAR的安装运行入门等相关内容。可惜自己的能力和精    
 
-<br/>力有限，control_file和WRF-3DVAR的工作没有做完，十分抱歉。不过有兴趣的人可以接着做。    
+力有限，control_file和WRF-3DVAR的工作没有做完，十分抱歉。不过有兴趣的人可以接着做。    
 
-<br/>由于第二版和第三版的初衷一样，就把第二版的前言稍作修改就又再贴上了。    
+由于第二版和第三版的初衷一样，就把第二版的前言稍作修改就又再贴上了。    
 
-<br/>我是WRF的初学者。    
+我是WRF的初学者。    
 
-<br/>在自己刚接触WRF时亦曾在Google上搜索过WRF中文手册之类的东西，但没有任何收获。WRF主    
+在自己刚接触WRF时亦曾在Google上搜索过WRF中文手册之类的东西，但没有任何收获。WRF主    
 
-<br/>页提供的教程虽然详细，但对于不熟悉UNIX系统和头一次接触气象模式的人来说，几乎就是无从下手。    
+页提供的教程虽然详细，但对于不熟悉UNIX系统和头一次接触气象模式的人来说，几乎就是无从下手。    
 
-<br/>于是师姐RODA把自己当时的自学笔记借给我。我十分感谢她的帮助。后来我在自学的基础上，又加以补    
+于是师姐RODA把自己当时的自学笔记借给我。我十分感谢她的帮助。后来我在自学的基础上，又加以补    
 
-<br/>充和整理，编辑成了《WRF 安装运行入门指南》（WRF_SI+WRF版本，2006.10.28成稿）。随后，自己又    
+充和整理，编辑成了《WRF 安装运行入门指南》（WRF_SI+WRF版本，2006.10.28成稿）。随后，自己又    
 
-<br/>在运转WRF的过程中积累经验，又赶上WPS的发放，就一并整理了出来，分享给大家。希望这本指南能    
+在运转WRF的过程中积累经验，又赶上WPS的发放，就一并整理了出来，分享给大家。希望这本指南能    
 
-<br/>对WRF初学者有一定的帮助。也许还有很多和我一样从没接触过UNIX系统的人，我也尽量把安装过程    
+对WRF初学者有一定的帮助。也许还有很多和我一样从没接触过UNIX系统的人，我也尽量把安装过程    
 
-<br/>和命令文的输入方法写得详细。希望任何WRF的初学者们都能顺利地看懂这本指南，并能顺利地安装并    
+和命令文的输入方法写得详细。希望任何WRF的初学者们都能顺利地看懂这本指南，并能顺利地安装并    
 
-<br/>运行起WRF模式。    
+运行起WRF模式。    
 
-<br/>同时，限于整理者的水平，在本指南中不仅用词十分简陋，而且对许多专用术语也未能正确翻译和使    
+同时，限于整理者的水平，在本指南中不仅用词十分简陋，而且对许多专用术语也未能正确翻译和使    
 
-<br/>用，希望大家在使用的时候，请以WRF主页的tutorial为主，把本指南作为参考来用。同时强烈建议大家再    
+用，希望大家在使用的时候，请以WRF主页的tutorial为主，把本指南作为参考来用。同时强烈建议大家再    
 
-<br/>安装运行WRF的时候，把自己做过的内容、遇到的错误等信息详细记录下来，不仅有利于以后的复习，也    
+安装运行WRF的时候，把自己做过的内容、遇到的错误等信息详细记录下来，不仅有利于以后的复习，也    
 
-<br/>方便错误的查找。不敢期待这本指南能会有多大的用途。但是，我想多一些基础性的教程，就会多一些感    
+方便错误的查找。不敢期待这本指南能会有多大的用途。但是，我想多一些基础性的教程，就会多一些感    
 
-<br/>兴趣的人，多一些研究者。特别是在论坛上交流讨论的时候，大家就不会再把时间浪费在一些初级问题上，    
+兴趣的人，多一些研究者。特别是在论坛上交流讨论的时候，大家就不会再把时间浪费在一些初级问题上，    
 
-<br/>更多的是挖掘它的内涵。当然，这些东西只靠几个人的经验和能力是远远不够的，需要大家的支持。为了    
+更多的是挖掘它的内涵。当然，这些东西只靠几个人的经验和能力是远远不够的，需要大家的支持。为了    
 
-<br/>方便更多的人学习WRF，我希望大家能把自己在转WRF时的经验和遇到的问题及解决办法介绍出来，整理    
+方便更多的人学习WRF，我希望大家能把自己在转WRF时的经验和遇到的问题及解决办法介绍出来，整理    
 
-<br/>后和指南一并贴出。如果能得到大家的响应，我想这本指南会帮助更多的人学习WRF模式。    
+后和指南一并贴出。如果能得到大家的响应，我想这本指南会帮助更多的人学习WRF模式。    
 
-<br/>根据使用的计算机的软硬件的差别，在编译的过程当中不会一帆风顺；编译通不过的原因也多种多样。    
+根据使用的计算机的软硬件的差别，在编译的过程当中不会一帆风顺；编译通不过的原因也多种多样。    
 
-<br/>特别是在运行的初期阶段，个人的错误操作原因为多。遇到了问题时不要焦急、也不要气馁，在自己寻求    
+特别是在运行的初期阶段，个人的错误操作原因为多。遇到了问题时不要焦急、也不要气馁，在自己寻求    
 
-<br/>答案未果的情况下，多到动力论坛和wrf forum里和大家交流交流。    
+答案未果的情况下，多到动力论坛和wrf forum里和大家交流交流。    
 
-<br/>在使用指南的过程中，如果你认为当中有翻译不恰当，用词有错误，或者是有任何意见或建议的话，    
-<br/>敬请来信告知aioply@163.com。谢谢。    
-<br/>在整理本指南的时候，得到了动力论坛（LASG）『资料与数据处理』版主ustcsunl的大力支持；以及    
-<br/>动力论坛上的网友tzhang、tanghao和穹山提供的参考资料；在模式及其相关软件的学习过程当中    
-<br/>windrisingdl的无私的帮助。namelist.input的翻译也是多亏有tanghao和windrisingdl的支持和帮助才得以完    
-<br/>成大部分内容。当然，donglipl，leepy，yuhuaying，zhucoffee等坛友提供了宝贵的参考意见和建议，特别    
-<br/>还有light，distance4lee提供的修改意见，对本指南的最后成形起了很大的作用，在此一并表示感谢。    
-<br/>注：在本指南的第 3 部分和第 4 部分分别记述了WPS+WRFV2.2和WRF_SI+WRFV2.2的安装运行方法，    
-<br/>实际使用时可任选其一（WRF的开发者们推荐使用前者）。    
-<br/>指南中以绿色书写的部分为UNIX的命令文，蓝色为链接部分。    
+在使用指南的过程中，如果你认为当中有翻译不恰当，用词有错误，或者是有任何意见或建议的话，    
+敬请来信告知aioply@163.com。谢谢。    
+在整理本指南的时候，得到了动力论坛（LASG）『资料与数据处理』版主ustcsunl的大力支持；以及    
+动力论坛上的网友tzhang、tanghao和穹山提供的参考资料；在模式及其相关软件的学习过程当中    
+windrisingdl的无私的帮助。namelist.input的翻译也是多亏有tanghao和windrisingdl的支持和帮助才得以完    
+成大部分内容。当然，donglipl，leepy，yuhuaying，zhucoffee等坛友提供了宝贵的参考意见和建议，特别    
+还有light，distance4lee提供的修改意见，对本指南的最后成形起了很大的作用，在此一并表示感谢。    
+注：在本指南的第 3 部分和第 4 部分分别记述了WPS+WRFV2.2和WRF_SI+WRFV2.2的安装运行方法，    
+实际使用时可任选其一（WRF的开发者们推荐使用前者）。    
+指南中以绿色书写的部分为UNIX的命令文，蓝色为链接部分。    
 
 
  # 1 ．＜WRF模式简介＞    
 
-<br/>Weather Research and Forecasting Model(WRF)被誉为是次世代的中尺度天气预报模式。二战后，由于计算    
+Weather Research and Forecasting Model(WRF)被誉为是次世代的中尺度天气预报模式。二战后，由于计算    
 
-<br/>机技术的迅猛发展，气象预报技术也随之突飞猛进。短短的几十年里，世界各地的气象研究机关开发出了    
+机技术的迅猛发展，气象预报技术也随之突飞猛进。短短的几十年里，世界各地的气象研究机关开发出了    
 
-<br/>各自的相对独立的气象模式。这些模式之间缺少互换性，对科研及业务上的交流极其不便。从上世纪 90    
+各自的相对独立的气象模式。这些模式之间缺少互换性，对科研及业务上的交流极其不便。从上世纪 90    
 
-<br/>年代后半开始，美国对这种乱立的模式状况进行反省。最后由美国环境预测中心（NCEP）,美国国家大气    
+年代后半开始，美国对这种乱立的模式状况进行反省。最后由美国环境预测中心（NCEP）,美国国家大气    
 
-<br/>研究中心（NCAR）等美国的科研机构为中心开始着手开发一种统一的气象模式。终于于 2000 年开发出了    
+研究中心（NCAR）等美国的科研机构为中心开始着手开发一种统一的气象模式。终于于 2000 年开发出了    
 
-<br/>WRF模式。同时，为使研究成果能够迅速地应用到现实的天气预报当中去，WRF模式分为ARW(the    
+WRF模式。同时，为使研究成果能够迅速地应用到现实的天气预报当中去，WRF模式分为ARW(the    
 
-<br/>Advanced Research WRF)和NMM(the Nonhydrostatic Mesoscale Model)两种，即研究用和业务用两种形    
+Advanced Research WRF)和NMM(the Nonhydrostatic Mesoscale Model)两种，即研究用和业务用两种形    
 
-<br/>式，分别由NCEP和NCAR管理维持着。本指南中使用的是前者WRF ARW。    
+式，分别由NCEP和NCAR管理维持着。本指南中使用的是前者WRF ARW。    
 
-<br/>WRF模式为完全可压缩以及非静力模式，采用F90语言编写。水平方向采用Arakawa C(荒川C)网格    
+WRF模式为完全可压缩以及非静力模式，采用F90语言编写。水平方向采用Arakawa C(荒川C)网格    
 
-<br/>点，垂直方向则采用地形跟随质量坐标。WRF模式在时间积分方面采用三阶或者四阶的Runge-Kutta算法。    
+点，垂直方向则采用地形跟随质量坐标。WRF模式在时间积分方面采用三阶或者四阶的Runge-Kutta算法。    
 
-<br/>WRF模式不仅可以用于真实天气的个案模拟，也可以用其包含的模块组作为基本物理过程探讨的理论根    
+WRF模式不仅可以用于真实天气的个案模拟，也可以用其包含的模块组作为基本物理过程探讨的理论根    
 
-<br/>据。WRF的开发组是这样介绍WRF模式的特点的：    
+据。WRF的开发组是这样介绍WRF模式的特点的：    
 
-<br/>The WRF model is a fully compressible, nonhydrostatic model (with a hydrostatic option). Its vertical    
+The WRF model is a fully compressible, nonhydrostatic model (with a hydrostatic option). Its vertical    
 
-<br/>coordinate is a terrain-following hydrostatic pressure coordinate. The grid staggering is the Arakawa    
+coordinate is a terrain-following hydrostatic pressure coordinate. The grid staggering is the Arakawa    
 
-<br/>C-grid. The model uses the Runge-Kutta 2nd and 3rd order time integration schemes and 2nd to 6th order    
+C-grid. The model uses the Runge-Kutta 2nd and 3rd order time integration schemes and 2nd to 6th order    
 
-<br/>advection schemes in both horizontal and vertical directions. It uses a time-split small step for acoustic and    
+advection schemes in both horizontal and vertical directions. It uses a time-split small step for acoustic and    
 
-<br/>gravity-wave modes. The dynamics conserves scalar variables.    
+gravity-wave modes. The dynamics conserves scalar variables.    
 
 
 
-<br/>- Real-data and idealized simulations    
-<br/>- Various lateral boundary condition options for real-data and idealized simulations    
-<br/>- Full physics options    
-<br/>- Non-hydrostatic and hydrostatic (runtime option)    
-<br/>- One-way, two-way nesting and moving nest    
-<br/>- Three-dimensional analysis nudging    
-<br/>- Observation nudging    
-<br/>- Applications ranging from meters to thousands of kilometers    
+- Real-data and idealized simulations    
+- Various lateral boundary condition options for real-data and idealized simulations    
+- Full physics options    
+- Non-hydrostatic and hydrostatic (runtime option)    
+- One-way, two-way nesting and moving nest    
+- Three-dimensional analysis nudging    
+- Observation nudging    
+- Applications ranging from meters to thousands of kilometers    
 
-<br/>另外模式的输出及其后的分析承接前一代MM5的系统，透过RIP、NCAR Graphic、Vis5D以及GRADS    
+另外模式的输出及其后的分析承接前一代MM5的系统，透过RIP、NCAR Graphic、Vis5D以及GRADS    
 
-<br/>等绘图软件绘制各种气象场。    
+等绘图软件绘制各种气象场。    
 
-<br/>WRF的最新版本是 2006 年的圣诞节前 12 月 22 日推出的Ver2.2。这一版本里，在修补了前一版本的许多    
+WRF的最新版本是 2006 年的圣诞节前 12 月 22 日推出的Ver2.2。这一版本里，在修补了前一版本的许多    
 
-<br/>错误之上，新增了许多模块。不仅推出了WRF的前处理WRFSI的进化版WPS，作为过渡还仍然保留了WRF    
+错误之上，新增了许多模块。不仅推出了WRF的前处理WRFSI的进化版WPS，作为过渡还仍然保留了WRF    
 
-<br/>本体和WRFSI的衔接。    
+本体和WRFSI的衔接。    
 
 
  ### WRF模式的流程示意图如下：    
 
-<br/>![wrf-demo](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/users_guide_chap1.fld/image001.png)    
+![wrf-demo](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/users_guide_chap1.fld/image001.png)    
      
-<br/>出处：User’s Guide for Advanced Research WRF (ARW) Modeling System Version 2.    
+出处：User’s Guide for Advanced Research WRF (ARW) Modeling System Version 2.    
      
 
  # 2 ．＜准备工作＞    
 
-<br/>注:本文所记述的安装过程仅是在编译器等软件安装完备的条件下进行的。限于笔者的知识水平有限，对这    
+注:本文所记述的安装过程仅是在编译器等软件安装完备的条件下进行的。限于笔者的知识水平有限，对这    
 
-<br/>些基本环境的设定不能进行意义描述，十分抱歉。    
+些基本环境的设定不能进行意义描述，十分抱歉。    
 
-<br/>设定SSH    
+设定SSH    
 
-<br/>要进行正规的模拟气象的运算，就必须要有Super-Computer。如果没有条件，可直接进入安装部分。    
+要进行正规的模拟气象的运算，就必须要有Super-Computer。如果没有条件，可直接进入安装部分。    
 
-<br/>不需要连接Super-Computer的人可直接进入下一步安装过程。    
+不需要连接Super-Computer的人可直接进入下一步安装过程。    
 
-<br/>＜首先，把自己的电脑和supercomputer进行连接＞    
+＜首先，把自己的电脑和supercomputer进行连接＞    
 
-<br/>① 我们使用SSHSecureShellClient-3.2.9 共享软件。从网上可以下载得到。好像目前只有英语版的。没关    
+① 我们使用SSHSecureShellClient-3.2.9 共享软件。从网上可以下载得到。好像目前只有英语版的。没关    
 
-<br/>系，既然要搞天气预报了，这点简单的英语应该不算难的。    
+系，既然要搞天气预报了，这点简单的英语应该不算难的。    
 
-<br/>② 安装SSHSecureShellClient。在桌面上会出现两个图标。点击白色的。Edit—〉Setting—〉ProfileSetting—〉    
+② 安装SSHSecureShellClient。在桌面上会出现两个图标。点击白色的。Edit—〉Setting—〉ProfileSetting—〉    
 
-<br/>connection。在里面填上自己的Host，User，Port。点击OK。软件会记住你的Host，User，Port，以后    
+connection。在里面填上自己的Host，User，Port。点击OK。软件会记住你的Host，User，Port，以后    
 
-<br/>每回只需输入密码即可使用。然后点击Quick connect。会出现一个小窗口。    
+每回只需输入密码即可使用。然后点击Quick connect。会出现一个小窗口。    
 
-<br/>里面记载了自己的Host Name，User Name，Port Number，Authentication Method信息，在Authentication    
+里面记载了自己的Host Name，User Name，Port Number，Authentication Method信息，在Authentication    
 
-<br/>Method处选择Password，点击Connect。然后输入密码，如果成功的话就应该会和supercomputer连接上    
+Method处选择Password，点击Connect。然后输入密码，如果成功的话就应该会和supercomputer连接上    
 
-<br/>了。    
+了。    
 
-<br/>还有一个黄色的图标SSH Secure File Transfer Client，此程序可用于自己当前计算机和supercomputer之间    
+还有一个黄色的图标SSH Secure File Transfer Client，此程序可用于自己当前计算机和supercomputer之间    
 
-<br/>的文件传输交换，支持直接拖拽文件。    
+的文件传输交换，支持直接拖拽文件。    
 
-<br/>第一次和supercomputer连接上后，马上进行密码变更。操作顺序如下：    
+第一次和supercomputer连接上后，马上进行密码变更。操作顺序如下：    
 
-<br/>¾ passwd    
+¾ passwd    
 
-<br/>Changing password for user user    
+Changing password for user user    
 
-<br/>Enter login(LDAP) password : (旧密码)    
+Enter login(LDAP) password : (旧密码)    
 
-<br/>New UNIX password: (新密码)    
+New UNIX password: (新密码)    
 
-<br/>Retype new UNIX password: (新密码)    
+Retype new UNIX password: (新密码)    
 
-<br/>LDAP password information changed for user    
+LDAP password information changed for user    
 
-<br/>Passwd: all authentication tokens updated successfully.    
-
-
-
-<br/>Software requirement    
-
-<br/>重要！首先检查自己是否已经具备了运行WRF的工作环境和机器配置条件。    
+Passwd: all authentication tokens updated successfully.    
 
 
-<br/>- Fortran 90 or 95 and c compiler    
-<br/>- perl 5.04 or better    
-<br/>- If MPI and OpenMP compilation is desired, it requires MPI or OpenMP libraries    
-<br/>- WRF I/O API supports netCDF, PHD5, GriB 1 and GriB 2 formats, hence one of these libraries needs to be    
-<br/>available on the computer where you compile and run WRF    
 
-<br/>Bash 和 Csh    
+Software requirement    
 
-<br/>安装之前，一定要弄清楚自己所使用的计算机的shell。一般输入下面的命令就可以得到答案。    
-<br/>*  echo $SHELL    
+重要！首先检查自己是否已经具备了运行WRF的工作环境和机器配置条件。    
 
-<br/>如果答案是csh，就请参考Online tutorial里的命令文的输入方法。    
 
-<br/>本指南使用的是bash。如何区别这两种shell的写法，请另行找书参考。    
+- Fortran 90 or 95 and c compiler    
+- perl 5.04 or better    
+- If MPI and OpenMP compilation is desired, it requires MPI or OpenMP libraries    
+- WRF I/O API supports netCDF, PHD5, GriB 1 and GriB 2 formats, hence one of these libraries needs to be    
+available on the computer where you compile and run WRF    
 
-<br/>安装NetCDF    
+Bash 和 Csh    
 
-<br/>安装运行WRF模式之前，必须要安装NetCDF。可以通过下面的网址下载。    
+安装之前，一定要弄清楚自己所使用的计算机的shell。一般输入下面的命令就可以得到答案。    
+*  echo $SHELL    
 
-<br/>[http://www.unidata.ucar.edu/software/netcdf/index.html](http://www.unidata.ucar.edu/software/netcdf/index.html)    
+如果答案是csh，就请参考Online tutorial里的命令文的输入方法。    
 
-<br/>使用gunzip和tar命令对文件进行解压，展开。    
+本指南使用的是bash。如何区别这两种shell的写法，请另行找书参考。    
+
+安装NetCDF    
+
+安装运行WRF模式之前，必须要安装NetCDF。可以通过下面的网址下载。    
+
+[http://www.unidata.ucar.edu/software/netcdf/index.html](http://www.unidata.ucar.edu/software/netcdf/index.html)    
+
+使用gunzip和tar命令对文件进行解压，展开。    
      
 * tar –xvf netcdf-3.6.1.tar    
 * cd netcdf-3.6.1/src    
 * ./configure --prefix=/home/user/you/（安装在指定的目录下）    
      
-<br/>检查/netcdf-3.6.1/src 目录下的 macros.make 文件。    
+检查/netcdf-3.6.1/src 目录下的 macros.make 文件。    
 
 * vi macros.make    
 
-<br/>（在此处，使用vi命令。UNIX的初学者注意：用vi命令可以编辑文件，不保存退出时按顺序按下    
+（在此处，使用vi命令。UNIX的初学者注意：用vi命令可以编辑文件，不保存退出时按顺序按下    
 
-<br/><Esc> : q! <shift+1>键，即可退出；若要保存后退出可按 <Esc> : w q 共四键）    
+<Esc> : q! <shift+1>键，即可退出；若要保存后退出可按 <Esc> : w q 共四键）    
 
-<br/>注意到INSTALL行。如果此行是INSTALL = /usr/bin/install –c 即可；如果不是，要按此修正。    
+注意到INSTALL行。如果此行是INSTALL = /usr/bin/install –c 即可；如果不是，要按此修正。    
 
-<br/>¾ make check    
+¾ make check    
 
-<br/>¾ make install (UNIX下安装软件的一般步骤: 1../configure 2. make 3. make install )    
+¾ make install (UNIX下安装软件的一般步骤: 1../configure 2. make 3. make install )    
 
-<br/>此时，要确认在prefix的地方（这回是/home/user/you/）会有bin, lib, include和man目录生成。    
+此时，要确认在prefix的地方（这回是/home/user/you/）会有bin, lib, include和man目录生成。    
 
-<br/>设定NetCDF的环境变量：    
+设定NetCDF的环境变量：    
 
-<br/>¾ NETCDF=/home/user/you;export NETCDF    
+¾ NETCDF=/home/user/you;export NETCDF    
 
-<br/>2007 年 3 月初，推出了NetCDF-3.6.2版本。使用最新版或者前一版都可以安装运行WRF Model。    
+2007 年 3 月初，推出了NetCDF-3.6.2版本。使用最新版或者前一版都可以安装运行WRF Model。    
 
 
-<br/>同时，为方便使用，我们可以将某些环境变量登录到 .bashrc里。例如上面的NetCDF的环境变量。    
+同时，为方便使用，我们可以将某些环境变量登录到 .bashrc里。例如上面的NetCDF的环境变量。    
 
-<br/>注意：慎重修改.bashrc文件！！！    
+注意：慎重修改.bashrc文件！！！    
 
-<br/>1 ） 在/home/user/you/目录下输入    
+1 ） 在/home/user/you/目录下输入    
 
-<br/>¾ vi .bashrc    
+¾ vi .bashrc    
 
-<br/>2 ） 输入NetCDF的环境变量。键入<Esc> : w q保存退出。    
+2 ） 输入NetCDF的环境变量。键入<Esc> : w q保存退出。    
 
-<br/>3 ） 键入如下命令即可定义环境变量：    
+3 ） 键入如下命令即可定义环境变量：    
 
-<br/>¾ source ~/.bashrc    
+¾ source ~/.bashrc    
 
 
 
  # 3 ．＜WPS+WRFV2.2安装运行简介＞    
 
-<br/>请参照网页http://www.mmm.ucar.edu/wrf/OnLineTutorial/index.htm，内有详细的Online Tutorial。本章的内容    
+请参照网页http://www.mmm.ucar.edu/wrf/OnLineTutorial/index.htm，内有详细的Online Tutorial。本章的内容    
 
-<br/>是参照上述网页的内容进行翻译，并结合自己在操作过程中遇到的困难进行归纳整理而完成的。其中，本    
+是参照上述网页的内容进行翻译，并结合自己在操作过程中遇到的困难进行归纳整理而完成的。其中，本    
 
-<br/>章和第 4 章的WRFV2.2部分基本一致（只有ln处稍有不同），重复书写难免会有些累赘。但为了保持WPS    
+章和第 4 章的WRFV2.2部分基本一致（只有ln处稍有不同），重复书写难免会有些累赘。但为了保持WPS    
 
-<br/>和WRF_SI各自运行的连贯性，请读者在使用时注意！    
+和WRF_SI各自运行的连贯性，请读者在使用时注意！    
 
  ## 3.0． ～收集数据～    
 
-<br/>Get Source Code    
+Get Source Code    
 
-<br/>下载WRF模式的源码。在下载之前要认真阅读此页 的内容，并从中可以下载到WRF的Source_Codes。第    
+下载WRF模式的源码。在下载之前要认真阅读此页 的内容，并从中可以下载到WRF的Source_Codes。第    
 
-<br/>一次使用要注册；已经注册过的要登陆。    
+一次使用要注册；已经注册过的要登陆。    
 
-<br/>把所需要的，最新的Source_Codes收集在一起，分类放到同一个目录下，比如:    
+把所需要的，最新的Source_Codes收集在一起，分类放到同一个目录下，比如:    
 
-<br/>在/home/user/you/下建立一个名为Source_Codes_and_Graphics_Software的源码存放区。例如：    
+在/home/user/you/下建立一个名为Source_Codes_and_Graphics_Software的源码存放区。例如：    
 
-<br/>¾ mkdir Source_Codes_and_Graphics_Software    
+¾ mkdir Source_Codes_and_Graphics_Software    
 
-<br/>并且为以防万一，把收集到的Source_Codes刻成CD或者DVD，作为备份。    
-
-
-<br/>Program Flow    
-
-<br/>根据自己的研究需要，下载下列程序：    
-
-<br/>· 仅需要模拟理想状态问题：    
+并且为以防万一，把收集到的Source_Codes刻成CD或者DVD，作为备份。    
 
 
-<br/>WRF-ARW Model + PostProcessing    
+Program Flow    
 
-<br/>· 需要模拟实际问题：    
+根据自己的研究需要，下载下列程序：    
 
-<br/>WPS + WRF-ARW Model + PostProcessing    
-
-<br/>· 模拟加入影响变动值后的实际问题：    
-
-<br/>WPS + WRF-Var + WRF-ARW Model + PostProcessing    
-<br/>（如果想使用WRF-Var ，还要另外学习其使用方法WRF-Var Online Tutorial）    
+· 仅需要模拟理想状态问题：    
 
 
+WRF-ARW Model + PostProcessing    
 
-<br/>Documentation    
+· 需要模拟实际问题：    
 
-<br/>Users' Guide    
+WPS + WRF-ARW Model + PostProcessing    
 
-<br/>User’s Guide 里包含了全部的WRF OnLine Tutorial。并且，User’s Guide 是每半年更新一次，为更好的使    
+· 模拟加入影响变动值后的实际问题：    
 
-<br/>用WRF ARW model，请使用最新版的。在运行模式之前，下载一份User’s Guide作为指导教程。    
+WPS + WRF-Var + WRF-ARW Model + PostProcessing    
+（如果想使用WRF-Var ，还要另外学习其使用方法WRF-Var Online Tutorial）    
 
-<br/>WRF ARW Technical Note    
 
-<br/>PDF文件。在此Note里包含有以下内容：    
 
-<br/>· ARW model 的方程式，discretization，初期设定，nesting的概要    
+Documentation    
 
-<br/>· 模式中利用可能的Physical Options 的概要    
+Users' Guide    
 
-<br/>· WRF-Var的概要    
+User’s Guide 里包含了全部的WRF OnLine Tutorial。并且，User’s Guide 是每半年更新一次，为更好的使    
 
-<br/>Bi-Annual Tutorial Presentation    
+用WRF ARW model，请使用最新版的。在运行模式之前，下载一份User’s Guide作为指导教程。    
 
-<br/>开发人员编写的PowerPoint，可以算是WRF模式讲解的精华。强烈建议仔细，反复阅读。在转WRF的过    
+WRF ARW Technical Note    
+
+PDF文件。在此Note里包含有以下内容：    
+
+· ARW model 的方程式，discretization，初期设定，nesting的概要    
+
+· 模式中利用可能的Physical Options 的概要    
+
+· WRF-Var的概要    
+
+Bi-Annual Tutorial Presentation    
+
+开发人员编写的PowerPoint，可以算是WRF模式讲解的精华。强烈建议仔细，反复阅读。在转WRF的过    
 
 
  ### 程中，不同时期，怀着不同目的时，会有不同的理解和收获。对初次学习WRF模式的人会有很大的帮助。    
 
-<br/>WRF-Var    
+WRF-Var    
 
-<br/>有关WRF-Var的解释说明和WRF-Var OnLine Tutorial 的连接。    
+有关WRF-Var的解释说明和WRF-Var OnLine Tutorial 的连接。    
 
-<br/>WRFSI    
+WRFSI    
 
-<br/>在此页，不仅有WRFSI的说明，还可以下载一些必要相关的软件。    
+在此页，不仅有WRFSI的说明，还可以下载一些必要相关的软件。    
 
      
-<br/>＊ 从WRF的主页（WRF ARW Users Pages）上可以得到更多的情报和一些很有用的解释说明。    
+＊ 从WRF的主页（WRF ARW Users Pages）上可以得到更多的情报和一些很有用的解释说明。    
      
-<br/>Case Study    
+Case Study    
 
-<br/>在此，以Hurricane Katrina (August 28，2005) 为例进行WRF test run练习。    
+在此，以Hurricane Katrina (August 28，2005) 为例进行WRF test run练习。    
 
-<br/>为了Case Study 和下载练习所需的数据，必须准备足够的硬盘空间。然后建立working directory工作域。    
+为了Case Study 和下载练习所需的数据，必须准备足够的硬盘空间。然后建立working directory工作域。    
 
-<br/>我自己的是建立在/home/user/you/下的。    
+我自己的是建立在/home/user/you/下的。    
 
-<br/>例如你可以输入:（输入命令文时严格区分字母大小写）    
+例如你可以输入:（输入命令文时严格区分字母大小写）    
 
-<br/>¾ mkdir WRF （建立目录）    
+¾ mkdir WRF （建立目录）    
 
-<br/>¾ cd WRF （进入目录）    
+¾ cd WRF （进入目录）    
 
-<br/>（返回上一目录的命令是cd .. ）    
+（返回上一目录的命令是cd .. ）    
 
-<br/>在global AVN data 处下载所练习用的气象数据。    
+在global AVN data 处下载所练习用的气象数据。    
 
-<br/>本次的case study 的领域如右图所示。    
+本次的case study 的领域如右图所示。    
 
  ### WRF ARW模式里，主要流程如下图所示：    
 
@@ -418,15 +418,15 @@ by aioply 编辑整理
 
  ## 3.1． ～安装前奏～    
 
-<br/>Get Source Code    
+Get Source Code    
 
-<br/>下载WPS和WRFV2.2的source code。。    
+下载WPS和WRFV2.2的source code。。    
 
-<br/>建立一个名为WRF的工作目录（如果在上一页已经建立了的话，此处就没有必要再建立了）。    
+建立一个名为WRF的工作目录（如果在上一页已经建立了的话，此处就没有必要再建立了）。    
 
-<br/>（比如说我是在/home/user/you/里建立的）。    
+（比如说我是在/home/user/you/里建立的）。    
 
-<br/>¾ mkdir WRF    
+¾ mkdir WRF    
 
 
 <br/>Unpack the Code    
