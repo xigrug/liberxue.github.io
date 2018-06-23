@@ -14,4 +14,4 @@ tags:
 
 # 教程
 
-<a href="https://www.jianshu.com/p/7cbd50058ea3" title="NJU在线">NJU-THESIS</a>
+<a href="https://www.jianshu.com/p/7cbd50058ea3" title="jianshu">sublime-text3打造markdown编辑器</a>
