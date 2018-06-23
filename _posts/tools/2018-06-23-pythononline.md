@@ -21,14 +21,14 @@ description: script by python
 
 [lmadaus](https://github.com/lmadaus/old_wrf_plotting_scripts)
 
-script| commit|time|</br>
-|:--------|:-------:|:-------:|:-------:|:-------:|-------:|</br>
-coltbls.py|Added color tables|3 years ago|</br>
-plot_wrf_3d.py|	Initial commit|3 years ago|</br>
-plot_wrf_cape.py  |Initial commit|3 years ago|</br>
-plot_wrf_cape_c.py|Initial commit|3 years ago|</br>
-plot_wrf_maps.py |Initial commit|3 years ago|</br>
-plot_wrf_meteo.py|Initial commit|3 years ago|</br>
-plot_wrf_skewt.py|Initial commit|3 years ago|</br>
-plot_wrf_upa.py	|Initial commit	|3 years ago|</br>
+script| commit|time|
+:--------|:-------:|-------:|
+coltbls.py|Added color tables|3 years ago|
+plot_wrf_3d.py|	Initial commit|3 years ago|
+plot_wrf_cape.py  |Initial commit|3 years ago|
+plot_wrf_cape_c.py|Initial commit|3 years ago|
+plot_wrf_maps.py |Initial commit|3 years ago|
+plot_wrf_meteo.py|Initial commit|3 years ago|
+plot_wrf_skewt.py|Initial commit|3 years ago|
+plot_wrf_upa.py	|Initial commit	|3 years ago|
 
