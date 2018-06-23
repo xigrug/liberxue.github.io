@@ -14,7 +14,7 @@ tags:
 [WRF user_guide_v4](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/)    
 
 [视频教程](https://pan.baidu.com/s/1AMu-xaqW0OMH1GtzuybZdg)    
-# WRF 安装运行入门指南    
+ # WRF 安装运行入门指南    
 
 (WPS WRF_SI WRFV2.2 NCARG GrADS)
 
@@ -23,7 +23,7 @@ tags:
 by aioply 编辑整理    
      
 
-## WRF安装运行入门指南    
+ ## WRF安装运行入门指南    
 
   - 前言 ···································· 目录    
 <br/>- 1. WRF模式简介 ································    
@@ -56,7 +56,7 @@ by aioply 编辑整理
 <br/>- 附录 4 ：一些简单的UNIX命令 ···························    
 
 
-# 前言    
+ # 前言    
 
 <br/>连我自己也没想到，还会接着WRF版本的更新，不自量力地整理出第三版入门指南。但我想这将是    
 
@@ -120,7 +120,7 @@ by aioply 编辑整理
 <br/>指南中以绿色书写的部分为UNIX的命令文，蓝色为链接部分。    
 
 
-# 1 ．＜WRF模式简介＞    
+ # 1 ．＜WRF模式简介＞    
 
 <br/>Weather Research and Forecasting Model(WRF)被誉为是次世代的中尺度天气预报模式。二战后，由于计算    
 
@@ -178,14 +178,14 @@ by aioply 编辑整理
 <br/>本体和WRFSI的衔接。    
 
 
-### WRF模式的流程示意图如下：    
+ ### WRF模式的流程示意图如下：    
 
 <br/>![wrf-demo](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/users_guide_chap1.fld/image001.png)    
      
 <br/>出处：User’s Guide for Advanced Research WRF (ARW) Modeling System Version 2.    
      
 
-# 2 ．＜准备工作＞    
+ # 2 ．＜准备工作＞    
 
 <br/>注:本文所记述的安装过程仅是在编译器等软件安装完备的条件下进行的。限于笔者的知识水平有限，对这    
 
@@ -308,7 +308,7 @@ by aioply 编辑整理
 
 
 
-# 3 ．＜WPS+WRFV2.2安装运行简介＞    
+ # 3 ．＜WPS+WRFV2.2安装运行简介＞    
 
 <br/>请参照网页http://www.mmm.ucar.edu/wrf/OnLineTutorial/index.htm，内有详细的Online Tutorial。本章的内容    
 
@@ -318,7 +318,7 @@ by aioply 编辑整理
 
 <br/>和WRF_SI各自运行的连贯性，请读者在使用时注意！    
 
-##3.0． ～收集数据～    
+ ## 3.0． ～收集数据～    
 
 <br/>Get Source Code    
 
@@ -378,7 +378,7 @@ by aioply 编辑整理
 <br/>开发人员编写的PowerPoint，可以算是WRF模式讲解的精华。强烈建议仔细，反复阅读。在转WRF的过    
 
 
-### 程中，不同时期，怀着不同目的时，会有不同的理解和收获。对初次学习WRF模式的人会有很大的帮助。    
+ ### 程中，不同时期，怀着不同目的时，会有不同的理解和收获。对初次学习WRF模式的人会有很大的帮助。    
 
 <br/>WRF-Var    
 
@@ -411,12 +411,12 @@ by aioply 编辑整理
 
 <br/>本次的case study 的领域如右图所示。    
 
-### WRF ARW模式里，主要流程如下图所示：    
+ ### WRF ARW模式里，主要流程如下图所示：    
 
-### WPS是和WRFV2.2一同被推出的，可以看成是WRF_SI的进化版。    
+ ### WPS是和WRFV2.2一同被推出的，可以看成是WRF_SI的进化版。    
 
 
-## 3.1． ～安装前奏～    
+ ## 3.1． ～安装前奏～    
 
 <br/>Get Source Code    
 
@@ -461,7 +461,7 @@ by aioply 编辑整理
 <br/>择安装项。具体的安装方法请参考附录 1 。    
 
 
-## 3.2. ～安装WPS～    
+ ## 3.2. ～安装WPS～    
 
 <br/>Examine the Source Code    
 <br/>进入到/home/user/you/WRF/WPS/目录下    
@@ -567,7 +567,7 @@ Enter selection [1-6] :
 <br/>文件的有无并不会影响到WRF的正常运行。    
 <br/>You are now ready to run the WPS.    
      
-## 3.3. ～运行WPS～    
+ ## 3.3. ～运行WPS～    
 
 <br/>WPS用来建立WRFV2的输入文件。其流程如下图所示：    
 
@@ -753,7 +753,7 @@ Enter selection [1-6] :
 <br/>You are now ready to run the WRFV2.    
 
 
-## 3.4. ～安装WRFV2.2～    
+ ## 3.4. ～安装WRFV2.2～    
 
 <br/>这里，如果是运行real case，流程示意图如下：    
 
@@ -915,7 +915,7 @@ Enter selection [1-6] :
 <br/>不过之后会生成ideal.exe可执行文件）    
 
 
-## 3.5. ～运行WRFV2.2～    
+ ## 3.5. ～运行WRFV2.2～    
 
 <br/>Edit namelist.input    
 <br/>到run/ 或 test/em_real 目录下运行WRFV2.2。在这里，我选择后者。    
@@ -1047,12 +1047,12 @@ Enter selection [1-6] :
 <br/>wrf: SUCCESS COMPLETE WRF    
 
 
-# 4．＜WRF_SI+WRFV2.2的安装运行＞    
+ # 4．＜WRF_SI+WRFV2.2的安装运行＞    
 
 <br/>请参照网页http://www.mmm.ucar.edu/wrf/OnLineTutorial/WRFSI/，内有详细的Online Tutorial。    
 <br/>本章的内容是参照上述网页的内容进行翻译，并结合自己在操作过程中遇到的困难进行归纳整理完成的。    
 
-## 4.0. ～收集数据～    
+ ## 4.0. ～收集数据～    
 
 <br/>Get Source Code    
 <br/>和WPS+为WRFV2.2一样，把所需要的，最新的Source_Codes收集在一起，分类放到同一个目录下。    
@@ -1075,9 +1075,9 @@ Enter selection [1-6] :
 <br/>*  tar –xvf WRFV2.TAR    
 <br/>于是，会有wrfsi/和WRFV2/目录被做成。    
 
-## 4.1. ～安装WRF_SI～    
+ ## 4.1. ～安装WRF_SI～    
 
-### 4.1.1． ～定义环境变量～    
+ ### 4.1.1． ～定义环境变量～    
 <br/>Examine the Source Code    
 <br/>在/home/user/you/WRF/目录下    
 <br/>*  cd wrfsi    
@@ -1130,7 +1130,7 @@ Enter selection [1-6] :
 * INSTALLROOT=/home/user/you/WRF/wrfsi;export INSTALLROOT    
 
 
-### EXR_DATAROOT    
+ ### EXR_DATAROOT    
 
 <br/>定义degribed （媒体）的directory路径。    
 * EXT_DATAROOT=/home/user/you/WRF/wrfsi/extdata;export EXT_DATAROOT    
@@ -1170,7 +1170,7 @@ Enter selection [1-6] :
 <br/>*  source ~/.bashrc    
      
 
-### 4.1.2． ～安装 WRF_SI～    
+ ### 4.1.2． ～安装 WRF_SI～    
 
 <br/>Install WRF_SI    
 <br/>*  perl install_wrfsi.pl    
@@ -1199,7 +1199,7 @@ Enter selection [1-6] :
 <br/>makefile_alpha.inc.in    
 <br/>＊ 如果install 失败了... ... 在ARW OnLine Tutorial里登载了一些error解决办法，请参考使用。    
 
-### 4.1.3． ～使用WRF_SI的GUI～    
+ ### 4.1.3． ～使用WRF_SI的GUI～    
 <br/>Run WRF_SI with GUI    
 <br/>如果想运行GUI，会使用到X-window软件。我使用的是名为EXODUS的软件，需要通过SSH软件和超算进    
 <br/>行连接。再有，这里的记述的方法也许仅适用于我所使用的超算，仅供参考。WRF_SI web site上的方法自    
@@ -1212,7 +1212,7 @@ Enter selection [1-6] :
 <br/>（到这里是连接UNIX系统和X-window的命令语句，在使用画图软件GrADS时也会用到）    
 
 
-### 然后打开WRF_SI的GUI系统：    
+ ### 然后打开WRF_SI的GUI系统：    
 
 * cd /home/user/you/WRF/wrfsi    
 * ./wrf_tools    
@@ -1220,7 +1220,7 @@ Enter selection [1-6] :
 <br/>（以上的操作方法有可能会和其它软件不同。例如，x-win，x-winPro等软件就不需要什么特殊的设定。跳    
 <br/>过4.1.3节，仍可继续运行WRFV2。）    
 
-## 4.2． ～运行WRF_SI～    
+ ## 4.2． ～运行WRF_SI～    
 
 <br/>WRF_SI里主要有三个步骤，并且每一步都需要对相应的namelist文件进行编辑：    
 <br/>STEP1：设定领域 ——〉 编辑wrfsi.nl的 1 、 2 部分    
@@ -1438,7 +1438,7 @@ Enter selection [1-6] :
      
 <br/>到此处你也成功了的话，我们就已经做好运行WRF ARM模式的准备好了。    
 
-## 4.3. ～安装WRFV2.2～    
+ ## 4.3. ～安装WRFV2.2～    
 
 <br/>Examine the Source Code    
 <br/>¾ cd WRFV2    
@@ -1468,7 +1468,7 @@ Enter selection [1-6] :
 <br/>在README file里，写有关于code的有用信息和模式运行的设定方法。    
 
 
-### WRFV2目录下的文件分类：    
+ ### WRFV2目录下的文件分类：    
 
 <br/>Source code directories:    
 <br/>chem/ Directory containing modules for chemistry (not currently supported)    
@@ -1584,7 +1584,7 @@ Enter selection [1-6] :
 <br/>（如果运行其它idealized cases，方法也一样。在./compile em_real >& compile.log处选择相应的文件选项。    
 <br/>不过做后会生成ideal.exe）    
 
-## 4.4. ～运行WRFV2.2～    
+ ## 4.4. ～运行WRFV2.2～    
 
 <br/>Edit namelist.input    
 <br/>移动到run/ 或 test/em_real 目录下。无论哪个都可以。在这里，我们选择后者。    
@@ -1670,7 +1670,7 @@ Enter selection [1-6] :
 <br/>wrf: SUCCESS COMPLETE WRF    
 
 
-# 5.＜安装使用WRF2GrADS＞    
+ # 5.＜安装使用WRF2GrADS＞    
 
 <br/>在WRF的tool里直接介绍了四种气象作图的工具，并为他们提供了相应的文件格式的转换工具。    
 <br/>它们是：    
@@ -1707,21 +1707,21 @@ Enter selection [1-6] :
 * vi Makefile    
 
 
-### 比如，适合我使用的计算机的描述是：    
+ ### 比如，适合我使用的计算机的描述是：    
 
-### ......    
+ ### ......    
 
      
-# linux flags（PGI）    
+ # linux flags（PGI）    
      
      
-#LIBNETCDF = -L/usr/local/netcdf/lib -lnetcdf -lm    
-#INCLUDE = -I/usr/local/netcdf/include -I./    
-#FC = pgf90    
-#FCFLAGS = -g -C -Mfree    
-#FCFLAGS = -fast -Mfree    
-#CPP = /usr/bin/cpp    
-#CPPFLAGS = -I. -C -traditional -DRECL4    
+ #LIBNETCDF = -L/usr/local/netcdf/lib -lnetcdf -lm    
+ #INCLUDE = -I/usr/local/netcdf/include -I./    
+ #FC = pgf90    
+ #FCFLAGS = -g -C -Mfree    
+ #FCFLAGS = -fast -Mfree    
+ #CPP = /usr/bin/cpp    
+ #CPPFLAGS = -I. -C -traditional -DRECL4    
 <br/>......    
 <br/>（我们可以根据“FC = ”的性质来选择适合我们计算机的描述）    
      
@@ -1730,7 +1730,7 @@ Enter selection [1-6] :
      
      
 <br/>......    
-# linux flags (PGI)    
+ # linux flags (PGI)    
      
      
 <br/>LIBNETCDF = -L/home/user/you/lib -lnetcdf -lm    
@@ -1742,7 +1742,7 @@ Enter selection [1-6] :
 <br/>CPPFLAGS = -I. -C -traditional -DRECL4    
 <br/>......    
      
-<br/>注意：一定要去掉描述语句前的 # 字符号。然后<Esc> : w q 保存退出。    
+<br/>注意：一定要去掉描述语句前的  # 字符号。然后<Esc> : w q 保存退出。    
 <br/>然后键入:    
 * make    
 <br/>在目录下会自动生成名为 wrf_to_grads 的可执行文件。    
@@ -1752,7 +1752,7 @@ Enter selection [1-6] :
 * vi control_file    
 
 
-### 然后，主要对以下信息进行编辑：    
+ ### 然后，主要对以下信息进行编辑：    
 
 <br/>- set times to be processed    
 <br/>- set variables to be processed    
@@ -1821,7 +1821,7 @@ Enter selection [1-6] :
 <br/>这两个文件ctl和dat将会在GrADS 画图软件中使用。    
 
 
-#6.＜在UNIX系统下安装GrADS＞    
+ #6.＜在UNIX系统下安装GrADS＞    
 
 <br/>GrADS是一款功能强大的气象绘图工具。关于GrADS的中文版的使用手册，可以到LASG（大气科学和地    
 <br/>球流体力学数值模拟国家重点实验室）的动力论坛专业绘图软件去下载。里面还介绍了在WINDOWS下的    
@@ -1879,7 +1879,7 @@ Enter selection [1-6] :
 <br/>关于GrADS的具体使用方法，可以参考LASG编的《GrADS实用手册》。    
 
 
-# 7.＜利用其它数据的练习＞    
+ # 7.＜利用其它数据的练习＞    
 
 <br/>通过对《WRF V2安装运行入门指南》的前面的 6 节的学习，大家应该都了解了WRF的基本运行步骤了。    
 <br/>这时，你也一定想通过运行一些其它领域和时间的案例，来巩固和验证自己对WRF的理解和运用。我们    
@@ -1985,7 +1985,7 @@ Enter selection [1-6] :
 <br/>....    
 
 
-### 附录1:安装NCARG （NCAR Graphic）    
+ ### 附录1:安装NCARG （NCAR Graphic）    
 <br/>NCARG是NCAR Graphic，由NCAR开发的视图工具。与GrADS相比，NCARG的应用并不广泛。但作    
 <br/>为NCAR 的产品，被积极地用在了WPS的领域查看和设计等中途工作，而且对于有些工作也可以使用    
 <br/>gradsnc来代替执行。但NCAR既然提到了使用NCARG，就 姑 且 把NCARG的安装方法一并记述下来，以    
@@ -2070,7 +2070,7 @@ Enter selection [1-6] :
 <br/>关于如何在WPS中使用NCARG，请参考WPS的网页。    
 
 
-### 附录2:    
+ ### 附录2:    
 <br/>在WRF_SI阶段，对wrfsi.nl的设定极为重要。这是我在网上（LASG的动力论坛）收集到的有关wrfsi.nl    
 <br/>的参数配置的中文说明。大家也可到原地址下载。    
 
@@ -2150,21 +2150,21 @@ Enter selection [1-6] :
 <br/>"mercator" -> 麦卡托    
 
 
-### 7. MOAD_KNOWN_LAT/MOAD_KNOWN_LON: 网格中心点的经纬度。单位为度，正的纬度表示北半球，    
+ ### 7. MOAD_KNOWN_LAT/MOAD_KNOWN_LON: 网格中心点的经纬度。单位为度，正的纬度表示北半球，    
 
-### 负值表示南半球。纬度在-90 和 90 之间，经度在-180河 180 之间。    
+ ### 负值表示南半球。纬度在-90 和 90 之间，经度在-180河 180 之间。    
 
-### 8. MOAD_STAND_LATS: 两个实数表示标准纬度（此处格距不变）。必须在-90和 90 之间，根据投影    
+ ### 8. MOAD_STAND_LATS: 两个实数表示标准纬度（此处格距不变）。必须在-90和 90 之间，根据投影    
 
-### 选取该参数的值：    
+ ### 选取该参数的值：    
 
-### 极射投影：第一个参数为格距不变的纬度，可设为中心纬度。第二个参数南/北半球为+/-90.。    
+ ### 极射投影：第一个参数为格距不变的纬度，可设为中心纬度。第二个参数南/北半球为+/-90.。    
 
-### 兰勃托投影：两个值均与中心纬度正负号相同。对于正切投影，两个参数设为同一个值（通常设为中    
+ ### 兰勃托投影：两个值均与中心纬度正负号相同。对于正切投影，两个参数设为同一个值（通常设为中    
 
-### 心纬度）。而对于正割投影，两个参数必须为不同值。    
+ ### 心纬度）。而对于正割投影，两个参数必须为不同值。    
 
-### 麦卡托投影：第一个参数为格距不变的纬度（通常为中心纬度）。第二个参数没有用到。    
+ ### 麦卡托投影：第一个参数为格距不变的纬度（通常为中心纬度）。第二个参数没有用到。    
 
 <br/>9. MOAD_STAND_LONS: 该参数指定于y坐标平行的经度(-180->180)。通常设为中心经度。    
 <br/>10. MOAD_DELTA_X/MOAD_DELTA_Y: 该浮点数分别指定东西和南北向的格距，单位为米。目前，两    
@@ -2191,19 +2191,19 @@ Enter selection [1-6] :
 <br/>2. PCTLAND_10M: 10分的土地分类资料的路径。    
 
 
-### 3. LANDUSE_30S: 30秒USGS 24种土壤利用类型资料的路径。    
+ ### 3. LANDUSE_30S: 30秒USGS 24种土壤利用类型资料的路径。    
 
-### 4. SOILTYPE_TOP_30S: 30秒FAO 上层 16 种土壤类型资料的路径。    
+ ### 4. SOILTYPE_TOP_30S: 30秒FAO 上层 16 种土壤类型资料的路径。    
 
-### 5. SOILTYPE_BOT_30S: 和(4)相同，但是为底层。    
+ ### 5. SOILTYPE_BOT_30S: 和(4)相同，但是为底层。    
 
-### 6. GREENFRAC: 植被分类数据的路径。    
+ ### 6. GREENFRAC: 植被分类数据的路径。    
 
-### 7. SOILTEMP_1DEG: 1度年平均深层土壤温度数据的路径。    
+ ### 7. SOILTEMP_1DEG: 1度年平均深层土壤温度数据的路径。    
 
-### 8. ALBEDO_NCEP: 反照率的月气候数据的路径。（归一为局地天顶）。    
+ ### 8. ALBEDO_NCEP: 反照率的月气候数据的路径。（归一为局地天顶）。    
 
-### 9. SSTEMP: 未使用，预留给气候的SST数据。    
+ ### 9. SSTEMP: 未使用，预留给气候的SST数据。    
 
 <br/>E. INTERP_CONTROL section    
 <br/>该部分控制输入的格点资料的水平和垂直插值。    
@@ -2228,7 +2228,7 @@ Enter selection [1-6] :
 <br/>认值为 0 或 1 。注意：如果想使用背景资料的土地利用和土地分类，该参数必须设为 0 ，而且必须由输入    
 <br/>数据集中获取"VEGCAT" 和 "SOILCAT"，其中VEGCAT 为主要的土壤利用分类（USGS 为 24 种）的 2    
 <br/>维数组，SOILCAT为FAO主要土壤类型的 2 维数组。    
-### 6. NUM_INIT_TIMES: 整数，目前设为 1 。控制输出时间数来使用由"INIT_ROOT" 和 "LSM_ROOT" 指    
+ ### 6. NUM_INIT_TIMES: 整数，目前设为 1 。控制输出时间数来使用由"INIT_ROOT" 和 "LSM_ROOT" 指    
 
 <br/>定的前缀文件。将来可以支持分析"nudging"。在 1 ：NUM_INIT_TIMES 这段时间内，使用由    
 <br/>INIT_ROOT/LSM_ROOT指定的数据，然后剩下的时段转而使用由"LBC_ROOT"指定的数据。如果设为 0 ，    
@@ -2265,7 +2265,7 @@ Enter selection [1-6] :
 <br/>4. CONSTANTS_PATH: 对于所有时间段文件名为CONSTANTS_FULL_NAME 中所包括的文件的路径。    
 
 
-### 附录3:    
+ ### 附录3:    
 <br/>在WRF本体计算里，namelist.input的设定最重要。这里记述了大部分的运行设置情报。这些参数    
 <br/>变量的翻译是在tanghao（动力论坛）提供的WRFV2.0版本的namelist.input的翻译基础之上做了一些补    
 <br/>充。同时也十分感谢windrisingdl作的补充工作。限于个人的精力，全部的翻译工作没有完成。    
@@ -2419,9 +2419,9 @@ Enter selection [1-6] :
 <br/>vortex_interval 15 经过多长时间计算一次涡旋的位置，单位为分钟    
 <br/>max_vortex_interval 40 涡旋的最大移动速度，用于计算新涡旋位置的搜索半径。    
 <br/>corral_dist 8    
-### 移动嵌套网格靠近粗网格边界允许的最大网格单元数，此    
-### 参数也就是规定了移动网格靠近粗网格允许的最大距离。    
-### 变量名 取值 描述    
+ ### 移动嵌套网格靠近粗网格边界允许的最大网格单元数，此    
+ ### 参数也就是规定了移动网格靠近粗网格允许的最大距离。    
+ ### 变量名 取值 描述    
 <br/>&physics^ 物理方案    
 <br/>说明：虽然不同的嵌套网格可以使用不同的物理方案，但必须注意各种    
 <br/>方案的使用条件和范围。    
@@ -2469,7 +2469,7 @@ Enter selection [1-6] :
 <br/>2 MYJ Monin-Obukhov 方案 (仅用于MYJ 边界层方案)    
 <br/>sf_surface_physics (max_dom) 此选项指定陆面过程方案，默认值为 0 。    
 <br/>0 不采用陆面过程方案    
-### 1 热量扩散方案    
+ ### 1 热量扩散方案    
 <br/>2 Noah 陆面过程方案    
 <br/>3 RUC 陆面过程方案    
 <br/>bl_pbl_physics (max_dom) 此选项指定边界层方案，默认值为 0    
@@ -2535,9 +2535,9 @@ Enter selection [1-6] :
 <br/>以及设置SMOIS和SH2O。    
 <br/>sst_update 0    
 
-### 1    
+ ### 1    
 
-### 时变海温控制参数。 0 表示不用， 1 表示使用。如果选择    
+ ### 时变海温控制参数。 0 表示不用， 1 表示使用。如果选择    
 
      
 <br/>使用时变海温，则real.exe会从wrflowinp_d01文件中读    
@@ -2642,7 +2642,7 @@ Enter selection [1-6] :
 <br/>only    
 
 
-### 变量名 取值 描述    
+ ### 变量名 取值 描述    
 
 <br/>&bdy_control 边界条件控制    
 <br/>spec_bdy_width 5 边界过渡的格点总行数，默认值为 5 。此参数只用于真实大    
@@ -2692,6 +2692,7 @@ Enter selection [1-6] :
 <br/>nproc_y -1 区域分解时，指定x方向上的上的线程数，默认值为－ 1 。    
 <br/>-1 程序自动分解    
 <br/>>1 用于分解的数目。    
+ 
 ### 附录4:一些简单的UNIX命令：    
      
 * cd 命令    
