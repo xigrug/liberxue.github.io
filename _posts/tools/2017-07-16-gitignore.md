@@ -15,7 +15,7 @@ Logo通过<a href="https://www.designevo.com/cn/" title="免费在线logo制作�
 
 icon通过<a href="https://realfavicongenerator.net/" title="免费在线favicon制作软件">Favicon Generator. For real.</a>设计制作
 
-```
+```bash
 git add .
 git commit -m 'update'
 git push origin master

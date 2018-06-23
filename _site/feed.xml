@@ -34,9 +34,9 @@
       </item>
     
       <item>
-        <title>ERA5</title>
+        <title>python</title>
         <category>tools</category>
-        <description>webucd.metscitoolsIrisCartgorycf-unitsiris-gribnc-time-axisgithublmadausscript      | commit  |  ...</description>
+        <description>web  ucd.met  scitools  Iris  Cartgory  cf-units  iris-grib  nc-time-axisgithublmadaus           ...</description>
         <pubDate>2018-06-23 02:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/pythononline.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/pythononline.html</guid>
@@ -90,7 +90,7 @@
       <item>
         <title>linux 替换</title>
         <category>tools</category>
-        <description>批量替换    Rouge                sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`    </description>
+        <description>批量替换    sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`</description>
         <pubDate>2018-06-21 19:33:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/21/quickcommod.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/21/quickcommod.html</guid>

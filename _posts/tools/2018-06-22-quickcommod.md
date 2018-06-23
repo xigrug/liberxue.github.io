@@ -11,19 +11,7 @@ tags:
 - shell
 ---
 
-# 批量替换
-<head>
-    <title>Rouge</title>
-    <link media="all" rel="stylesheet" type="text/css" href="../../assets/rouge/rouge.css" />
-    <style>
-        pre{
-            background: rgba(0, 0, 0, 0.95);
-        }
-    </style>
-</head>
-
-<body>
-    {% highlight shell %}
+# 批量替换   
+```bash
     sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`
-    {% endhighlight %}
-</body>
+```

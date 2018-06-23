@@ -17,7 +17,7 @@ tags:
 
 # 创建gitignore文件
 
-```
+```bash
 touch .gitignore
 ```
 ## 注释Git忽略规则

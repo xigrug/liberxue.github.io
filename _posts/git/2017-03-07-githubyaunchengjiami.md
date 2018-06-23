@@ -32,7 +32,7 @@ tags:
 
 
 ######  安装git-remote-gcrypt和gnupg
-```
+```bash
 sudo apt-get install git-remote-gcrypt gnupg
 ```
 ###### 创建一个gpg的key，
