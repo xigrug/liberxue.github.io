@@ -11,6 +11,7 @@ share:            true
 #auto: true
 # Build settings
 markdown: kramdown
+encoding: utf-8
 highlighter: rouge
 kramdown:
     syntax_highlighter: syntax_highlighter_opts

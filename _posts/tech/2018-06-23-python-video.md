@@ -9,17 +9,17 @@ tags: python,video
 keywords: python
 description: python video mask
 ---
-#[Enthought的培训课程] (https://training.enthought.com/courses)
+#[Enthought的培训课程](https://training.enthought.com/courses)
 
 如果你是高校用户，使用你的学术邮箱注册登录，即可免费观看此视频以及获取Canopy学术版
 
 ##课程包含以下部分: 
-> * Tools to Learn and Develop in Python
-> * Python Essentials
-> * Numpy
-> * Scipy
-> * Advanced Python
-> * Interfacing with other languages
-> * Objected-Oriented Programming
+ * Tools to Learn and Develop in Python
+ * Python Essentials
+ * Numpy
+ * Scipy
+ * Advanced Python
+ * Interfacing with other languages
+ * Objected-Oriented Programming
 
 ---
