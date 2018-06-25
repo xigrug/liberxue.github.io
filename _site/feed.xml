@@ -25,6 +25,15 @@
       </item>
     
       <item>
+        <title>Statistics</title>
+        <category>research</category>
+        <description>不同统计方法在科研中的应用时间序列的方法：计算单因素时间序列的方法很多有：功率谱、小波分析、MK突变检验、EEMD等等，基本上都是对耽搁时间序列的趋势、波动以及不同频率上的振荡进行分析的。计算双...</description>
+        <pubDate>2018-06-23 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/23/statis.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/statis.html</guid>
+      </item>
+    
+      <item>
         <title>Climate wed</title>
         <category>research</category>
         <description>webwww.climate-lab-book wonderful picture</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-21 19:33:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/21/gitignore.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/21/gitignore.html</guid>
-      </item>
-    
-      <item>
-        <title>Git忽略规则及.gitignore规则正确姿势</title>
-        <category>git</category>
-        <description>实现需求在git中如果想忽略掉某个文件或者文件夹，不想这个文件或者文件夹提交到版本库中，可以使用修改根目录中 .gitignore 文件的方法（如无，则需自己手工建立此文件）。这个文件每一行保存...</description>
-        <pubDate>2017-07-16 23:45:56 </pubDate>
-        <link>https://xigrug.github.io/2017/07/16/gitignore.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2017/07/16/gitignore.html</guid>
       </item>
     
   </channel>
