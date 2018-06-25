@@ -65,9 +65,9 @@ tags:
 
 [polar2grid](http://www.ssec.wisc.edu/software/polar2grid/)
 
-* [Hdfeos](http://hdfeos.org/zoo/index_openGESDISC_Examples.php)
+**[Hdfeos](http://hdfeos.org/zoo/index_openGESDISC_Examples.php)**
 
-* [pytroll](http://pytroll.github.io/)  [Gallery](http://pytroll.github.io/gallery.html)
+**[pytroll](http://pytroll.github.io/)  [Gallery](http://pytroll.github.io/gallery.html)**
 ![picture](https://nbviewer.jupyter.org/github/pytroll/pytroll-examples/blob/master/satpy/natural_hrit.png)
 ----
 
@@ -100,4 +100,5 @@ example [plot_viirs_cloudProducts.py](https://gitlab.ssec.wisc.edu/JPSS_ADL/VIIR
 
 ## Precipitation Products
 
-http://www.ospo.noaa.gov/Products/atmosphere/rain.html
+[ospo](http://www.ospo.noaa.gov/Products/atmosphere/rain.html)
+

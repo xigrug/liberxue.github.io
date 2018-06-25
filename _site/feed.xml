@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Satellite</title>
+        <category>research</category>
+        <description>数据下载综合 NASA Earthdata  downloadDownload Near Real-Time Data降水 TRMM(TMI 3-day)降水数据的详细下载方法  downloa...</description>
+        <pubDate>2018-06-25 10:23:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/25/satellite_down.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/25/satellite_down.html</guid>
+      </item>
+    
+      <item>
         <title>仲夏夜の小精灵</title>
         <category>travel</category>
         <description>先晒个别人家的图小精灵与大美丽，美好的仲夏夜</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-22 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/22/modelonline.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/modelonline.html</guid>
-      </item>
-    
-      <item>
-        <title>Linux 之 Shell</title>
-        <category>tools</category>
-        <description>批量替换    sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`</description>
-        <pubDate>2018-06-21 19:33:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/21/shellcommod.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/21/shellcommod.html</guid>
       </item>
     
   </channel>
