@@ -46,3 +46,10 @@ plot_wrf_upa.py	|Initial commit	|3 years ago|
 [pyPlots_v2](https://github.com/xigrug/pyPlots_v2)
 * wrf
 * modis
+
+----
+# plot
+
+[利用Python画中国地图外加站点分布](http://bbs.06climate.com/forum.php?mod=viewthread&tid=51427)
+
+![图片](http://bbs.06climate.com/forum.php?mod=attachment&aid=NjI5MTV8YTE5MmEyYTl8MTUyOTkwNTcyOXw2MjUxfDUxNDI3&noupdate=yes)

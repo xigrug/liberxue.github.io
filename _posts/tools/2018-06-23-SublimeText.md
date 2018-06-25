@@ -16,7 +16,7 @@ tags:
 
 <a href="https://www.jianshu.com/p/7cbd50058ea3" title="jianshu">sublime-text3打造markdown编辑器</a>
 
-#注册码
+# 注册码
 ```
 1. ----- BEGIN LICENSE -----
 2. sgbteam

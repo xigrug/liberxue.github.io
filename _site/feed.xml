@@ -18,7 +18,7 @@
       <item>
         <title>SublimeText</title>
         <category>tools</category>
-        <description>教程sublime-text3打造markdown编辑器#注册码1. ----- BEGIN LICENSE -----2. sgbteam3. Single User License4. EA...</description>
+        <description>教程sublime-text3打造markdown编辑器注册码1. ----- BEGIN LICENSE -----2. sgbteam3. Single User License4. EA7...</description>
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/SublimeText.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/SublimeText.html</guid>
@@ -97,12 +97,12 @@
       </item>
     
       <item>
-        <title>linux 替换</title>
+        <title>Linux 之 Shell</title>
         <category>tools</category>
         <description>批量替换    sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`</description>
         <pubDate>2018-06-21 19:33:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/21/quickcommod.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/21/quickcommod.html</guid>
+        <link>https://xigrug.github.io/2018/06/21/shellcommod.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/21/shellcommod.html</guid>
       </item>
     
       <item>
