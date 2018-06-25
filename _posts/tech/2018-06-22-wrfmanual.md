@@ -295,7 +295,7 @@ Bash 和 Csh
 同时，为方便使用，我们可以将某些环境变量登录到 .bashrc里。例如上面的NetCDF的环境变量。    
 
 注意：慎重修改.bashrc文件！！！    
-
+```
 1 ） 在/home/user/you/目录下输入    
 
 ¾ vi .bashrc    
@@ -305,8 +305,7 @@ Bash 和 Csh
 3 ） 键入如下命令即可定义环境变量：    
 
 ¾ source ~/.bashrc    
-
-
+```
 
 # 3 ．＜WPS+WRFV2.2安装运行简介＞    
 
@@ -318,7 +317,7 @@ Bash 和 Csh
 
 和WRF_SI各自运行的连贯性，请读者在使用时注意！    
 
-## 3.0． ～收集数据～    
+## 3.0． ～收集数据～
 
 Get Source Code    
 
@@ -357,7 +356,7 @@ WPS + WRF-Var + WRF-ARW Model + PostProcessing
 
 Documentation    
 
-Users' Guide    
+Users Guide    
 
 User’s Guide 里包含了全部的WRF OnLine Tutorial。并且，User’s Guide 是每半年更新一次，为更好的使    
 
@@ -459,7 +458,6 @@ Get Source Code
 <br/>在运行WPS时，使用NCARG可以随时把各步骤的设定信息以图像的形式表现出来，方便大家随时进行确    
 <br/>认和更改。当然，是否安装NCARG和成功与否，与最后的WRF模式的运行无关。NCARG软件可以作为选    
 <br/>择安装项。具体的安装方法请参考附录 1 。    
-
 
 ## 3.2. ～安装WPS～    
 
@@ -2419,9 +2417,9 @@ Enter selection [1-6] :
 <br/>vortex_interval 15 经过多长时间计算一次涡旋的位置，单位为分钟    
 <br/>max_vortex_interval 40 涡旋的最大移动速度，用于计算新涡旋位置的搜索半径。    
 <br/>corral_dist 8    
-### 移动嵌套网格靠近粗网格边界允许的最大网格单元数，此    
-### 参数也就是规定了移动网格靠近粗网格允许的最大距离。    
-### 变量名 取值 描述    
+<br/>移动嵌套网格靠近粗网格边界允许的最大网格单元数，此    
+<br/>参数也就是规定了移动网格靠近粗网格允许的最大距离。    
+<br/>变量名 取值 描述    
 <br/>&physics^ 物理方案    
 <br/>说明：虽然不同的嵌套网格可以使用不同的物理方案，但必须注意各种    
 <br/>方案的使用条件和范围。    
@@ -2469,7 +2467,7 @@ Enter selection [1-6] :
 <br/>2 MYJ Monin-Obukhov 方案 (仅用于MYJ 边界层方案)    
 <br/>sf_surface_physics (max_dom) 此选项指定陆面过程方案，默认值为 0 。    
 <br/>0 不采用陆面过程方案    
-### 1 热量扩散方案    
+<br/>1 热量扩散方案    
 <br/>2 Noah 陆面过程方案    
 <br/>3 RUC 陆面过程方案    
 <br/>bl_pbl_physics (max_dom) 此选项指定边界层方案，默认值为 0    
@@ -2533,13 +2531,7 @@ Enter selection [1-6] :
 <br/>水体，陆面过程选用Noah方案，则将此模式格点设置为    
 <br/>陆地，且为永久性冰体，并将设置 0 ～ 3 米的TEMPS，    
 <br/>以及设置SMOIS和SH2O。    
-<br/>sst_update 0    
-
-### 1    
-
-### 时变海温控制参数。 0 表示不用， 1 表示使用。如果选择    
-
-     
+<br/>sst_update 0   1    时变海温控制参数。 0 表示不用， 1 表示使用。如果选择    
 <br/>使用时变海温，则real.exe会从wrflowinp_d01文件中读    
 <br/>取SST和VEGFRA数据，wrf.exe则会以更新边条件数    
 <br/>据相同的时间间隔来更新这些数据。要使用此功能，则    
@@ -2599,8 +2591,6 @@ Enter selection [1-6] :
 <br/>用于理想大气)    
 <br/>dampcoef (max_dom) 0 指定抽吸系数(仅用于理想大气)    
 <br/>base_temp 290 基本海平面温度（仅用于真实大气、质量坐标）    
-
-
 <br/>base_pres 100000 基本海平面气压，请不要改变推荐值    
 <br/>base_lapse 50 基本温度垂直递减率（仅用于真实大气、质量坐标），    
 <br/>请不要改变推荐值    
@@ -2639,11 +2629,7 @@ Enter selection [1-6] :
 <br/>tke_drag_coefficient (max_dom) 0 surface drag coefficient (Cd, dimensionless) for diff_opt=2    
 <br/>only    
 <br/>tke_heat_flux (max_dom) 0 surface thermal flux (H/(rho* cp), K m/s) for diff_opt=2    
-<br/>only    
-
-
-### 变量名 取值 描述    
-
+<br/>only  变量名 取值 描述    
 <br/>&bdy_control 边界条件控制    
 <br/>spec_bdy_width 5 边界过渡的格点总行数，默认值为 5 。此参数只用于真实大    
 <br/>气方案。参数的大小至少为spec_zone 和 relax_zone的和。    

@@ -16,6 +16,15 @@
       </item>
     
       <item>
+        <title>Satellite</title>
+        <category>research</category>
+        <description>数据下载 TRMM(TMI 3-day)降水数据的详细下载方法  download NASA Earthdata  download NOAA CPC Morphing Technique (C...</description>
+        <pubDate>2018-06-23 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/23/satellite_down.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/satellite_down.html</guid>
+      </item>
+    
+      <item>
         <title>Climate wed</title>
         <category>research</category>
         <description>webwww.climate-lab-book wonderful picture</description>
@@ -112,15 +121,6 @@
         <pubDate>2017-07-16 23:45:56 </pubDate>
         <link>https://xigrug.github.io/2017/07/16/gitignore.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2017/07/16/gitignore.html</guid>
-      </item>
-    
-      <item>
-        <title>GitHub当作私密的版本控制系统远端版本库私有化哈</title>
-        <category>git</category>
-        <description>目的我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个...</description>
-        <pubDate>2017-03-07 00:00:00 </pubDate>
-        <link>https://xigrug.github.io/2017/03/07/githubyaunchengjiami.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2017/03/07/githubyaunchengjiami.html</guid>
       </item>
     
   </channel>

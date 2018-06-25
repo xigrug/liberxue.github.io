@@ -5,7 +5,9 @@ background-image: http://www.cbdio.com/image/attachement/jpg/site2/20170810/f04d
 title: python_video
 date: 2018-06-23 13:39:51 +0800
 category: tech
-tags: python,video
+tags: 
+- python
+- video
 keywords: python
 description: python video mask
 ---

@@ -4,7 +4,9 @@ background-image: http://www.cbdio.com/image/attachement/jpg/site2/20170810/f04d
 title: python
 date: 2018-06-23 02:14:31 +0800
 category: tools
-tags: python,script,
+tags: 
+- python
+- script
 keywords: python
 description: script by python
 ---
@@ -32,3 +34,14 @@ plot_wrf_meteo.py|Initial commit|3 years ago|
 plot_wrf_skewt.py|Initial commit|3 years ago|
 plot_wrf_upa.py	|Initial commit	|3 years ago|
 
+----
+
+[PyEarthScience](https://github.com/xigrug/PyEarthScience/tree/master/Visualization) with ipynb
+* Cartopy
+* PyNGL
+* matplotlib
+
+----
+[pyPlots_v2](https://github.com/xigrug/pyPlots_v2)
+* wrf
+* modis
