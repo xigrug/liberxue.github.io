@@ -1,5 +1,6 @@
 ---
 layout: blog
+istop: true
 background-image: http://www.cbdio.com/image/attachement/jpg/site2/20170810/f04da2247c301af63d0815.jpg
 title: python
 date: 2018-06-23 02:14:31 +0800
