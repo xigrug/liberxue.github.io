@@ -53,3 +53,24 @@ plot_wrf_upa.py	|Initial commit	|3 years ago|
 [利用Python画中国地图外加站点分布](http://bbs.06climate.com/forum.php?mod=viewthread&tid=51427)
 
 ![图片](http://bbs.06climate.com/forum.php?mod=attachment&aid=NjI5MTV8YTE5MmEyYTl8MTUyOTkwNTcyOXw2MjUxfDUxNDI3&noupdate=yes)
+
+
+# COURSE
+
+## Python courses for the scientific researcher
+
+This repository contains several courses for the benefit of scientific researchers, particularly in the fields of oceanography and meteorology.
+
+There are currently four courses:
+
+[An introduction to numpy](http://nbviewer.ipython.org/github/SciTools/courses/blob/master/course_content/notebooks/numpy_intro.ipynb?create=1)
+3.5 hours — depends on a basic Python background
+
+[An introduction to matplotlib]( http://nbviewer.ipython.org/github/SciTools/courses/blob/master/course_content/notebooks/matplotlib_intro.ipynb?create=1)
+3 hours — depends on "An introduction to numpy"
+
+[Cartopy in a nutshell (for Iris)](http://nbviewer.ipython.org/github/SciTools/courses/blob/master/course_content/notebooks/cartopy_intro.ipynb?create=1)
+0.5 hours — depends on "An introduction to matplotlib"
+
+[An introduction to Iris](http://nbviewer.ipython.org/github/SciTools/courses/blob/master/course_content/notebooks/iris_intro.ipynb?create=1)
+6 hours — depends on "Cartopy in a nutshell"
