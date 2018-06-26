@@ -24,4 +24,7 @@ description: python ipynb
 
 [那些在线的Jupyter](https://www.jianshu.com/p/e009997ab5d8)
 
+[scientific-python-lectures](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/tree/master/)
+
+[A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#introductory-tutorials)
 ---

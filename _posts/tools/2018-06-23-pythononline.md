@@ -19,6 +19,9 @@ description: script by python
 
 [我的Python豆列](https://www.douban.com/doulist/49278959/?sort=time&sub_type=5)
 
+[pythonhydro](http://greenteapress.com/pythonhydro/pythonhydro.pdf)
+
+[A_hands_on_introduction_to_using_python_in_the_atmospheric_and_oceanic_sciences](http://home.chpc.utah.edu/~u0035056/python/a_hands_on_introduction_to_using_python_in_the_atmospheric_and_oceanic_sciences.pdf)
 -----
 # web
 * [ucd.met](https://maths.ucd.ie/met/msc/SummerProjects/)   

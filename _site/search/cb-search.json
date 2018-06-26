@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "PPT - ",
+		"url" : "/2018/06/26/PPT.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "Climate wed - ",
 		"url" : "/2018/06/26/Climate_web.html"
 	}
@@ -101,6 +109,14 @@
 	{
 		"title" : "WRF 安装运行入门指南 - ",
 		"url" : "/2018/06/22/wrfmanual.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "NCL - ",
+		"url" : "/2018/06/22/ncl.html"
 	}
 	
 	,

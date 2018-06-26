@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>PPT</title>
+        <category>tools</category>
+        <description>网络模板1PPTfans PPT设计ChuangKit 创客贴图形设计工具PtTemplate 免费PPT模板库Tretars 逼格PPT素材网Hippter 幻灯片设计资源网OfficePlu...</description>
+        <pubDate>2018-06-26 11:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/26/PPT.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/PPT.html</guid>
+      </item>
+    
+      <item>
         <title>Climate wed</title>
         <category>research</category>
         <description>webwww.climate-lab-book wonderful picturecodePython  &amp; Practical Application on Climate Varia...</description>
@@ -18,7 +27,7 @@
       <item>
         <title>python_ipynb</title>
         <category>tech</category>
-        <description>meteorologyUnidatapython中文 Python 笔记Lectures on scientific computing with Python那些在线的Jupyter</description>
+        <description>meteorologyUnidatapython中文 Python 笔记Lectures on scientific computing with Python那些在线的Jupyterscien...</description>
         <pubDate>2018-06-26 11:00:51 </pubDate>
         <link>https://xigrug.github.io/2018/06/26/notebook-exercise.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/notebook-exercise.html</guid>
@@ -99,7 +108,7 @@
       <item>
         <title>python</title>
         <category>tools</category>
-        <description>资源Python 资源大全中文版气象类Python教程-格点气象我的Python豆列web  ucd.met  scitools  Iris  Cartgory  cf-units  iris-...</description>
+        <description>资源Python 资源大全中文版气象类Python教程-格点气象我的Python豆列pythonhydroA_hands_on_introduction_to_using_python_in_t...</description>
         <pubDate>2018-06-23 02:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/pythononline.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/pythononline.html</guid>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-23 02:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/download.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/download.html</guid>
-      </item>
-    
-      <item>
-        <title>WRF 安装运行入门指南</title>
-        <category>tech</category>
-        <description>WRF user_guide_v4视频教程WRF 安装运行入门指南(WPS WRF_SI WRFV2.2 NCARG GrADS)2007.04.  by aioply 编辑整理WRF安装运行入...</description>
-        <pubDate>2018-06-22 18:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/22/wrfmanual.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/wrfmanual.html</guid>
       </item>
     
   </channel>
