@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>社区资源</title>
+        <category>tools</category>
+        <description>学校NJU-YAMMER  紫荆小组</description>
+        <pubDate>2018-06-26 13:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/26/society.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/society.html</guid>
+      </item>
+    
+      <item>
         <title>PPT</title>
         <category>tools</category>
         <description>网络模板1PPTfans PPT设计ChuangKit 创客贴图形设计工具PtTemplate 免费PPT模板库Tretars 逼格PPT素材网Hippter 幻灯片设计资源网OfficePlu...</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-23 02:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/pythononline.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/pythononline.html</guid>
-      </item>
-    
-      <item>
-        <title>ERA5</title>
-        <category>tools</category>
-        <description>FNL by Python123456789101112131415161718192021222324252627282930313233343536 import requestsimpor...</description>
-        <pubDate>2018-06-23 02:14:31 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/download.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/download.html</guid>
       </item>
     
   </channel>
