@@ -24,4 +24,12 @@ description: python video mask
  * Interfacing with other languages
  * Objected-Oriented Programming
 
----
+-----
+
+[让小白学上瘾的 Python 入门课](https://www.mugglecode.com/introduce)
+
+[Python数据分析及可视化实例目录](https://zhuanlan.zhihu.com/p/29576732)
+
+[Hands-On Introduction to Using Python in the Atmospheric and Oceanic Sciences](http://www.johnny-lin.com/pyintro/)
+
+

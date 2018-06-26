@@ -22,5 +22,6 @@ description: python ipynb
 
 [Lectures on scientific computing with Python](https://github.com/jrjohansson/scientific-python-lectures)
 
+[那些在线的Jupyter](https://www.jianshu.com/p/e009997ab5d8)
 
 ---

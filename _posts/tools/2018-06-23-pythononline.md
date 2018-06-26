@@ -11,6 +11,13 @@ tags:
 keywords: python
 description: script by python
 ---
+# 资源
+
+[Python 资源大全中文版](http://jobbole.github.io/awesome-python-cn/)
+
+
+
+-----
 # web
 * [ucd.met](https://maths.ucd.ie/met/msc/SummerProjects/)   
 * [scitools](https://scitools.org.uk/)   
