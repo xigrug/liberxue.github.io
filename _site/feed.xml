@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Climate wed</title>
+        <category>research</category>
+        <description>webwww.climate-lab-book wonderful picturecodePython  &amp; Practical Application on Climate Varia...</description>
+        <pubDate>2018-06-26 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/26/Climate_web.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/Climate_web.html</guid>
+      </item>
+    
+      <item>
         <title>python_ipynb</title>
         <category>tech</category>
         <description>meteorologyUnidatapython中文 Python 笔记Lectures on scientific computing with Python那些在线的Jupyter</description>
@@ -63,7 +72,7 @@
       <item>
         <title>Python Visualization</title>
         <category>research</category>
-        <description>python可视化库可以大致分为几类：  基于matplotlib的可视化库基于JS的可视化库基于上述两者或其他组合功能的库**more detail **Overview of Python ...</description>
+        <description>python可视化库可以大致分为几类：  基于matplotlib的可视化库基于JS的可视化库基于上述两者或其他组合功能的库more detailOverview of Python Visua...</description>
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/python_visualization.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/python_visualization.html</guid>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-22 18:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/22/wrfmanual.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/wrfmanual.html</guid>
-      </item>
-    
-      <item>
-        <title>LATEX</title>
-        <category>tools</category>
-        <description>网络资源NJU-THESIS</description>
-        <pubDate>2018-06-22 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/22/LaTex.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/LaTex.html</guid>
       </item>
     
   </channel>

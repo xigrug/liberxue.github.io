@@ -19,7 +19,7 @@ python可视化库可以大致分为几类：
 > 基于JS的可视化库
 > 基于上述两者或其他组合功能的库
 
-**[more detail](https://speakerdeck.com/jakevdp/pythons-visualization-landscape-pycon-2017?slide=36) **
+**[more detail](https://speakerdeck.com/jakevdp/pythons-visualization-landscape-pycon-2017?slide=36)**
 
 [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html)
 

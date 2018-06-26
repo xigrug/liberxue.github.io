@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "Climate wed - ",
+		"url" : "/2018/06/26/Climate_web.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "python_ipynb - ",
 		"url" : "/2018/06/26/notebook-exercise.html"
 	}
@@ -132,7 +140,7 @@
     
 	{
 		"title" : "blog 制作小工具 - ",
-		"url" : "/2018/06/21/gitignore.html"
+		"url" : "/2018/06/21/blog.html"
 	}
 	
 	,
