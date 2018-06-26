@@ -15,7 +15,9 @@ description: script by python
 
 [Python 资源大全中文版](http://jobbole.github.io/awesome-python-cn/)
 
+[气象类Python教程-格点气象](https://mp.weixin.qq.com/s?__biz=MzIzODA5MzM3OQ==&mid=400393367&idx=1&sn=03bc0cf2bce1fcf49f9d102d80cac776&mpshare=1&scene=23&srcid=04104SSTWCEsXni1WLYwt20b#rd)
 
+[我的Python豆列](https://www.douban.com/doulist/49278959/?sort=time&sub_type=5)
 
 -----
 # web
