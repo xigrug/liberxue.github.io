@@ -13,10 +13,11 @@ tags:
 ---
 
 python可视化库可以大致分为几类：
+![picture](http://nbviewer.jupyter.org/github/jtpio/p5-jupyter-notebook/blob/master/img/python_viz_landscape.png)
 
-> * 基于matplotlib的可视化库
-> * 基于JS的可视化库
-> * 基于上述两者或其他组合功能的库
+> 基于matplotlib的可视化库
+> 基于JS的可视化库
+> 基于上述两者或其他组合功能的库
 
 **[more detail](https://speakerdeck.com/jakevdp/pythons-visualization-landscape-pycon-2017?slide=36) **
 
@@ -127,7 +128,7 @@ python可视化库可以大致分为几类：
 
 **[PyNCplot](http://www.xn--llusfb-5va.cat/python/PyNCplot/)** for WRF trajectory [^MODEL]
 
-**[PyWPS](http://birdhouse-workshop.readthedocs.io/en/latest/pywps/intro.html) is a WPS implementation written in the Python language. The current version is 4.0.0.
+**[PyWPS](http://birdhouse-workshop.readthedocs.io/en/latest/pywps/intro.html)** is a WPS implementation written in the Python language. The current version is 4.0.0.
 
 [pyWRF](https://github.com/xigrug/pyWRF)is designed to read, process, and plot data from the Weather Research and Forecasting model. [^MODEL]
 

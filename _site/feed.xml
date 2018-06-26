@@ -63,7 +63,7 @@
       <item>
         <title>Python Visualization</title>
         <category>research</category>
-        <description>python可视化库可以大致分为几类：      基于matplotlib的可视化库    基于JS的可视化库    基于上述两者或其他组合功能的库  **more detail **Overv...</description>
+        <description>python可视化库可以大致分为几类：  基于matplotlib的可视化库基于JS的可视化库基于上述两者或其他组合功能的库**more detail **Overview of Python ...</description>
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/python_visualization.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/python_visualization.html</guid>
