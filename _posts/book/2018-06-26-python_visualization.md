@@ -42,21 +42,18 @@ python可视化库可以大致分为几类：
 
 [earthpy](http://earthpy.org/category/data-processing.html)  [seaborn](http://earthpy.org/seaborn_library.html) [PyNGL](http://earthpy.org/komod-mitplot-drawmap.html) [CATEGORY](http://earthpy.org/category/visualization.html) [Basemap](http://earthpy.org/earthpy-basemap-amazon.html)
 
-
+----
 # 总结
 
-## A
+## A-D
 
 [altair](https://github.com/altair-viz/altair) : Declarative statistical visualization library for Python
-## B
 
 **[Basemap](https://basemaptutorial.readthedocs.io/en/latest/index.html#)**
 
 [Bokeh](http://bokeh.pydata.org/en/latest/) is an interactive visualization library that targets modern web browsers for presentation.一个用于做浏览器端交互可视化的库，实现分析师与数据的交互。[^Interactive] [ipynb](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/index.ipynb)
 
 [bqplot](https://github.com/bloomberg/bqplot) is a Grammar of Graphics-based interactive plotting framework for the Jupyter notebook
-
-## C
 
 [cartopy](https://scitools.org.uk/cartopy/docs/latest/)
 [cartopy-tutorial](https://github.com/nawendt/cartopy-tutorial) [jupyter](http://nbviewer.jupyter.org/gist/pelson) [climate06](python绘制地图的利器Cartopy使用说明)
@@ -68,19 +65,16 @@ python可视化库可以大致分为几类：
 [cis](http://cis.readthedocs.io/en/stable/gallery.html) : modis [^SAT] 
 
 [CHIMPLOT](http://www.lmd.polytechnique.fr/chimplot/) [^MODEL]
-## D
 
 [D3Py](https://github.com/mikedewar/d3py) :a plottling library for python, based on D3
 
 [datamaps](http://datamaps.github.io/) : Customizable SVG map visualizations for the web in a single Javascript file using D3.js [^MAP]
-## E
+
+## E-H
 
 [Echarts](http://echarts.baidu.com/index.html) : BaiDu [^Interactive]
-## F
 
 [folium](https://github.com/python-visualization/folium) [ipynb](http://nbviewer.jupyter.org/github/python-visualization/folium/tree/master/examples/) [ipynb2](https://nbviewer.jupyter.org/github/vincentropy/python_cartography_tutorial/tree/master/)[^MAP] 
-
-## G
 
 [Geoplotlib](https://github.com/andrea-cuttone/geoplotlib) is a python toolbox for visualizing geographical data and making maps[^MAP]
 
@@ -93,22 +87,15 @@ python可视化库可以大致分为几类：
 [gmplot](https://github.com/vgm64/gmplot)Plotting data on google maps, the easy (stupid) way.[^MAP]
 
 [geopandas](http://geopandas.readthedocs.io/en/latest/) [^MAP]
-## H
 
 [Highcharts](https://www.highcharts.com/) makes it easy for developers to set up interactive charts in their web pages [^Interactive]
-## I
+## I-L
 
 [igraph](http://igraph.org/python/)
 
 **[iris](https://scitools.org.uk/iris/docs/latest/gallery.html)**
 
-## J
-
-## K
-
-## L
-
-## M
+## M-O
 
 [Mayavi](http://docs.enthought.com/mayavi/mayavi/) : 3D scientific data visualization and plotting in Python[^3D]
 
@@ -122,12 +109,10 @@ python可视化库可以大致分为几类：
 
 [mplleaflet](https://github.com/jwass/mplleaflet) [^MAP] **[SHOW](http://htmlpreview.github.io/?https://github.com/jwass/mplleaflet/master/examples/readme_example.html)**
 
-## N
-
 *[networkx](https://networkx.github.io/)*
-## O
 
 ## P
+
 [plotly官方教学](https://plot.ly/python/getting-started/)[^Interactive] [ipynb](http://nbviewer.jupyter.org/github/plotly/python-user-guide/blob/master/Index.ipynb)
 
 [pyecharts](http://pyecharts.org/#/)是基于百度echarts的一个开源项目，也是我目前接触到的最容易实现交互可视化的工具，相比bokeh和plotly，pyecharts的语法更简单，实现效果更佳出众。
@@ -148,19 +133,11 @@ python可视化库可以大致分为几类：
 
 **[PyGEOMET](https://github.com/pygeomet/PyGEOMET)** : Python GUI of Earth Observations and Model Evaluation Toolkit like ncview
 
-## Q
-
-## R
-
-## S
+## Q-S
 
 **[seaborn官方教学](http://seaborn.pydata.org/tutorial.html)**
 
-## T
-
-## U
-
-## V
+## T-V
 
 *[VisPy](http://vispy.org/)* is a high-performance interactive 2D/3D data visualization library leveraging the computational power of modern Graphics Processing Units (GPUs) through the OpenGL library to display very large datasets.
 
@@ -170,15 +147,9 @@ python可视化库可以大致分为几类：
 
 [Vapor-python](https://www.vapor.ucar.edu/docs/vapor-gui-general-guide/vapor-python-modules) [guide](https://test7.vapor.cms.ucar.edu/sites/default/files/VaporPythonGuide.pdf)[^3D]
 
-## W
+## W-Z
 
 **[WRF-Python](http://wrf-python.readthedocs.io/en/latest/plot.html)** [^MODEL]
-
-## X
-
-## Y
-
-## Z
 
 ----
 # others
