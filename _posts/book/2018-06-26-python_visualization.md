@@ -19,8 +19,10 @@ python可视化库可以大致分为几类：
 > * 基于上述两者或其他组合功能的库
 
 **[more detail](https://speakerdeck.com/jakevdp/pythons-visualization-landscape-pycon-2017?slide=36) **
+
 [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html)
--------
+
+----
 # 速查
 [python-graph-gallery](https://python-graph-gallery.com/)
 ![picture](https://python-graph-gallery.com/wp-content/uploads/Logo_PGG_full-3.jpg)
@@ -98,7 +100,8 @@ python可视化库可以大致分为几类：
 
 [igraph](http://igraph.org/python/)
 
-- [x] [iris](https://scitools.org.uk/iris/docs/latest/gallery.html)
+**[iris](https://scitools.org.uk/iris/docs/latest/gallery.html)**
+
 ## J
 
 ## K
@@ -115,7 +118,7 @@ python可视化库可以大致分为几类：
 
 [Metpy](https://unidata.github.io/MetPy/latest/)[^MODEL]
 
-- [x] [MkMov](http://christopherbull.com.au/mkmov/index.html): make a **movie** from a NetCDF file or stitch together a series of *.png files. [^MODEL]
+**[MkMov](http://christopherbull.com.au/mkmov/index.html)** : make a **movie** from a NetCDF file or stitch together a series of *.png files. [^MODEL]
 
 [mplleaflet](https://github.com/jwass/mplleaflet) [^MAP] **[SHOW](http://htmlpreview.github.io/?https://github.com/jwass/mplleaflet/master/examples/readme_example.html)**
 
@@ -135,15 +138,16 @@ python可视化库可以大致分为几类：
 
 [paraview](https://www.paraview.org/) [pv_atmos for paraview](https://github.com/mjucker/pv_atmos)       [Cloud-resolving simulation over Germany using ICON HighRes](https://vimeo.com/156297434)
 
-- [x] [PyNGL](http://www.pyngl.ucar.edu/) NCL [^MODEL]
+**[PyNGL](http://www.pyngl.ucar.edu/)** NCL [^MODEL]
 
-- [x] [PyNCplot](http://www.xn--llusfb-5va.cat/python/PyNCplot/) for WRF trajectory [^MODEL]
+**[PyNCplot](http://www.xn--llusfb-5va.cat/python/PyNCplot/)** for WRF trajectory [^MODEL]
 
-- [x] [PyWPS](http://birdhouse-workshop.readthedocs.io/en/latest/pywps/intro.html) is a WPS implementation written in the Python language. The current version is 4.0.0.
+**[PyWPS](http://birdhouse-workshop.readthedocs.io/en/latest/pywps/intro.html) is a WPS implementation written in the Python language. The current version is 4.0.0.
 
 [pyWRF](https://github.com/xigrug/pyWRF)is designed to read, process, and plot data from the Weather Research and Forecasting model. [^MODEL]
 
-- [x] **[PyGEOMET](https://github.com/pygeomet/PyGEOMET): Python GUI of Earth Observations and Model Evaluation Toolkit** like ncview
+**[PyGEOMET](https://github.com/pygeomet/PyGEOMET)** : Python GUI of Earth Observations and Model Evaluation Toolkit like ncview
+
 ## Q
 
 ## R
@@ -165,16 +169,18 @@ python可视化库可以大致分为几类：
 *[VPython](http://www.glowscript.org/#/user/GlowScriptDemos/folder/Examples/): Easy-to-use 3-D visualization and animation environment*[^3D]
 
 [Vapor-python](https://www.vapor.ucar.edu/docs/vapor-gui-general-guide/vapor-python-modules) [guide](https://test7.vapor.cms.ucar.edu/sites/default/files/VaporPythonGuide.pdf)[^3D]
+
 ## W
 
-- [x] [WRF-Python](http://wrf-python.readthedocs.io/en/latest/plot.html) [^MODEL]
+**[WRF-Python](http://wrf-python.readthedocs.io/en/latest/plot.html)** [^MODEL]
+
 ## X
 
 ## Y
 
 ## Z
 
------
+----
 # others
 
 * [Igor](http://www.wavemetrics.com/)
@@ -185,7 +191,7 @@ python可视化库可以大致分为几类：
 
 [常用绘图、图片处理、截图工具](https://mp.weixin.qq.com/s?__biz=MzI5MzQzMjU4Mw==&mid=2247485324&idx=1&sn=2adf5b7136206aa409abcd39da084b0a&chksm=ec737be4db04f2f22dde63518803d8c663c2535033a685305b1d6ae1ad3aab93b10db9dbbdf0&scene=21#wechat_redirect)
 
------
+----
 [^MAP]: **地图可视化**
 [^Interactive]: **交互式**
 [^3D]: **3D**
