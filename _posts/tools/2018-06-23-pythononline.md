@@ -20,6 +20,10 @@ description: script by python
 * [iris-grib](https://iris-grib.readthedocs.io/en/latest/)   
 * [nc-time-axis](https://github.com/SciTools/nc-time-axis)   
 
+# tool
+
+[py2exe](https://www.zhihu.com/question/31784262) [PyInstaller](www.pyinstaller.org)
+
 # github
 
 [lmadaus](https://github.com/lmadaus/old_wrf_plotting_scripts)

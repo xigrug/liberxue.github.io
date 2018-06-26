@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>python_ipynb</title>
+        <category>tech</category>
+        <description>meteorologyUnidatapython中文 Python 笔记Lectures on scientific computing with Python</description>
+        <pubDate>2018-06-26 11:00:51 </pubDate>
+        <link>https://xigrug.github.io/2018/06/26/notebook-exercise.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/notebook-exercise.html</guid>
+      </item>
+    
+      <item>
         <title>Linux 之 Vim</title>
         <category>tools</category>
         <description>Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。VIM是自由软件。Vim普遍被推崇为类Vi编辑器中最好的一个，事实上真正的劲敌来自Emacs的...</description>
@@ -36,7 +45,7 @@
       <item>
         <title>SublimeText</title>
         <category>tools</category>
-        <description>教程sublime-text3打造markdown编辑器注册码1. ----- BEGIN LICENSE -----2. sgbteam3. Single User License4. EA7...</description>
+        <description>教程sublime-text3打造markdown编辑器NCL脚本编辑器sublime text3安装攻略注册码1. ----- BEGIN LICENSE -----2. sgbteam3. ...</description>
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/SublimeText.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/SublimeText.html</guid>
@@ -49,6 +58,15 @@
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/statis.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/statis.html</guid>
+      </item>
+    
+      <item>
+        <title>Python Visualization</title>
+        <category>research</category>
+        <description>不翻墙、速度快:这里有海量学术演讲和PhD答辩视频</description>
+        <pubDate>2018-06-23 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/23/python_visualization.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/python_visualization.html</guid>
       </item>
     
       <item>
@@ -72,7 +90,7 @@
       <item>
         <title>python</title>
         <category>tools</category>
-        <description>web  ucd.met  scitools  Iris  Cartgory  cf-units  iris-grib  nc-time-axisgithublmadaus           ...</description>
+        <description>web  ucd.met  scitools  Iris  Cartgory  cf-units  iris-grib  nc-time-axistoolpy2exe PyInstallergi...</description>
         <pubDate>2018-06-23 02:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/pythononline.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/pythononline.html</guid>
@@ -103,24 +121,6 @@
         <pubDate>2018-06-22 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/22/LaTex.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/LaTex.html</guid>
-      </item>
-    
-      <item>
-        <title>Markdown 查看</title>
-        <category>tools</category>
-        <description>网络资源通过Wow!Ubuntu手册查看通过zybuluo对比通过pdf2markdown格式转化在线查看工具MarkdownEditing SublimeText</description>
-        <pubDate>2018-06-22 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/22/markdown.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/markdown.html</guid>
-      </item>
-    
-      <item>
-        <title>MODEL WEB</title>
-        <category>tools</category>
-        <description>toolISAT 工具旨在为CMAQ等空气质量模式及排放清单网格化提供操作简单、实用性强的辅助工具MODEL CHEMWRFCHEM Weather Research and Forecasti...</description>
-        <pubDate>2018-06-22 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/22/modelonline.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/22/modelonline.html</guid>
       </item>
     
   </channel>

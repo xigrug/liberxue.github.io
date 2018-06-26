@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "python_ipynb - ",
+		"url" : "/2018/06/26/notebook-exercise.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "Linux 之 Vim - ",
 		"url" : "/2018/06/25/vimcommod.html"
 	}
@@ -37,6 +45,14 @@
 	{
 		"title" : "Statistics - ",
 		"url" : "/2018/06/23/statis.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Python Visualization - ",
+		"url" : "/2018/06/23/python_visualization.html"
 	}
 	
 	,

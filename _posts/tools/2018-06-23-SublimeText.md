@@ -16,6 +16,8 @@ tags:
 
 <a href="https://www.jianshu.com/p/7cbd50058ea3" title="jianshu">sublime-text3打造markdown编辑器</a>
 
+<a href="http://bbs.06climate.com/forum.php?mod=viewthread&tid=33289&extra=page%3D1" title="climate06">NCL脚本编辑器sublime text3安装攻略</a>
+
 # 注册码
 ```
 1. ----- BEGIN LICENSE -----
