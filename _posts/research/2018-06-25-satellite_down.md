@@ -36,7 +36,15 @@ tags:
 
 [NPP轨道图](http://www.ssec.wisc.edu/datacenter/npp/)
 
+[VIIRS Imagery and Visualization Team Blog](http://rammb.cira.colostate.edu/projects/npp/blog/)
 
+[VIIRS Products](https://weather.msfc.nasa.gov/sport/jpsspg/viirs.html)
+
+[Beginner_Guide_to_VIIRS_Imagery_Data](http://rammb.cira.colostate.edu/projects/npp/Beginner_Guide_to_VIIRS_Imagery_Data.pdf)
+
+[VIIRS Imagery and Visualization Team](http://rammb.cira.colostate.edu/projects/npp/)
+
+[satellite-missions](https://directory.eoportal.org/web/eoportal/satellite-missions/s/suomi-npp)
 ## MODIS
 
 [MODIS数据的简介和下载（一）——MODIS数据简介](https://blog.csdn.net/ESA_DSQ/article/details/70080617)
@@ -53,24 +61,31 @@ tags:
 
 # 绘图及工具
 
+<a href="https://pythonhosted.org/OrbitalPy/examples/plotting/plotting/" title="OrbitalPy"> OrbitalPy </a> [pyorbital](http://pyorbital.readthedocs.io/en/latest/)
+
 <a href="http://ccplot.org/" title="CCPLOT"> CCPLOT </a>  (CloudSat and CALIPSO plotting tool)
 
 <a href="https://www.science-emergence.com/Codes/Plot-MODIS-granule-RGB-image-orthographic-projection-using-python-and-basemap/" title="Benjamin Marchant"> Benjamin Marchant </a> Plot MODIS granule RGB image (orthographic projection) using python and basemap
-
+[another](https://www.science-emergence.com/Codes/Plot-MODIS-granule-RGB-image-using-python/)
 
 <a href="http://python-awips.readthedocs.io/en/latest/examples/index.html" title="python-awips"> python-awips </a> have a <a href="http://nbviewer.jupyter.org/github/Unidata/python-awips/tree/master/examples/notebooks/" title="notebooks">jupyter notebooks </a> 
-
-
-<a href="http://satpy.readthedocs.io/en/latest/" title="Satpy"> Satpy</a>’s Documentation [jupyter notebooks](https://nbviewer.jupyter.org/github/pytroll/pytroll-examples/tree/master/satpy/)
 
 [polar2grid](http://www.ssec.wisc.edu/software/polar2grid/)
 
 **[Hdfeos](http://hdfeos.org/zoo/index_openGESDISC_Examples.php)**
 
-**[pytroll](http://pytroll.github.io/)  [Gallery](http://pytroll.github.io/gallery.html)**
+<a href="http://satpy.readthedocs.io/en/latest/" title="Satpy"> Satpy</a>’s Documentation [jupyter notebooks](https://nbviewer.jupyter.org/github/pytroll/pytroll-examples/tree/master/satpy/)
+
+**[pytroll](http://pytroll.github.io/)  [Gallery](http://pytroll.github.io/gallery.html) [User guide](https://media.readthedocs.org/pdf/pytroll/latest/pytroll.pdf)**  [Trollimage](http://trollimage.readthedocs.io/en/latest/index.html)
+
 ![picture](https://nbviewer.jupyter.org/github/pytroll/pytroll-examples/blob/master/satpy/natural_hrit.png)
+
+![picture1](https://media.githubusercontent.com/media/pytroll/pytroll-examples/master/satpy/truecolor_viirs_smoke_thumb.png)
+
+![picture2](https://media.githubusercontent.com/media/pytroll/pytroll-examples/master/satpy/viirs_true_color_20180225_thumb.png)
 ----
 
+[cspp](http://cimss.ssec.wisc.edu/cspp/)
 # 教程
 
 Satellite <a href="https://pmm.nasa.gov/education/websites/satellite-meteorology-learning-modules" title="Meteorology"> Meteorology </a> Learning Modules

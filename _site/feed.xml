@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Linux 之 Vim</title>
+        <category>tools</category>
+        <description>Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。VIM是自由软件。Vim普遍被推崇为类Vi编辑器中最好的一个，事实上真正的劲敌来自Emacs的...</description>
+        <pubDate>2018-06-25 14:10:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/25/vimcommod.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/25/vimcommod.html</guid>
+      </item>
+    
+      <item>
         <title>Satellite</title>
         <category>research</category>
         <description>数据下载综合 NASA Earthdata  downloadDownload Near Real-Time Data降水 TRMM(TMI 3-day)降水数据的详细下载方法  downloa...</description>
@@ -40,15 +49,6 @@
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/statis.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/statis.html</guid>
-      </item>
-    
-      <item>
-        <title>Climate wed</title>
-        <category>research</category>
-        <description>webwww.climate-lab-book wonderful picture</description>
-        <pubDate>2018-06-23 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/Climate_web.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/Climate_web.html</guid>
       </item>
     
       <item>
