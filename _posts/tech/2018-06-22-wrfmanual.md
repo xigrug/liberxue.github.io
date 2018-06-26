@@ -11,6 +11,8 @@ tags:
 - quick 
 - wrf 
 ---   
+# WRF在线资源
+
 [WRF user_guide_v4](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/)    
 
 [视频教程](https://pan.baidu.com/s/1AMu-xaqW0OMH1GtzuybZdg)    
@@ -30,17 +32,17 @@ WRF官网 [compilation_tutorial](http://www2.mmm.ucar.edu/wrf/OnLineTutorial/com
 2007.04.    
 by aioply 编辑整理    
 ```
-  * 目录    
-* 1. WRF模式简介                     
-* 2. 准备工作（SSH和NetCDF）           
-* 3. WPS+WRFV2.2安装运行简介           
+* 目录    
+* 1 WRF模式简介                     
+* 2 准备工作（SSH和NetCDF）           
+* 3 WPS+WRFV2.2安装运行简介           
    * 3.0. ～收集数据～                   
    * 3.1. ～安装前奏～                   
    * 3.2. ～安装WPS～                 
    * 3.3. ～运行WPS～               
    * 3.4. ～安装WRFV2.2～                  
    * 3.5. ～运行WRFV2.2～                   
-* 4. WRF_SI+WRFV2.2安装运行简介                
+* 4 WRF_SI+WRFV2.2安装运行简介                
    * 4.0. ～收集数据～                    
    * 4.1. ～安装WRF_SI～                 
      * 4.1.1. ～定义环境变量～            
@@ -52,9 +54,9 @@ by aioply 编辑整理
      * STEP3: Interpolate meteorological data              
    * 4.3. ～安装WRFV2.2～                 
    * 4.4. ～运行WRFV2.2～              
-* 5. 安装运行WRF2GrADS 
-* 6. 在UNXI下安装GrADS 
-* 7. 利用其它数据的练习 （ds083.2）  
+* 5 安装运行WRF2GrADS 
+* 6 在UNXI下安装GrADS 
+* 7 利用其它数据的练习 （ds083.2）  
 * 附录 1 ：安装NCAR Graphic   
 * 附录 2 ：关于WRF_SI2.0中wrfsi.nl的参数配置说明（中文版）  
 * 附录 3 ：关于WRFV2.2中namelist.input的参数配置说明（中文版）     
