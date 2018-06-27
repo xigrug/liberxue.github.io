@@ -16,3 +16,8 @@ tags:
 ```bash
     sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`
 ```
+
+# 文件大小 <a href="https://www.jb51.net/article/108256.htm" title="Linux中du-查看文件夹大小并按大小进行排序详解">du-</a>
+```bash
+   du -s * | sort -nr | head   #选出排在前面的10个
+```
