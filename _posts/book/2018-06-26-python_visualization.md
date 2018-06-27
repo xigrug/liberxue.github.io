@@ -137,6 +137,7 @@ python可视化库可以大致分为几类：
 ## Q-S
 
 **[seaborn官方教学](http://seaborn.pydata.org/tutorial.html)**
+**[SatPy](http://satpy.readthedocs.io/en/latest/overview.html)**
 
 ## T-V
 
@@ -151,7 +152,7 @@ python可视化库可以大致分为几类：
 ## W-Z
 
 **[WRF-Python](http://wrf-python.readthedocs.io/en/latest/plot.html)** [^MODEL]
-
+**[Xarray](http://xarray.pydata.org/en/stable/plotting.html#maps)** [^MODEL]
 ----
 # others
 

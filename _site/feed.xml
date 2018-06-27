@@ -79,6 +79,15 @@
       </item>
     
       <item>
+        <title>NPP VIIRS</title>
+        <category>research</category>
+        <description>data VIIRS Corrected Reflectance (True Color)Temporal coverage: 24 November 2015 - presentTrue Co...</description>
+        <pubDate>2018-06-23 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/23/npp.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/npp.html</guid>
+      </item>
+    
+      <item>
         <title>Statistics</title>
         <category>research</category>
         <description>不同统计方法在科研中的应用时间序列的方法：计算单因素时间序列的方法很多有：功率谱、小波分析、MK突变检验、EEMD等等，基本上都是对耽搁时间序列的趋势、波动以及不同频率上的振荡进行分析的。计算双...</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-23 13:39:51 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/python-video.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/python-video.html</guid>
-      </item>
-    
-      <item>
-        <title>python</title>
-        <category>tools</category>
-        <description>资源Python 资源大全中文版气象类Python教程-格点气象我的Python豆列pythonhydroA_hands_on_introduction_to_using_python_in_t...</description>
-        <pubDate>2018-06-23 02:14:31 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/pythononline.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/pythononline.html</guid>
       </item>
     
   </channel>
