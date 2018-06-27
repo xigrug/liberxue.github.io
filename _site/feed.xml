@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Fortran</title>
+        <category>research</category>
+        <description>电子书FORTRAN 常用算法程序集</description>
+        <pubDate>2018-06-27 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/27/fortran.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/27/fortran.html</guid>
+      </item>
+    
+      <item>
         <title>社区资源</title>
         <category>tools</category>
         <description>学校NJU-YAMMER  紫荆小组</description>
@@ -54,7 +63,7 @@
       <item>
         <title>Satellite</title>
         <category>research</category>
-        <description>数据下载综合 NASA Earthdata  downloadDownload Near Real-Time Data降水 TRMM(TMI 3-day)降水数据的详细下载方法  downloa...</description>
+        <description>数据下载日期推算器eumetsat 只有欧洲的综合 NASA Earthdata  downloadDownload Near Real-Time Data降水 TRMM(TMI 3-day)降...</description>
         <pubDate>2018-06-25 10:23:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/25/satellite_down.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/25/satellite_down.html</guid>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-23 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/23/blog_web.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/blog_web.html</guid>
-      </item>
-    
-      <item>
-        <title>python_video</title>
-        <category>tech</category>
-        <description>Enthought的培训课程如果你是高校用户，使用你的学术邮箱注册登录，即可免费观看此视频以及获取Canopy学术版课程包含以下部分:  Tools to Learn and Develop i...</description>
-        <pubDate>2018-06-23 13:39:51 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/python-video.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/python-video.html</guid>
       </item>
     
   </channel>

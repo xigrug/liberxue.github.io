@@ -15,6 +15,9 @@ tags:
 
 # 数据下载
 
+[日期推算器](http://bjtime.cn/riqi.asp)
+
+[eumetsat](https://www.eumetsat.int/website/home/Data/RegionalDataServiceEARS/EARSVIIRS/index.html) 只有欧洲的
 ## 综合
 
 <a href="https://search.earthdata.nasa.gov/search" title="earthdata"> NASA Earthdata </a> download   
@@ -30,6 +33,7 @@ tags:
 ##  Hamawari 8
 <a href="http://www.eorc.jaxa.jp/ptree/" title="葵花8"> Hamawari 8 </a> download   
 
+<a href="https://seg-web.nict.go.jp/wsdb_osndisk/shareDirDownload/bDw2maKV?lang=en" title="葵花8"> Hamawari 8 </a> picture download   
 ## NPP
 
 [NPP 数据下载](http://www.class.ngdc.noaa.gov/saa/products/search?sub_id=0&datatype_family=VIIRS_SDR&submit.x=22&submit.y=4)
@@ -51,7 +55,7 @@ tags:
 
 [MODIS数据的简介和下载（二）——MODIS数据下载方式FTP](https://blog.csdn.net/ESA_DSQ/article/details/70171937)
 
-
+[FTP地址](https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MOD02HKM/2018/)
 ## Calipso
 
 [Calipso 数据浏览](http://www-calipso.larc.nasa.gov/products/lidar/browse_images/show_calendar.php)
@@ -86,6 +90,8 @@ tags:
 ----
 
 [cspp](http://cimss.ssec.wisc.edu/cspp/)
+
+[python-awips](http://python-awips.readthedocs.io/en/latest/examples/generated/Satellite_Imagery.html)
 # 教程
 
 Satellite <a href="https://pmm.nasa.gov/education/websites/satellite-meteorology-learning-modules" title="Meteorology"> Meteorology </a> Learning Modules
@@ -93,6 +99,8 @@ Satellite <a href="https://pmm.nasa.gov/education/websites/satellite-meteorology
 ```
 Learning Modules:
 Introduction to Satellite Meteorology
+
+[Benjamin Marchant](https://www.science-emergence.com/Notebooks/6364d3f0f495b6ab9dcf8d3b5c6e0b01/Images/)
 Weather Satellites and Orbits
 Electromagnetic Radiation
 Cloud Identification
@@ -103,7 +111,10 @@ Wild Weather
 Monitoring the Global Environment
 Three New Satellites: Suomi NPP, JPSS, and GOES-R
 ```
+## MODIS
+[Multi-spectral Satellite Products (MODIS)](https://cimss.ssec.wisc.edu/rss/geoss/source/Lecture_MODIS_products.pdf)
 
+[Creating Reprojected True Color MODIS Images: A Tutorial](https://cdn.earthdata.nasa.gov/conduit/upload/946/MODIS_True_Color.pdf)
 # 脚本
 
 [Collection of various scripts and modules related to the VIIRS imager](https://gitlab.ssec.wisc.edu/JPSS_ADL/VIIRS/)
