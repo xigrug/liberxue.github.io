@@ -164,6 +164,8 @@ python可视化库可以大致分为几类：
 
 [常用绘图、图片处理、截图工具](https://mp.weixin.qq.com/s?__biz=MzI5MzQzMjU4Mw==&mid=2247485324&idx=1&sn=2adf5b7136206aa409abcd39da084b0a&chksm=ec737be4db04f2f22dde63518803d8c663c2535033a685305b1d6ae1ad3aab93b10db9dbbdf0&scene=21#wechat_redirect)
 
+# Color
+[ColormapTransformations](http://scipy-cookbook.readthedocs.io/items/Matplotlib_ColormapTransformations.html)
 ----
 [^MAP]: **地图可视化**
 [^Interactive]: **交互式**
