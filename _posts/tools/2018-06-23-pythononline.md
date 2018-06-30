@@ -22,6 +22,23 @@ description: script by python
 [pythonhydro](http://greenteapress.com/pythonhydro/pythonhydro.pdf)
 
 [A_hands_on_introduction_to_using_python_in_the_atmospheric_and_oceanic_sciences](http://home.chpc.utah.edu/~u0035056/python/a_hands_on_introduction_to_using_python_in_the_atmospheric_and_oceanic_sciences.pdf)
+
+[PyHOGs](http://pyhogs.github.io/) stands for Python Hour for Oceanographers and Geoscientists. 
+
+Useful Links:  
+> Python.org
+> Numpy
+> Interesting notebooks
+> Enthought Canopy
+> python4oceanographers
+> EarthPy
+> pyAOS
+> Ocean Python
+> SEAPY
+> Astropython
+
+
+[python-for-kids](http://jasonrbriggs.com/python-for-kids/) [介绍](https://mubu.com/doc/explore/14846)
 -----
 # web
 * [ucd.met](https://maths.ucd.ie/met/msc/SummerProjects/)   

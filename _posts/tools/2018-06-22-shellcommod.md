@@ -21,3 +21,12 @@ tags:
 ```bash
    du -s * | sort -nr | head   #选出排在前面的10个
 ```
+
+# 重命名
+
+ [rename](https://blog.csdn.net/qq_27803491/article/details/50404677)
+ 
+ 先举个例子来感受下，比如将当前目录下所有*.nc文件中Sam3替换成Stm32，命令如下：
+ 
+> rename -n 's/Sam3/Stm32/' *.nc　　/*确认需要重命名的文件*/
+> rename -v 's/Sam3/Stm32/' *.nc　　/*执行修改，并列出已重命名的文件*/

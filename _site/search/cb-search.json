@@ -3,6 +3,22 @@
 	"data" : [
 	 
 	{
+		"title" : "python-shell - ",
+		"url" : "/2018/06/30/pythonshell.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Python Data - ",
+		"url" : "/2018/06/28/python-dataprogress.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "Fortran - ",
 		"url" : "/2018/06/27/fortran.html"
 	}
@@ -165,14 +181,6 @@
 	{
 		"title" : "Python Read Data - ",
 		"url" : "/2018/06/22/python-readata.html"
-	}
-	
-	,
-	
-    
-	{
-		"title" : "Python Data - ",
-		"url" : "/2018/06/22/python-dataprogress.html"
 	}
 	
 	,
