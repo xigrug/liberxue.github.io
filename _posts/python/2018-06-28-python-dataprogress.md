@@ -29,6 +29,8 @@ tags:
 [Inverse Distance Verification: Cressman and Barnes](https://unidata.github.io/MetPy/latest/examples/gridding/Inverse_Distance_Verification.html)
 
 [scipy.interpolate.griddata](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html) ~= [matlab-griddata](https://ww2.mathworks.cn/help/matlab/ref/griddata.html)
+
+[matplotlib自带插值](https://matplotlib.org/examples/pylab_examples/griddata_demo.html)
 # 距离
 
 [概率分布之间的距离度量以及python实现](https://www.cnblogs.com/wt869054461/p/7156397.html)

@@ -7,6 +7,24 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>SCI</title>
+        <category>research</category>
+        <description>paper searchsci-hub可用查询专利SOOIP官网链接附1：SOOIP使用指南大全附2：外文专利网站大全： 美专局 欧专局日专局韩专局附3：其他专利网站:国家局谷歌专利转载自原文影...</description>
+        <pubDate>2018-06-30 14:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/30/sci-paper.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/sci-paper.html</guid>
+      </item>
+    
+      <item>
+        <title>电子书</title>
+        <category>research</category>
+        <description>在线查看书栈网看云豆瓣推荐</description>
+        <pubDate>2018-06-30 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/30/ebook.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/ebook.html</guid>
+      </item>
+    
+      <item>
         <title>python-shell</title>
         <category>tools</category>
         <description>在python中执行shell命令的6种方法Python经常被称作“胶水语言”，因为它能够轻易地操作其他程序，轻易地包装使用其他语言编写的库。今天我们就讲解其中的一个方面，用Python调用Sh...</description>
@@ -43,12 +61,30 @@
       </item>
     
       <item>
+        <title>little tools</title>
+        <category>tools</category>
+        <description>单位换算计算机存储</description>
+        <pubDate>2018-06-26 11:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/26/quick.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/quick.html</guid>
+      </item>
+    
+      <item>
         <title>PPT</title>
         <category>tools</category>
         <description>网络模板1PPTfans PPT设计ChuangKit 创客贴图形设计工具PtTemplate 免费PPT模板库Tretars 逼格PPT素材网Hippter 幻灯片设计资源网OfficePlu...</description>
         <pubDate>2018-06-26 11:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/26/PPT.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/PPT.html</guid>
+      </item>
+    
+      <item>
+        <title>Spatial Correlation</title>
+        <category>research</category>
+        <description>相关研究Spatial Correlation of Satellite-Derived PM2.5 with Hospital Admissions for Respiratory Disea...</description>
+        <pubDate>2018-06-26 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/26/Spatial-Correlation.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/Spatial-Correlation.html</guid>
       </item>
     
       <item>
@@ -85,42 +121,6 @@
         <pubDate>2018-06-25 10:23:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/25/satellite_down.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/25/satellite_down.html</guid>
-      </item>
-    
-      <item>
-        <title>仲夏夜の小精灵</title>
-        <category>travel</category>
-        <description>先晒个别人家的图小精灵与大美丽，美好的仲夏夜</description>
-        <pubDate>2018-06-23 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/linggusi.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/linggusi.html</guid>
-      </item>
-    
-      <item>
-        <title>SublimeText</title>
-        <category>tools</category>
-        <description>教程sublime-text3打造markdown编辑器NCL脚本编辑器sublime text3安装攻略注册码1. ----- BEGIN LICENSE -----2. sgbteam3. ...</description>
-        <pubDate>2018-06-23 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/SublimeText.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/SublimeText.html</guid>
-      </item>
-    
-      <item>
-        <title>NPP VIIRS</title>
-        <category>research</category>
-        <description>data VIIRS Corrected Reflectance (True Color)Temporal coverage: 24 November 2015 - presentTrue Co...</description>
-        <pubDate>2018-06-23 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/npp.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/npp.html</guid>
-      </item>
-    
-      <item>
-        <title>Statistics</title>
-        <category>research</category>
-        <description>不同统计方法在科研中的应用时间序列的方法：计算单因素时间序列的方法很多有：功率谱、小波分析、MK突变检验、EEMD等等，基本上都是对耽搁时间序列的趋势、波动以及不同频率上的振荡进行分析的。计算双...</description>
-        <pubDate>2018-06-23 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/23/statis.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/23/statis.html</guid>
       </item>
     
   </channel>

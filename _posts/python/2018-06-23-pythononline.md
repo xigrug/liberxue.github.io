@@ -23,6 +23,9 @@ description: script by python
 
 [A_hands_on_introduction_to_using_python_in_the_atmospheric_and_oceanic_sciences](http://home.chpc.utah.edu/~u0035056/python/a_hands_on_introduction_to_using_python_in_the_atmospheric_and_oceanic_sciences.pdf)
 
+
+[scipython](https://scipython.com/book/)
+
 [PyHOGs](http://pyhogs.github.io/) stands for Python Hour for Oceanographers and Geoscientists. 
 
 Useful Links:  
