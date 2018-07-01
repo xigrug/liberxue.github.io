@@ -28,9 +28,20 @@ tags:
 
 [Inverse Distance Verification: Cressman and Barnes](https://unidata.github.io/MetPy/latest/examples/gridding/Inverse_Distance_Verification.html)
 
-[scipy.interpolate.griddata](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html) ~= [matlab-griddata](https://ww2.mathworks.cn/help/matlab/ref/griddata.html)
+**[scipy.interpolate.griddata](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html)** ~= [matlab-griddata](https://ww2.mathworks.cn/help/matlab/ref/griddata.html)
 
 [matplotlib自带插值](https://matplotlib.org/examples/pylab_examples/griddata_demo.html)
+
+[Interpolation points data into 2-d shapefile with matplotlib](https://stackoverflow.com/questions/41315583/interpolation-points-data-into-2-d-shapefile-with-matplotlib)
+
+## plot
+
+[Interpolation points data into 2-d shapefile with matplotlib](https://stackoverflow.com/questions/41315583/interpolation-points-data-into-2-d-shapefile-with-matplotlib)
+
+## 点到点的插值
+
+[Python interpolate point value on 2D grid](https://stackoverflow.com/questions/42504987/python-interpolate-point-value-on-2d-grid)  scipy.interpolate.griddata or scipy.interpolate.interp2d
+
 # 距离
 
 [概率分布之间的距离度量以及python实现](https://www.cnblogs.com/wt869054461/p/7156397.html)
@@ -41,3 +52,6 @@ tags:
 
 [Linear_Regression_Methods](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Linear_Regression_Methods.ipynb)
 
+# other questions?
+
+[how to interpolate points in a specific interval on a plot formed by loading a txt file in to scipy program?](https://stackoverflow.com/questions/16070219/how-to-interpolate-points-in-a-specific-interval-on-a-plot-formed-by-loading-a-t)

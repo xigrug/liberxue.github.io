@@ -60,6 +60,10 @@ tags:
 
 [How do I compute interactive spatial autocorrelation (Moran I) using PySAL?](https://stackoverflow.com/questions/45839957/python-how-do-i-compute-interactive-spatial-autocorrelation-moran-i-using-py)
 
+[Geographic Data Science with PySAL and the pydata stack](http://darribas.org/gds_scipy16/)
+
+[Exploratory Spatial Data Analysis -- ipynb](https://github.com/pysal/notebooks/blob/master/notebooks/PySAL_esda.ipynb)
+
 ### Scipy
 
 [scipy.spatial.distance.correlation](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.spatial.distance.correlation.html)
@@ -68,6 +72,10 @@ tags:
 
 [MRT Modis Reprojection Toolbox](https://lpdaac.usgs.gov/tools/modis_reprojection_tool). It is a dos/unix based software which can be used in batch mode, which is a great assist while working with so many datasets. In MRT you can extract data in terms of bands (I guess you will need only NDVI and QA, so bands 1 and 12 respectively) as well as, spatial extend (if your area of interest is smaller than a MODIS tile). Data can be exported into several formats so you can go for one that suits you the most. Next, you can import these data to any other software, layerstack them into one-file time series and perform all desired analyses. 
 [BfastSpatial package for R](https://dutri001.github.io/bfastSpatial/) which offers MODIS pre-processing functions which can be handy together with the MODIS or MODISTools package in R.
+
+# Distance correlation
+
+[Distance correlation with p-value](https://gist.github.com/wladston/c931b1495184fbb99bec)
 
 # other question?
 
