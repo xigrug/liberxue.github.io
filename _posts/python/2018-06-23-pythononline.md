@@ -42,6 +42,8 @@ Useful Links:
 
 
 [python-for-kids](http://jasonrbriggs.com/python-for-kids/) [介绍](https://mubu.com/doc/explore/14846)
+
+[PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 -----
 # web
 * [ucd.met](https://maths.ucd.ie/met/msc/SummerProjects/)   
@@ -84,6 +86,9 @@ plot_wrf_upa.py	|Initial commit	|3 years ago|
 * modis
 
 ----
+## blog
+
+[cgcooke](http://cgcooke.github.io/Scattered-Interpolation/)
 # plot
 
 [利用Python画中国地图外加站点分布](http://bbs.06climate.com/forum.php?mod=viewthread&tid=51427)

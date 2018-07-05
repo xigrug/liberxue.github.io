@@ -7,12 +7,39 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>python-grid</title>
+        <category>tools</category>
+        <description>On python, how to generate an array of coordinates between two pointsCreate a polygon grid using ...</description>
+        <pubDate>2018-07-03 01:14:31 </pubDate>
+        <link>https://xigrug.github.io/2018/07/03/python-grid.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/03/python-grid.html</guid>
+      </item>
+    
+      <item>
+        <title>python remember</title>
+        <category>tools</category>
+        <description>type(变量名) 查看变量属性全部打印import numpy as npnp.set_printoptions(threshold=np.inf)</description>
+        <pubDate>2018-07-02 13:14:31 </pubDate>
+        <link>https://xigrug.github.io/2018/07/02/pythonmask.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/02/pythonmask.html</guid>
+      </item>
+    
+      <item>
         <title>SCI</title>
         <category>research</category>
         <description>paper searchsci-hub可用查询专利SOOIP官网链接附1：SOOIP使用指南大全附2：外文专利网站大全： 美专局 欧专局日专局韩专局附3：其他专利网站:国家局谷歌专利转载自原文影...</description>
         <pubDate>2018-06-30 14:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/sci-paper.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/sci-paper.html</guid>
+      </item>
+    
+      <item>
+        <title>环境学院毕军教授课题组在《PLOS Medicine》发文阐述气候变化和臭氧污染的健康影响</title>
+        <category>research</category>
+        <description>2018年7月3日，南京大学环境学院毕军教授课题组与亥姆霍兹慕尼黑研究中心-德国环境健康研究中心、美国哥伦比亚大学、波士顿大学、纽约市立大学柏鲁克学院、复旦大学和上海大学等单位合作的题为“Fut...</description>
+        <pubDate>2018-06-30 14:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/30/rcp-PLOS.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/rcp-PLOS.html</guid>
       </item>
     
       <item>
@@ -31,6 +58,24 @@
         <pubDate>2018-06-30 15:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/pythonshell.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/pythonshell.html</guid>
+      </item>
+    
+      <item>
+        <title>machine learning</title>
+        <category>tech</category>
+        <description>决策树机器学习实战之决策树#A beginner’s guide to training and deploying machine learning models using Python</description>
+        <pubDate>2018-06-30 13:39:51 </pubDate>
+        <link>https://xigrug.github.io/2018/06/30/mashine-learn.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/mashine-learn.html</guid>
+      </item>
+    
+      <item>
+        <title>Python Data</title>
+        <category>tools</category>
+        <description>回归模型评估指标      1.平均绝对误差（Mean Absolute Error）    2.均方误差（Mean Squared Error）MSE回归任务最常用的一个指标。对比MAE，MS...</description>
+        <pubDate>2018-06-28 20:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/28/python-statistics.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-statistics.html</guid>
       </item>
     
       <item>
@@ -76,51 +121,6 @@
         <pubDate>2018-06-26 11:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/26/PPT.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/PPT.html</guid>
-      </item>
-    
-      <item>
-        <title>Spatial Correlation</title>
-        <category>research</category>
-        <description>相关研究Spatial Correlation of Satellite-Derived PM2.5 with Hospital Admissions for Respiratory Disea...</description>
-        <pubDate>2018-06-26 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/26/Spatial-Correlation.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/Spatial-Correlation.html</guid>
-      </item>
-    
-      <item>
-        <title>Climate wed</title>
-        <category>research</category>
-        <description>webwww.climate-lab-book wonderful picturecodePython  &amp; Practical Application on Climate Varia...</description>
-        <pubDate>2018-06-26 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/26/Climate_web.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/Climate_web.html</guid>
-      </item>
-    
-      <item>
-        <title>python_ipynb</title>
-        <category>tech</category>
-        <description>meteorologyUnidatapython中文 Python 笔记Lectures on scientific computing with Python那些在线的Jupyterscien...</description>
-        <pubDate>2018-06-26 11:00:51 </pubDate>
-        <link>https://xigrug.github.io/2018/06/26/notebook-exercise.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/notebook-exercise.html</guid>
-      </item>
-    
-      <item>
-        <title>Linux 之 Vim</title>
-        <category>tools</category>
-        <description>Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。VIM是自由软件。Vim普遍被推崇为类Vi编辑器中最好的一个，事实上真正的劲敌来自Emacs的...</description>
-        <pubDate>2018-06-25 14:10:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/25/vimcommod.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/25/vimcommod.html</guid>
-      </item>
-    
-      <item>
-        <title>Satellite</title>
-        <category>research</category>
-        <description>数据下载日期推算器eumetsat 只有欧洲的综合 NASA Earthdata  downloadDownload Near Real-Time Data降水 TRMM(TMI 3-day)降...</description>
-        <pubDate>2018-06-25 10:23:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/25/satellite_down.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/25/satellite_down.html</guid>
       </item>
     
   </channel>

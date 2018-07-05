@@ -20,10 +20,15 @@ tags:
 [Interpolation between grids with Basemap](http://earthpy.org/interpolation_between_grids_with_basemap.html)
 
 [Point Interpolation](https://unidata.github.io/MetPy/latest/examples/gridding/Point_Interpolation.html#sphx-glr-examples-gridding-point-interpolation-py)
+
 > Scipy.interpolate linear
+
 > Natural neighbor interpolation (MetPy implementation)
+
 > Cressman interpolation
+
 > Barnes Interpolation
+
 > Radial basis function interpolation 
 
 [Inverse Distance Verification: Cressman and Barnes](https://unidata.github.io/MetPy/latest/examples/gridding/Inverse_Distance_Verification.html)

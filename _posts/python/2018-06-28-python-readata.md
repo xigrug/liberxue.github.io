@@ -29,3 +29,8 @@ def searcher():
         except:
             print("Sorry the word is not found.")
 ```
+
+[add one row in a pandas.DataFrame](https://stackoverflow.com/questions/10715965/add-one-row-in-a-pandas-dataframe)
+[【跟着stackoverflow学Pandas】add one row in a pandas.DataFrame -DataFrame添加行](https://blog.csdn.net/tanzuozhev/article/details/76735660)   **这里 Series 必须是 dict-like 类型**
+
+[跟着stackoverflow学Pandas专辑](https://blog.csdn.net/column/details/16726.html)

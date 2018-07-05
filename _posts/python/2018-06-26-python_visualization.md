@@ -46,6 +46,8 @@ python可视化库可以大致分为几类：
 ----
 # 总结
 
+[Getting Started with Sphinx-Gallery](https://sphinx-gallery.readthedocs.io/en/latest/getting_started.html)
+
 ## A-D
 
 [altair](https://github.com/altair-viz/altair) : Declarative statistical visualization library for Python
@@ -172,3 +174,32 @@ python可视化库可以大致分为几类：
 [^3D]: **3D**
 [^SAT]: **SATELLITE**
 [^MODEL]: **MODEL 模式**
+
+# output
+
+[save-multiple-plots-to-one-pdf-file](https://matplotlib.org/faq/howto_faq.html#save-multiple-plots-to-one-pdf-file)
+```python
+'''
+Save multiple plots to one pdf file¶
+Many image file formats can only have one image per file, but some formats support multi-page files. Currently only the pdf backend has support for this. To make a multi-page pdf file, first initialize the file:
+'''
+from matplotlib.backends.backend_pdf import PdfPages
+pp = PdfPages('multipage.pdf')
+#You can give the PdfPages object to savefig(), but you have to specify the format:
+
+plt.savefig(pp, format='pdf')
+#An easier way is to call PdfPages.savefig:
+
+pp.savefig()
+#Finally, the multipage pdf object has to be closed:
+
+pp.close()
+```
+# 示例
+
+## 雷达
+
+[T-lnp图绘制.ipynb](https://github.com/xigrug/papers/blob/master/T-lnp图绘制.ipynb)
+[地闪定位仪数据处理及绘图部分](https://github.com/xigrug/papers/blob/master/地闪定位仪数据处理.ipynb)
+[雷达反射率及径向速度](https://github.com/xigrug/papers/blob/master/雷达反射率及径向速度.ipynb)
+[TVS及闪电活动演变.ipynb](https://github.com/xigrug/papers/blob/master/TVS及闪电活动演变.ipynb)

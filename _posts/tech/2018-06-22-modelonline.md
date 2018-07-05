@@ -38,3 +38,5 @@ tags:
 <a href="https://www.flexpart.eu/" title="flexpart">Flexpart</a>
 
 <a href="https://www.arl.noaa.gov/hysplit/hysplit/" title="hysplit"> HYSPLIT </a>
+
+<a href="https://v.qq.com/x/page/y07089mk6kq.html" title="meteinfo"> 腾讯视频 </a>  [教程](https://mp.weixin.qq.com/s?__biz=MzIwMzU2NzY4Ng==&mid=2247484240&idx=1&sn=445041fee6b73fcbf28828b393f26274&chksm=96cc2479a1bbad6f697c3bcf76ef82a59270f4a386e1f3ba3e13c9929440f00afb9395854c35&mpshare=1&scene=1&srcid=0702b5Zk6gdfNlWCl4zlRs1s#rd)

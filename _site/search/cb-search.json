@@ -3,8 +3,32 @@
 	"data" : [
 	 
 	{
+		"title" : "python-grid - ",
+		"url" : "/2018/07/03/python-grid.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "python remember - ",
+		"url" : "/2018/07/02/pythonmask.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "SCI - ",
 		"url" : "/2018/06/30/sci-paper.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "环境学院毕军教授课题组在《PLOS Medicine》发文阐述气候变化和臭氧污染的健康影响 - ",
+		"url" : "/2018/06/30/rcp-PLOS.html"
 	}
 	
 	,
@@ -21,6 +45,22 @@
 	{
 		"title" : "python-shell - ",
 		"url" : "/2018/06/30/pythonshell.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "machine learning - ",
+		"url" : "/2018/06/30/mashine-learn.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Python Data - ",
+		"url" : "/2018/06/28/python-statistics.html"
 	}
 	
 	,
@@ -141,6 +181,14 @@
 	{
 		"title" : "Python Visualization - ",
 		"url" : "/2018/06/23/python_visualization.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Github Mark - ",
+		"url" : "/2018/06/23/github_tools.html"
 	}
 	
 	,
