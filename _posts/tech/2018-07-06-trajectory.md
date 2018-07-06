@@ -4,7 +4,7 @@ tools: true
 istop: false
 title: "Trajectory"
 background-image: https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/320848/settings_images/5bUmdzx2SgRQ9oSrI0EA_trajectory_black_in_white.png
-date:  2018-06-22 10:13:56
+date:  2018-07-05 10:13:56
 category: tools
 tags:
 - tools

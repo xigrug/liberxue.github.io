@@ -3,7 +3,7 @@ layout: blog
 tools: true
 istop: false
 title: "Episode_Based_Evolution_Pattern "
-background-image: https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/320848/settings_images/5bUmdzx2SgRQ9oSrI0EA_trajectory_black_in_white.png
+background-image: https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2017/howtowinthec.jpg
 date:  2018-07-06 14:13:56
 category: tools
 tags:

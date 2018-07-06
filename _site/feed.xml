@@ -16,6 +16,15 @@
       </item>
     
       <item>
+        <title>Trajectory</title>
+        <category>tools</category>
+        <description>TrajectoryFlexpart HYSPLIT  HYSPLIT Forum: hysplitbbs.arl.noaa.gov HYSPLIT4 Users Guide Zefir  腾讯...</description>
+        <pubDate>2018-07-05 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/05/trajectory.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/05/trajectory.html</guid>
+      </item>
+    
+      <item>
         <title>python-grid</title>
         <category>tools</category>
         <description>On python, how to generate an array of coordinates between two pointsCreate a polygon grid using ...</description>
@@ -52,7 +61,7 @@
       </item>
     
       <item>
-        <title>电子书</title>
+        <title>ACP</title>
         <category>research</category>
         <description>Ice-nucleating      The efficiency of secondary organic aerosol particles acting as ice-nucleatin...</description>
         <pubDate>2018-06-30 10:13:56 </pubDate>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-28 20:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/28/python-satellite.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-satellite.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Data</title>
-        <category>tools</category>
-        <description>插值反距离加权（IDW）插值Interpolation between grids with cKDTreeInterpolation between grids with BasemapPoi...</description>
-        <pubDate>2018-06-28 20:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/28/python-dataprogress.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-dataprogress.html</guid>
       </item>
     
   </channel>
