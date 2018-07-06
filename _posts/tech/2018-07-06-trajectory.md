@@ -30,3 +30,7 @@ tags:
 [HYSPLIT后向轨迹模式应用-王亚强-2016](https://1drv.ms/p/s!Alwdgxq2tX7cgYpJ3V8ZqPtWWjStUQ)
 
 [HYSPLIT手册](https://1drv.ms/b/s!Alwdgxq2tX7cgYpGMHPHrvP0FIqSYw)
+
+# blog
+
+[flexparter的博客](http://blog.sina.com.cn/s/blog_cab355c4010190nv.html)

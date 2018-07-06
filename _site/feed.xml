@@ -106,21 +106,21 @@
       </item>
     
       <item>
+        <title>Python 微信文章</title>
+        <category>tools</category>
+        <description>每日一Pythonpython空值的一些问题Panda大数据【ML】决策树、随机森林&amp;随机森林回归大邓和他的PythonPython 3.7中dataclass的终极指南（一）菜鸟学Py...</description>
+        <pubDate>2018-06-28 20:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/28/python-wechat.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-wechat.html</guid>
+      </item>
+    
+      <item>
         <title>Python Data</title>
         <category>tools</category>
         <description>回归模型评估指标      1.平均绝对误差（Mean Absolute Error）    2.均方误差（Mean Squared Error）MSE回归任务最常用的一个指标。对比MAE，MS...</description>
         <pubDate>2018-06-28 20:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/28/python-statistics.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-statistics.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Satellite</title>
-        <category>tools</category>
-        <description>图片处理cartopyimport osimport matplotlib.pyplot as pltfrom cartopy import configimport cartopy.crs a...</description>
-        <pubDate>2018-06-28 20:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/28/python-satellite.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-satellite.html</guid>
       </item>
     
   </channel>
