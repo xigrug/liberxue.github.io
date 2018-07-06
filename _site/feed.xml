@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>python-stackoverflow</title>
+        <category>tools</category>
+        <description>dataprogress反距离加权（IDW）插值Interpolation points data into 2-d shapefile with matplotlibInterpolation...</description>
+        <pubDate>2018-07-05 19:14:31 </pubDate>
+        <link>https://xigrug.github.io/2018/07/05/python-stackoverflow.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/05/python-stackoverflow.html</guid>
+      </item>
+    
+      <item>
         <title>python-grid</title>
         <category>tools</category>
         <description>On python, how to generate an array of coordinates between two pointsCreate a polygon grid using ...</description>
@@ -45,6 +54,15 @@
       <item>
         <title>电子书</title>
         <category>research</category>
+        <description>Ice-nucleating      The efficiency of secondary organic aerosol particles acting as ice-nucleatin...</description>
+        <pubDate>2018-06-30 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/30/ACP_paper.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/ACP_paper.html</guid>
+      </item>
+    
+      <item>
+        <title>电子书</title>
+        <category>research</category>
         <description>在线查看书栈网看云豆瓣推荐</description>
         <pubDate>2018-06-30 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/ebook.html</link>
@@ -70,6 +88,15 @@
       </item>
     
       <item>
+        <title>Python WRF</title>
+        <category>tools</category>
+        <description>WRF-Python**verticalVerticalWRF综合Python script to plot various WRF-ARW output. Command line drive...</description>
+        <pubDate>2018-06-28 20:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/28/python-wrf.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-wrf.html</guid>
+      </item>
+    
+      <item>
         <title>Python Data</title>
         <category>tools</category>
         <description>回归模型评估指标      1.平均绝对误差（Mean Absolute Error）    2.均方误差（Mean Squared Error）MSE回归任务最常用的一个指标。对比MAE，MS...</description>
@@ -79,48 +106,21 @@
       </item>
     
       <item>
+        <title>Python Satellite</title>
+        <category>tools</category>
+        <description>图片处理cartopyimport osimport matplotlib.pyplot as pltfrom cartopy import configimport cartopy.crs a...</description>
+        <pubDate>2018-06-28 20:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/28/python-satellite.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-satellite.html</guid>
+      </item>
+    
+      <item>
         <title>Python Data</title>
         <category>tools</category>
         <description>插值反距离加权（IDW）插值Interpolation between grids with cKDTreeInterpolation between grids with BasemapPoi...</description>
         <pubDate>2018-06-28 20:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/28/python-dataprogress.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-dataprogress.html</guid>
-      </item>
-    
-      <item>
-        <title>Fortran</title>
-        <category>research</category>
-        <description>电子书FORTRAN 常用算法程序集</description>
-        <pubDate>2018-06-27 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/27/fortran.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/27/fortran.html</guid>
-      </item>
-    
-      <item>
-        <title>社区资源</title>
-        <category>tools</category>
-        <description>学校NJU-YAMMER  紫荆小组</description>
-        <pubDate>2018-06-26 13:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/26/society.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/society.html</guid>
-      </item>
-    
-      <item>
-        <title>little tools</title>
-        <category>tools</category>
-        <description>单位换算计算机存储</description>
-        <pubDate>2018-06-26 11:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/26/quick.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/quick.html</guid>
-      </item>
-    
-      <item>
-        <title>PPT</title>
-        <category>tools</category>
-        <description>网络模板1PPTfans PPT设计ChuangKit 创客贴图形设计工具PtTemplate 免费PPT模板库Tretars 逼格PPT素材网Hippter 幻灯片设计资源网OfficePlu...</description>
-        <pubDate>2018-06-26 11:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/26/PPT.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/26/PPT.html</guid>
       </item>
     
   </channel>

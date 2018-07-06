@@ -23,6 +23,23 @@ python可视化库可以大致分为几类：
 
 [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html)
 
+[Python matplotlib高级绘图详解](https://blog.csdn.net/matrix_laboratory/article/details/50698239) 可查看绘图框架
+
+**Artist的属性**
+> alpha : 透明度，值在0到1之间，0为完全透明，1为完全不透明 
+> animated : 布尔值，在绘制动画效果时使用 
+> axes : 此Artist对象所在的Axes对象，可能为None 
+> clip_box : 对象的裁剪框 
+> clip_on : 是否裁剪 
+> clip_path : 裁剪的路径 
+> contains : 判断指定点是否在对象上的函数 
+> figure : 所在的Figure对象，可能为None 
+> label : 文本标签 
+> picker : 控制Artist对象选取 
+> transform : 控制偏移旋转 
+> visible : 是否可见 
+> zorder : 控制绘图顺序
+
 ----
 # 速查
 [python-graph-gallery](https://python-graph-gallery.com/)
@@ -203,3 +220,15 @@ pp.close()
 [地闪定位仪数据处理及绘图部分](https://github.com/xigrug/papers/blob/master/地闪定位仪数据处理.ipynb)
 [雷达反射率及径向速度](https://github.com/xigrug/papers/blob/master/雷达反射率及径向速度.ipynb)
 [TVS及闪电活动演变.ipynb](https://github.com/xigrug/papers/blob/master/TVS及闪电活动演变.ipynb)
+
+
+## pbpython
+
+[Bullet-Graph-Article](https://github.com/chris1610/pbpython/blob/master/notebooks/Bullet-Graph-Article.ipynb)
+[Visualizing Google Forms Data with Seaborn](https://github.com/chris1610/pbpython/blob/master/notebooks/Google-Forms-Data-Analysis.ipynb)
+
+
+# 用法
+
+[如何在matplotlib中添加条形图标签？](https://cloud.tencent.com/developer/ask/40136)
+![pic3](https://ask.qcloudimg.com/http-save/yehe-neLoMB/i8aavwddl1.png?imageView2/2/w/1620)
