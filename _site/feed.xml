@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Cartopy</title>
+        <category>research</category>
+        <description>Background image in cartopy</description>
+        <pubDate>2018-07-07 17:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/07/cartpory.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/cartpory.html</guid>
+      </item>
+    
+      <item>
         <title>Python Visualization BUG</title>
         <category>research</category>
         <description>遇到的错误总结Basemap 的坐标设置起点并不是坐标原点m = Basemap(width=8000000,height=7000000,            resolution=’l’,...</description>
@@ -63,7 +72,7 @@
       <item>
         <title>SCI</title>
         <category>research</category>
-        <description>paper searchsci-hub可用查询专利SOOIP官网链接附1：SOOIP使用指南大全附2：外文专利网站大全： 美专局 欧专局日专局韩专局附3：其他专利网站:国家局谷歌专利转载自原文影...</description>
+        <description>paper searchsci-hub官方公布官方公布1可用查询专利SOOIP官网链接附1：SOOIP使用指南大全附2：外文专利网站大全： 美专局 欧专局日专局韩专局附3：其他专利网站:国家局谷...</description>
         <pubDate>2018-06-30 14:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/sci-paper.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/sci-paper.html</guid>
@@ -76,6 +85,15 @@
         <pubDate>2018-06-30 14:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/rcp-PLOS.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/rcp-PLOS.html</guid>
+      </item>
+    
+      <item>
+        <title>ACP</title>
+        <category>research</category>
+        <description># 2018年全国重大天气过程总结和预报技术经验交流会-特邀报告   1-丁一汇-气候变化对我国夏季极端天气预报的影响.pdf2-沈学顺-国家级业务数值预报进展与发展.pdf3-张庆红-未来冰雹...</description>
+        <pubDate>2018-06-30 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/06/30/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</guid>
       </item>
     
       <item>
@@ -103,24 +121,6 @@
         <pubDate>2018-06-30 15:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/pythonshell.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/pythonshell.html</guid>
-      </item>
-    
-      <item>
-        <title>machine learning</title>
-        <category>tech</category>
-        <description>决策树机器学习实战之决策树#A beginner’s guide to training and deploying machine learning models using Python</description>
-        <pubDate>2018-06-30 13:39:51 </pubDate>
-        <link>https://xigrug.github.io/2018/06/30/mashine-learn.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/mashine-learn.html</guid>
-      </item>
-    
-      <item>
-        <title>Python WRF</title>
-        <category>tools</category>
-        <description>WRF-Python**verticalVerticalWRF综合Python script to plot various WRF-ARW output. Command line drive...</description>
-        <pubDate>2018-06-28 20:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/28/python-wrf.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-wrf.html</guid>
       </item>
     
   </channel>

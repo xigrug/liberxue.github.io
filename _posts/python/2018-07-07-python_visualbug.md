@@ -20,3 +20,5 @@ m = Basemap(width=8000000,height=7000000,
 
 mmb = m.pcolormesh(gx, gy, img1, cmap=cmap, norm=norm)
 
+[Point Interpolation with Metpy and plot with basemap](https://github.com/Unidata/MetPy/issues/885)
+[Plot true color by using VIIRS SDR](https://github.com/pytroll/satpy/issues/337)
