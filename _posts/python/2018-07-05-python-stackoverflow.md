@@ -60,3 +60,7 @@ plt.text(centerx, centery,'lalala')
 
 [How to zip two lists of lists in Python?](https://stackoverflow.com/questions/7474717/how-to-zip-two-lists-of-lists-in-python)
 [Any way to zip to list of lists?](https://stackoverflow.com/questions/6930479/any-way-to-zip-to-list-of-lists)
+
+## 原图上重新绘制
+
+[Redrawing plot on Basemap in Python](https://stackoverflow.com/questions/11158988/redrawing-plot-on-basemap-in-python)

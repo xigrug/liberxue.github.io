@@ -60,6 +60,7 @@ python可视化库可以大致分为几类：
 
 [earthpy](http://earthpy.org/category/data-processing.html)  [seaborn](http://earthpy.org/seaborn_library.html) [PyNGL](http://earthpy.org/komod-mitplot-drawmap.html) [CATEGORY](http://earthpy.org/category/visualization.html) [Basemap](http://earthpy.org/earthpy-basemap-amazon.html)
 
+[MatplotlibClass](https://github.com/ZhaoZhonglun1991/MatplotlibClass)
 ----
 # 总结
 
@@ -95,6 +96,8 @@ python可视化库可以大致分为几类：
 [Echarts](http://echarts.baidu.com/index.html) : BaiDu [^Interactive]
 
 [folium](https://github.com/python-visualization/folium) [ipynb](http://nbviewer.jupyter.org/github/python-visualization/folium/tree/master/examples/) [ipynb2](https://nbviewer.jupyter.org/github/vincentropy/python_cartography_tutorial/tree/master/)[^MAP] 
+
+[The Flight Path Tool (FPT)](https://www.aviationweather.gov/flightpath2) is a comprehensive, interactive, geographical display that brings together all of the weather products available on ADDS. It runs as a desktop application on your computer for maximum performance. [^java]
 
 [Geoplotlib](https://github.com/andrea-cuttone/geoplotlib) is a python toolbox for visualizing geographical data and making maps[^MAP]
 
@@ -191,7 +194,8 @@ python可视化库可以大致分为几类：
 [^3D]: **3D**
 [^SAT]: **SATELLITE**
 [^MODEL]: **MODEL 模式**
-
+[^java]: **by java**
+----
 # output
 
 [save-multiple-plots-to-one-pdf-file](https://matplotlib.org/faq/howto_faq.html#save-multiple-plots-to-one-pdf-file)
@@ -227,7 +231,12 @@ pp.close()
 [Bullet-Graph-Article](https://github.com/chris1610/pbpython/blob/master/notebooks/Bullet-Graph-Article.ipynb)
 [Visualizing Google Forms Data with Seaborn](https://github.com/chris1610/pbpython/blob/master/notebooks/Google-Forms-Data-Analysis.ipynb)
 
+## cross
 
+[Cross section plots Iris](https://scitools.org.uk/iris/docs/v1.4/examples/graphics/cross_section.html)
+![pic1](https://scitools.org.uk/iris/docs/v1.4/_images/cross_section_00.png)
+
+[Matplotlib axis labels: how to find out where they will be located?](https://stackoverflow.com/questions/14153816/matplotlib-axis-labels-how-to-find-out-where-they-will-be-located)
 # 用法
 
 [如何在matplotlib中添加条形图标签？](https://cloud.tencent.com/developer/ask/40136)

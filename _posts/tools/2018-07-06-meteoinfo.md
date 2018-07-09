@@ -36,3 +36,23 @@ tags:
 
 [trajstat做PSCF分析时按步骤操作遇到这个问题](http://bbs.06climate.com/forum.php?mod=viewthread&tid=61535&extra=page%3D2)
 [PSCF Analysis](http://www.meteothinker.com/docs/trajstat/pscf.html)
+
+[TrajStat做出的PSCF网格图形转成渐变色 ](http://bbs.06climate.com/forum.php?mod=viewthread&tid=31305&extra=page%3D1)
+
+# metetoinfo 1.5
+
+3D stem plot:
+```python
+z = linspace(0, 1, 100)
+x = z * np.sin(20 * z)
+y = z * np.cos(20 * z)
+c = x + y
+
+#Plot
+ax = axes3d()
+points, stemlines = ax.stem(x, y, z, c=c, edge=False, samestemcolor=True)
+colorbar(stemlines,shrink=0.8)
+title('Point 3D plot example')
+```
+![3dplot](http://www.meteothinker.com/_images/stem3_1.png)
+![traj_plot](https://raw.githubusercontent.com/xigrug/xigrug.github.io/master/picture/traj_multi_color_plot.png)

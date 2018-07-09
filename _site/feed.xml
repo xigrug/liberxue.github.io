@@ -7,6 +7,24 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Python Visualization BUG</title>
+        <category>research</category>
+        <description>遇到的错误总结Basemap 的坐标设置起点并不是坐标原点m = Basemap(width=8000000,height=7000000,            resolution=’l’,...</description>
+        <pubDate>2018-07-07 17:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/07/python_visualbug.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python_visualbug.html</guid>
+      </item>
+    
+      <item>
+        <title>Episode_Based_Evolution_Pattern </title>
+        <category>tools</category>
+        <description>Episode Based Evolution PatternEpisode-Based Evolution Pattern Analysis of Haze Pollution: Method...</description>
+        <pubDate>2018-07-06 14:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/06/Episode_Based_Evolution_Pattern.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/06/Episode_Based_Evolution_Pattern.html</guid>
+      </item>
+    
+      <item>
         <title>python-stackoverflow</title>
         <category>tools</category>
         <description>dataprogress反距离加权（IDW）插值Interpolation points data into 2-d shapefile with matplotlibInterpolation...</description>
@@ -103,24 +121,6 @@
         <pubDate>2018-06-28 20:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/28/python-wrf.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-wrf.html</guid>
-      </item>
-    
-      <item>
-        <title>Python 微信文章</title>
-        <category>tools</category>
-        <description>每日一Pythonpython空值的一些问题Panda大数据【ML】决策树、随机森林&amp;随机森林回归大邓和他的PythonPython 3.7中dataclass的终极指南（一）菜鸟学Py...</description>
-        <pubDate>2018-06-28 20:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/28/python-wechat.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-wechat.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Data</title>
-        <category>tools</category>
-        <description>回归模型评估指标      1.平均绝对误差（Mean Absolute Error）    2.均方误差（Mean Squared Error）MSE回归任务最常用的一个指标。对比MAE，MS...</description>
-        <pubDate>2018-06-28 20:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/28/python-statistics.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/28/python-statistics.html</guid>
       </item>
     
   </channel>
