@@ -56,3 +56,7 @@ title('Point 3D plot example')
 ```
 ![3dplot](http://www.meteothinker.com/_images/stem3_1.png)
 ![traj_plot](https://raw.githubusercontent.com/xigrug/xigrug.github.io/master/picture/traj_multi_color_plot.png)
+
+## text
+plotutil.py
+![text_plot](https://raw.githubusercontent.com/xigrug/xigrug.github.io/master/picture/meteoinfo-text.png)

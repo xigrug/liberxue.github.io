@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>MATLAB</title>
+        <category>tools</category>
+        <description>气象家园 MATLAB Recipes for Earth Sciences </description>
+        <pubDate>2018-07-10 19:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/10/matlab.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/10/matlab.html</guid>
+      </item>
+    
+      <item>
         <title>Cartopy</title>
         <category>research</category>
         <description>Background image in cartopy</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-30 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/ebook.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/ebook.html</guid>
-      </item>
-    
-      <item>
-        <title>python-shell</title>
-        <category>tools</category>
-        <description>在python中执行shell命令的6种方法Python经常被称作“胶水语言”，因为它能够轻易地操作其他程序，轻易地包装使用其他语言编写的库。今天我们就讲解其中的一个方面，用Python调用Sh...</description>
-        <pubDate>2018-06-30 15:14:31 </pubDate>
-        <link>https://xigrug.github.io/2018/06/30/pythonshell.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/pythonshell.html</guid>
       </item>
     
   </channel>

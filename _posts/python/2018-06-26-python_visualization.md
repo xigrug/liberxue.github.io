@@ -224,7 +224,9 @@ pp.close()
 [地闪定位仪数据处理及绘图部分](https://github.com/xigrug/papers/blob/master/地闪定位仪数据处理.ipynb)
 [雷达反射率及径向速度](https://github.com/xigrug/papers/blob/master/雷达反射率及径向速度.ipynb)
 [TVS及闪电活动演变.ipynb](https://github.com/xigrug/papers/blob/master/TVS及闪电活动演变.ipynb)
-
+[CINRAD雷达基数据处理](https://github.com/CyanideCN/PyCINRAD)
+![pic2](http://bbs.06climate.com/forum.php?mod=attachment&aid=NzY1MTB8Zjg1ZWU4M2R8MTUzMTI2OTc1NHw2MjUxfDY2ODc4&noupdate=yes)
+![pic3](http://bbs.06climate.com/forum.php?mod=attachment&aid=NzY1MDl8YzA4MDRkMWJ8MTUzMTI2OTc1NHw2MjUxfDY2ODc4&noupdate=yes)
 
 ## pbpython
 
