@@ -18,7 +18,7 @@
       <item>
         <title>Cartopy</title>
         <category>research</category>
-        <description>Background image in cartopy</description>
+        <description>Background image in cartopy已解决，改为经验，CartoPy画色斑图的时候无法同时显示地图和数据import numpy as npfrom scipy.interpo...</description>
         <pubDate>2018-07-07 17:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/07/cartpory.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/cartpory.html</guid>
