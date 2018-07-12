@@ -308,14 +308,6 @@
     
 	{
 		"title" : "ERA5 - ",
-		"url" : "/2018/06/23/data.html"
-	}
-	
-	,
-	
-    
-	{
-		"title" : "ERA5 - ",
 		"url" : "/2018/06/23/download.html"
 	}
 	
@@ -341,6 +333,14 @@
 	{
 		"title" : "NCL - ",
 		"url" : "/2018/06/22/ncl-flux.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "data - ",
+		"url" : "/2018/06/22/data.html"
 	}
 	
 	,
