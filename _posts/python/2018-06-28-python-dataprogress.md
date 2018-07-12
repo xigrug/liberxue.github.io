@@ -57,6 +57,9 @@ tags:
 
 [Linear_Regression_Methods](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Linear_Regression_Methods.ipynb)
 
+# 通量
+[Fluxpart](http://fluxpart.readthedocs.io/en/latest/tutorial.html) is a Python 3 module that implements the Scanlon and Sahu [SS08] method for partitioning eddy covariance measurements of water vapor and carbon dioxide fluxes into stomatal (transpiration, photosynthesis) and nonstomatal (evaporation, respiration) components, e.g.
+
 # other questions?
 
 [how to interpolate points in a specific interval on a plot formed by loading a txt file in to scipy program?](https://stackoverflow.com/questions/16070219/how-to-interpolate-points-in-a-specific-interval-on-a-plot-formed-by-loading-a-t)

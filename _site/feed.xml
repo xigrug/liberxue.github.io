@@ -16,9 +16,18 @@
       </item>
     
       <item>
+        <title>Meteorology and Evaporation Function Modules for Python</title>
+        <category>research</category>
+        <description>Meteorology and Evaporation Function Modules for Pythonmeteolib.py: Meteorological functionsLibra...</description>
+        <pubDate>2018-07-07 17:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/07/meteolib.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/meteolib.html</guid>
+      </item>
+    
+      <item>
         <title>Cartopy</title>
         <category>research</category>
-        <description>Background image in cartopy已解决，改为经验，CartoPy画色斑图的时候无法同时显示地图和数据import numpy as npfrom scipy.interpo...</description>
+        <description>Background image in cartopy已解决，改为经验，CartoPy画色斑图的时候无法同时显示地图和数据介绍一种绘图白化的方法import numpy as npfrom sc...</description>
         <pubDate>2018-07-07 17:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/07/cartpory.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/cartpory.html</guid>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-30 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/ACP_paper.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/ACP_paper.html</guid>
-      </item>
-    
-      <item>
-        <title>电子书</title>
-        <category>research</category>
-        <description>在线查看书栈网看云豆瓣推荐</description>
-        <pubDate>2018-06-30 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/30/ebook.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/ebook.html</guid>
       </item>
     
   </channel>

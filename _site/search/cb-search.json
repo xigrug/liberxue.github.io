@@ -11,6 +11,14 @@
 	
     
 	{
+		"title" : "Meteorology and Evaporation Function Modules for Python - ",
+		"url" : "/2018/07/07/meteolib.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "Cartopy - ",
 		"url" : "/2018/07/07/cartpory.html"
 	}
@@ -317,6 +325,14 @@
 	{
 		"title" : "WRF 安装运行入门指南 - ",
 		"url" : "/2018/06/22/wrfmanual.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "NCL - ",
+		"url" : "/2018/06/22/ncl-flux.html"
 	}
 	
 	,
