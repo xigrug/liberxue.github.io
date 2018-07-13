@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "data - ",
+		"url" : "/2018/07/12/data.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "MATLAB - ",
 		"url" : "/2018/07/10/matlab.html"
 	}
@@ -333,14 +341,6 @@
 	{
 		"title" : "NCL - ",
 		"url" : "/2018/06/22/ncl-flux.html"
-	}
-	
-	,
-	
-    
-	{
-		"title" : "data - ",
-		"url" : "/2018/06/22/data.html"
 	}
 	
 	,

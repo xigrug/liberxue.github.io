@@ -16,6 +16,7 @@ tags:
 [WRF user_guide_v4](http://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.0/)    
 
 [视频教程](https://pan.baidu.com/s/1AMu-xaqW0OMH1GtzuybZdg)    
+[Configuring WRF 3.8 on Ubuntu Server 16.04](https://pan.baidu.com/s/17i2gmpLnfJaag5k0IzUv1g) 密码: vezf
 
 WRF官网 [compilation_tutorial](http://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php)
 

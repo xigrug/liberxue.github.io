@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>data</title>
+        <category>tools</category>
+        <description>数据下载网站汇总降水TRMM(TMI 3-day)降水数据的详细下载方法直接下载noaa全球气象数据集中的三小时观测数据</description>
+        <pubDate>2018-07-12 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/12/data.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/12/data.html</guid>
+      </item>
+    
+      <item>
         <title>MATLAB</title>
         <category>tools</category>
         <description>气象家园 MATLAB Recipes for Earth Sciences </description>
@@ -112,15 +121,6 @@
         <pubDate>2018-06-30 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/06/30/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</guid>
-      </item>
-    
-      <item>
-        <title>ACP</title>
-        <category>research</category>
-        <description>Ice-nucleating      The efficiency of secondary organic aerosol particles acting as ice-nucleatin...</description>
-        <pubDate>2018-06-30 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/30/ACP_paper.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/ACP_paper.html</guid>
       </item>
     
   </channel>
