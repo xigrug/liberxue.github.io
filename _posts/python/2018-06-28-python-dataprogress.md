@@ -26,6 +26,14 @@ tags:
 > Natural neighbor interpolation (MetPy implementation)
 
 > Cressman interpolation
+  研究表明，温度相关参数的最优空间插值搜索半径介于150～250km之间 ［潘耀忠，龚道溢，邓磊，等．２００４．基于ＤＥＭ的中国陆地多年平均温度插值方法［Ｊ］．地理学报，2004,59(3)：366－374．］
+[mipylib.numeric.minum.griddata(points, values, xi=None, **kwargs)](http://www.meteothinker.com/docs/meteoinfolab/numeric/functions/griddata.html)
+https://journals.ametsoc.org/doi/pdf/10.1175/JTECH-D-15-0250.1
+https://www3.epa.gov/scram001/adhoc/Gaudet2012.pdf
+https://esrl.noaa.gov/csd/events/iwaqfr/presentations/posters/Zhao_Theme5.pdf
+https://www.jcsda.noaa.gov/documents/meetings/wkshp2008/5/kondragunta_jcsdapresentation_10jun08.pdf
+https://www.hindawi.com/journals/amete/2016/9873815/ 伴随
+基于观测、模拟和同化数据的 PM2.5 污染回顾分析
 
 > Barnes Interpolation
 
@@ -59,6 +67,9 @@ tags:
 
 # 通量
 [Fluxpart](http://fluxpart.readthedocs.io/en/latest/tutorial.html) is a Python 3 module that implements the Scanlon and Sahu [SS08] method for partitioning eddy covariance measurements of water vapor and carbon dioxide fluxes into stomatal (transpiration, photosynthesis) and nonstomatal (evaporation, respiration) components, e.g.
+
+#EOF 分析
+[用Python做EOF分析](http://bbs.06climate.com/forum.php?mod=viewthread&tid=53258)
 
 # other questions?
 

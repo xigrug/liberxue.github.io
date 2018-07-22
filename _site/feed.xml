@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>距离面积</title>
+        <category>research</category>
+        <description>距离面积计算在实际应用当中，一般是通过一个个体的编码来查找该编码对应的地区中心的经纬度，然后再根据这些经纬度来计算彼此的距离，从而估算出某些群体之间的大致距离范围(比如酒店旅客的分布范围-各个旅...</description>
+        <pubDate>2018-07-13 14:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/13/distance.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/13/distance.html</guid>
+      </item>
+    
+      <item>
         <title>data</title>
         <category>tools</category>
         <description>数据下载网站汇总降水TRMM(TMI 3-day)降水数据的详细下载方法直接下载noaa全球气象数据集中的三小时观测数据</description>
@@ -31,6 +40,15 @@
         <pubDate>2018-07-09 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/09/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/09/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</guid>
+      </item>
+    
+      <item>
+        <title>Python Tools</title>
+        <category>research</category>
+        <description>python 打包py2exepyinstallercx-freeze</description>
+        <pubDate>2018-07-07 17:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/07/python-tools.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-tools.html</guid>
       </item>
     
       <item>
@@ -103,24 +121,6 @@
         <pubDate>2018-07-02 13:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/07/02/pythonmask.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/02/pythonmask.html</guid>
-      </item>
-    
-      <item>
-        <title>SCI</title>
-        <category>research</category>
-        <description>paper searchsci-hub官方公布官方公布1可用查询专利SOOIP官网链接附1：SOOIP使用指南大全附2：外文专利网站大全： 美专局 欧专局日专局韩专局附3：其他专利网站:国家局谷...</description>
-        <pubDate>2018-06-30 14:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/30/sci-paper.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/sci-paper.html</guid>
-      </item>
-    
-      <item>
-        <title>环境学院毕军教授课题组在《PLOS Medicine》发文阐述气候变化和臭氧污染的健康影响</title>
-        <category>research</category>
-        <description>2018年7月3日，南京大学环境学院毕军教授课题组与亥姆霍兹慕尼黑研究中心-德国环境健康研究中心、美国哥伦比亚大学、波士顿大学、纽约市立大学柏鲁克学院、复旦大学和上海大学等单位合作的题为“Fut...</description>
-        <pubDate>2018-06-30 14:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/06/30/rcp-PLOS.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/06/30/rcp-PLOS.html</guid>
       </item>
     
   </channel>

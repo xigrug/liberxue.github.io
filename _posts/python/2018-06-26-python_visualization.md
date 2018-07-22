@@ -243,3 +243,4 @@ pp.close()
 
 [如何在matplotlib中添加条形图标签？](https://cloud.tencent.com/developer/ask/40136)
 ![pic3](https://ask.qcloudimg.com/http-save/yehe-neLoMB/i8aavwddl1.png?imageView2/2/w/1620)
+[python clip一定区域 白化](http://bbs.06climate.com/forum.php?mod=viewthread&tid=27682)
