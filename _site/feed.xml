@@ -45,7 +45,7 @@
       <item>
         <title>Python Tools</title>
         <category>research</category>
-        <description>python 打包py2exepyinstallercx-freeze</description>
+        <description>python 打包py2exepyinstallercx-freezepycpython -m py_compile file.py 简书</description>
         <pubDate>2018-07-07 17:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/07/python-tools.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-tools.html</guid>

@@ -17,3 +17,6 @@ tags:
 [pyinstaller](http://www.pyinstaller.org/)
 
 [cx-freeze](http://cx-freeze.readthedocs.io/en/latest/index.html)
+
+## pyc 
+ python -m py_compile file.py [简书](https://www.jianshu.com/p/5cdf65bc0610)
