@@ -30,3 +30,24 @@ tags:
  
 > rename -n 's/Sam3/Stm32/' *.nc　　/*确认需要重命名的文件*/
 > rename -v 's/Sam3/Stm32/' *.nc　　/*执行修改，并列出已重命名的文件*/
+
+# 加密
+
+Shell脚本加密
+
+$ wget http://www.datsi.fi.upm.es/~frosal/sources/shc-3.8.9b.tgz
+
+$ tar xvf shc-3.8.9b.tgz
+
+$ cd shc-3.8.9b
+
+$ mkdir -p /usr/local/man/man1/  # 创建目录这一步这个是必须的，没这个目录会报错
+
+$ make install
+
+$ shc -v -r -T  -f link_db.sh
+
+执行后，会在脚本所在目录生成两个文件，分别为
+link_db.sh.x
+link_db.sh.x.c
+link_db.sh.x.c 是脚本的源文件，可以直接删除。 link_db.sh.x就是原来脚本的可执行文件，可随意改名，不用赋权，shc处理的过程中有赋权这一步。
