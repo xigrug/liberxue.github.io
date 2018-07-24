@@ -34,3 +34,7 @@ tags:
 # blog
 
 [flexparter的博客](http://blog.sina.com.cn/s/blog_cab355c4010190nv.html)
+
+[HYSPLIT水汽沿轨迹的变化](http://bbs.06climate.com/forum.php?mod=viewthread&tid=42236&extra=&page=1)
+
+[HYSPLIT模式简介及单机版使用图文教程 ](http://junehuang111.blog.163.com/blog/static/6270722012460204965?suggestedreading)

@@ -43,6 +43,15 @@
       </item>
     
       <item>
+        <title>Python FLEXPART</title>
+        <category>research</category>
+        <description>This programme was written by Lintao Li around 2014-8-20, for analyzing the out put of FLEXPARTLi...</description>
+        <pubDate>2018-07-07 17:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/07/python-flexpart.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-flexpart.html</guid>
+      </item>
+    
+      <item>
         <title>Python Tools</title>
         <category>research</category>
         <description>python 打包py2exepyinstallercx-freezepycpython -m py_compile file.py 简书</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-07-03 01:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/07/03/python-grid.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/03/python-grid.html</guid>
-      </item>
-    
-      <item>
-        <title>python remember</title>
-        <category>tools</category>
-        <description>type(变量名) 查看变量属性全部打印import numpy as npnp.set_printoptions(threshold=np.inf)</description>
-        <pubDate>2018-07-02 13:14:31 </pubDate>
-        <link>https://xigrug.github.io/2018/07/02/pythonmask.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/02/pythonmask.html</guid>
       </item>
     
   </channel>
