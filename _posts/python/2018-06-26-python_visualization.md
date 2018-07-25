@@ -71,6 +71,8 @@ python可视化库可以大致分为几类：
 [altair](https://github.com/altair-viz/altair) : Declarative statistical visualization library for Python
 
 **[Basemap](https://basemaptutorial.readthedocs.io/en/latest/index.html#)**
+[earthquake](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
+![earth](http://www.labri.fr/perso/nrougier/teaching/matplotlib/figures/earthquakes.png)
 
 [Bokeh](http://bokeh.pydata.org/en/latest/) is an interactive visualization library that targets modern web browsers for presentation.一个用于做浏览器端交互可视化的库，实现分析师与数据的交互。[^Interactive] [ipynb](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/index.ipynb)
 
