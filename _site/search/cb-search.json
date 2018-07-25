@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "Python time_series_analysis - ",
+		"url" : "/2018/07/24/time_series_analysis_with_pandas.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "距离面积 - ",
 		"url" : "/2018/07/13/distance.html"
 	}
@@ -437,6 +445,14 @@
 	{
 		"title" : "MODEL WEB - ",
 		"url" : "/2018/06/22/modelonline.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Pandas Index - ",
+		"url" : "/2018/06/22/pandas-index.html"
 	}
 	
 	,

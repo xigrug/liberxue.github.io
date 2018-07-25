@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Python time_series_analysis</title>
+        <category>research</category>
+        <description>Pandas日期数据处理：如何按日期筛选、显示及统计数据Time series analysis with pandasTime series analysis with pandas. Part 2</description>
+        <pubDate>2018-07-24 19:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</guid>
+      </item>
+    
+      <item>
         <title>距离面积</title>
         <category>research</category>
         <description>距离面积计算在实际应用当中，一般是通过一个个体的编码来查找该编码对应的地区中心的经纬度，然后再根据这些经纬度来计算彼此的距离，从而估算出某些群体之间的大致距离范围(比如酒店旅客的分布范围-各个旅...</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-07-05 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/05/trajectory.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/05/trajectory.html</guid>
-      </item>
-    
-      <item>
-        <title>python-grid</title>
-        <category>tools</category>
-        <description>On python, how to generate an array of coordinates between two pointsCreate a polygon grid using ...</description>
-        <pubDate>2018-07-03 01:14:31 </pubDate>
-        <link>https://xigrug.github.io/2018/07/03/python-grid.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/03/python-grid.html</guid>
       </item>
     
   </channel>
