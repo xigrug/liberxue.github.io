@@ -21,3 +21,11 @@ tags:
 |aspect|	20; ratio of long to short dimensions|
 |anchor|	(0.0, 0.5) if vertical; (0.5, 1.0) if horizontal; the anchor point of the colorbar axes|
 |panchor|	(1.0, 0.5) if vertical; (0.5, 0.0) if horizontal; the anchor point of the colorbar parent axes. If False, the parent axes’ anchor will be unchanged|
+
+[Python Matplotlib: Change Colorbar Tick Width [duplicate]](https://stackoverflow.com/questions/19549243/python-matplotlib-change-colorbar-tick-width)
+![pic1](https://i.imgur.com/kFOnkED.png)
+
+[Set Matplotlib colorbar size to match graph](https://stackoverflow.com/questions/18195758/set-matplotlib-colorbar-size-to-match-graph)
+```python
+plt.colorbar(im,fraction=0.046, pad=0.04)
+```

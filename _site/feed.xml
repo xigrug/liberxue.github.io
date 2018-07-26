@@ -7,9 +7,18 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Matplotlib colorbar</title>
+        <category>python</category>
+        <description>matplotlib colorbar placement and size            Property      Description                  orie...</description>
+        <pubDate>2018-07-25 17:00:00 </pubDate>
+        <link>https://xigrug.github.io/2018/07/25/matplotlib-colorbar.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/25/matplotlib-colorbar.html</guid>
+      </item>
+    
+      <item>
         <title>Python time_series_analysis</title>
         <category>research</category>
-        <description>Pandas日期数据处理：如何按日期筛选、显示及统计数据Time series analysis with pandasTime series analysis with pandas. Part 2</description>
+        <description>Pandas日期数据处理：如何按日期筛选、显示及统计数据Time series analysis with pandasTime series analysis with pandas. Par...</description>
         <pubDate>2018-07-24 19:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</guid>
@@ -112,15 +121,6 @@
         <pubDate>2018-07-05 19:14:31 </pubDate>
         <link>https://xigrug.github.io/2018/07/05/python-stackoverflow.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/05/python-stackoverflow.html</guid>
-      </item>
-    
-      <item>
-        <title>Trajectory</title>
-        <category>tools</category>
-        <description>TrajectoryFlexpart HYSPLIT  HYSPLIT Forum: hysplitbbs.arl.noaa.gov HYSPLIT4 Users Guide Zefir  腾讯...</description>
-        <pubDate>2018-07-05 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/05/trajectory.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/05/trajectory.html</guid>
       </item>
     
   </channel>

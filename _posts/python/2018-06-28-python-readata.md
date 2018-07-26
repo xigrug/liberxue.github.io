@@ -34,3 +34,11 @@ def searcher():
 [【跟着stackoverflow学Pandas】add one row in a pandas.DataFrame -DataFrame添加行](https://blog.csdn.net/tanzuozhev/article/details/76735660)   **这里 Series 必须是 dict-like 类型**
 
 [跟着stackoverflow学Pandas专辑](https://blog.csdn.net/column/details/16726.html)
+
+# 列
+
+## pandas 选择某几列
+
+col_n = ['名称','收盘价','日期']
+
+a = pd.DataFrame(df,columns = col_n)

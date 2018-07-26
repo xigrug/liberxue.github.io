@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "Matplotlib colorbar - ",
+		"url" : "/2018/07/25/matplotlib-colorbar.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "Python time_series_analysis - ",
 		"url" : "/2018/07/24/time_series_analysis_with_pandas.html"
 	}
