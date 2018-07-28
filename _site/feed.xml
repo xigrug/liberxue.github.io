@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Seaborn</title>
+        <category>python</category>
+        <description>Seaborn绘图timeseriesmin-max-shadingSeaborn timeseries plot with multiple serieslegendHow to add le...</description>
+        <pubDate>2018-07-25 17:00:00 </pubDate>
+        <link>https://xigrug.github.io/2018/07/25/seaborn.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/25/seaborn.html</guid>
+      </item>
+    
+      <item>
         <title>Matplotlib colorbar</title>
         <category>python</category>
         <description>matplotlib colorbar placement and size            Property      Description                  orie...</description>
@@ -22,6 +31,15 @@
         <pubDate>2018-07-24 19:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</guid>
+      </item>
+    
+      <item>
+        <title>Pandas Index</title>
+        <category>tools</category>
+        <description>indexpandas入门——多重索引df=df.set_index(["country","director_name"],append=True,drop=False,inplace=Tru...</description>
+        <pubDate>2018-07-24 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/24/pandas-index.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/24/pandas-index.html</guid>
       </item>
     
       <item>
@@ -103,24 +121,6 @@
         <pubDate>2018-07-07 17:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/07/python_visualbug.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python_visualbug.html</guid>
-      </item>
-    
-      <item>
-        <title>Episode_Based_Evolution_Pattern </title>
-        <category>tools</category>
-        <description>Episode Based Evolution PatternEpisode-Based Evolution Pattern Analysis of Haze Pollution: Method...</description>
-        <pubDate>2018-07-06 14:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/06/Episode_Based_Evolution_Pattern.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/06/Episode_Based_Evolution_Pattern.html</guid>
-      </item>
-    
-      <item>
-        <title>python-stackoverflow</title>
-        <category>tools</category>
-        <description>dataprogress反距离加权（IDW）插值Interpolation points data into 2-d shapefile with matplotlibInterpolation...</description>
-        <pubDate>2018-07-05 19:14:31 </pubDate>
-        <link>https://xigrug.github.io/2018/07/05/python-stackoverflow.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/05/python-stackoverflow.html</guid>
       </item>
     
   </channel>
