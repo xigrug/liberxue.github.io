@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>MK</title>
+        <category>python</category>
+        <description>Python实现MK检验算法Python 实现MK检验算法，需要用到numpy模块。需要注意输入文件数据格式为一行一数据如附件data.png.输出文件格式，第一列为UF，第二列为UB，第三四列...</description>
+        <pubDate>2018-07-28 22:00:00 </pubDate>
+        <link>https://xigrug.github.io/2018/07/28/mk-analysis.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/28/mk-analysis.html</guid>
+      </item>
+    
+      <item>
         <title>Seaborn</title>
         <category>python</category>
         <description>Seaborn绘图timeseriesmin-max-shadingSeaborn timeseries plot with multiple serieslegendHow to add le...</description>
@@ -79,6 +88,15 @@
       </item>
     
       <item>
+        <title>Python Books</title>
+        <category>research</category>
+        <description>Mesoscale modeling with the Weather Research and Forecasting (WRF) model [ATMS 597R Spring 2016]使...</description>
+        <pubDate>2018-07-07 17:03:56 </pubDate>
+        <link>https://xigrug.github.io/2018/07/07/python-books.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-books.html</guid>
+      </item>
+    
+      <item>
         <title>Python FLEXPART</title>
         <category>research</category>
         <description>This programme was written by Lintao Li around 2014-8-20, for analyzing the out put of FLEXPARTLi...</description>
@@ -103,24 +121,6 @@
         <pubDate>2018-07-07 17:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/07/meteolib.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/meteolib.html</guid>
-      </item>
-    
-      <item>
-        <title>Cartopy</title>
-        <category>research</category>
-        <description>Background image in cartopy已解决，改为经验，CartoPy画色斑图的时候无法同时显示地图和数据介绍一种绘图白化的方法import numpy as npfrom sc...</description>
-        <pubDate>2018-07-07 17:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/07/cartpory.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/cartpory.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Visualization BUG</title>
-        <category>research</category>
-        <description>遇到的错误总结Basemap 的坐标设置起点并不是坐标原点m = Basemap(width=8000000,height=7000000,            resolution=’l’,...</description>
-        <pubDate>2018-07-07 17:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/07/python_visualbug.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python_visualbug.html</guid>
       </item>
     
   </channel>

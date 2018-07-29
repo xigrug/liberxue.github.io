@@ -54,3 +54,11 @@ if __name__ == '__main__':
    [关于MK突变检验的理解及疑问 ](http://bbs.06climate.com/forum.php?mod=viewthread&tid=49601&extra=&page=1)
 
    [MK检验 图的UF UB交点问题及2个小小问题，请高手不吝赐教啦](http://muchong.com/html/201412/8306531.html)
+
+# [up-rs-esp](https://up-rs-esp.github.io/mkt/)
+
+# [python改写MK趋势检验](https://www.jianshu.com/p/1d895e2ae89f)
+
+# [github1](https://github.com/UP-RS-ESP/mkt)
+
+# [github2](https://github.com/mps9506/Mann-Kendall-Trend/blob/master/mk_test.py) [question](https://stackoverflow.com/questions/46856314/using-mann-kendall-in-python-with-a-lot-of-data) [test](http://michaelpaulschramm.com/2015/08/01/simple-time-series-trend-analysis/)
