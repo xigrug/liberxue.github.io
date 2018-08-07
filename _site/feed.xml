@@ -7,6 +7,24 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Python Moviepy</title>
+        <category>research</category>
+        <description>用Python和MoviePy将数据动态可视化用Matplotlib的动画2D/3D绘图库Matplotlib已经有了动画模块，但我发现moviepy可以做出更轻量级，质量更好的视频，却达到了两...</description>
+        <pubDate>2018-08-05 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/08/05/python_Moviepy.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/08/05/python_Moviepy.html</guid>
+      </item>
+    
+      <item>
+        <title>get book</title>
+        <category>python</category>
+        <description>利用Python2.7 爬图书方法利用Python2.7 爬图书方法：# -*- coding: utf-8 -*-# 爬取OLDLee PDF文档,网址：http://www.micaps.c...</description>
+        <pubDate>2018-07-29 17:00:00 </pubDate>
+        <link>https://xigrug.github.io/2018/07/29/getbook.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/07/29/getbook.html</guid>
+      </item>
+    
+      <item>
         <title>MK</title>
         <category>python</category>
         <description>Python实现MK检验算法Python 实现MK检验算法，需要用到numpy模块。需要注意输入文件数据格式为一行一数据如附件data.png.输出文件格式，第一列为UF，第二列为UB，第三四列...</description>
@@ -103,24 +121,6 @@
         <pubDate>2018-07-07 17:03:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/07/python-flexpart.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-flexpart.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Tools</title>
-        <category>research</category>
-        <description>python 打包py2exepyinstallercx-freezepycpython -m py_compile file.py 简书</description>
-        <pubDate>2018-07-07 17:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/07/python-tools.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-tools.html</guid>
-      </item>
-    
-      <item>
-        <title>Meteorology and Evaporation Function Modules for Python</title>
-        <category>research</category>
-        <description>Meteorology and Evaporation Function Modules for Pythonmeteolib.py: Meteorological functionsLibra...</description>
-        <pubDate>2018-07-07 17:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/07/meteolib.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/meteolib.html</guid>
       </item>
     
   </channel>

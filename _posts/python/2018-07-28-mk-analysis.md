@@ -62,3 +62,6 @@ if __name__ == '__main__':
 # [github1](https://github.com/UP-RS-ESP/mkt)
 
 # [github2](https://github.com/mps9506/Mann-Kendall-Trend/blob/master/mk_test.py) [question](https://stackoverflow.com/questions/46856314/using-mann-kendall-in-python-with-a-lot-of-data) [test](http://michaelpaulschramm.com/2015/08/01/simple-time-series-trend-analysis/)
+
+# 论文
+  中国年降雨量的一阶自相关系数不显著，且其 3 种趋势检验方法结果的差异不明显，可以直接采用普通 Mann-Kendall 对其进行趋势检验。年平均气温和蒸发皿蒸发量的一阶自相关系数显著性较高，需要采用修正 Mann-Kendall 方法进行趋势检验。[章诞武, 丛振涛, 倪广恒. 基于中国气象资料的趋势检验方法对比分析[J]. 水科学进展, 2013, 24(4):490-496.]
