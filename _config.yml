@@ -39,6 +39,9 @@ links:
   - name:         工具
     url:          /tools
     external:     false
+  - name:         软件
+    url:          /software
+    external:     false
   - name:         旅游
     url:          /road
     external:     false
