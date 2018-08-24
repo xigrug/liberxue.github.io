@@ -7,6 +7,33 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title></title>
+        <category></category>
+        <description>Origin系列软件安装教程 installOrigin7.5链接：https://pan.baidu.com/s/1ddlhYOGftayu-5w5391-Qg密码：td91Origin201...</description>
+        <pubDate>2018-08-24 09:40:47 </pubDate>
+        <link>https://xigrug.github.io/2018/08/24/2018-08-24-Origin.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/08/24/2018-08-24-Origin.html</guid>
+      </item>
+    
+      <item>
+        <title></title>
+        <category></category>
+        <description>MATLAB系列软件安装教程 installMatlab2018a链接：https://pan.baidu.com/s/11Gyyv8k1BE4VNNpCdeArJQ密码：hommMatlab2...</description>
+        <pubDate>2018-08-24 09:40:47 </pubDate>
+        <link>https://xigrug.github.io/2018/08/24/2018-08-24-Matlab.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/08/24/2018-08-24-Matlab.html</guid>
+      </item>
+    
+      <item>
+        <title>WRF 地形</title>
+        <category>tools</category>
+        <description>应用高精度地形数据到WRF中（ASTER,SRTM） 应用高精度地形数据到WRF中首先是下载数据，在pdf里，他给的网址是第一页中的三个，在此我并不推荐这三个，我用的网址是：earthexplo...</description>
+        <pubDate>2018-08-22 13:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/08/22/wrfgeog.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/08/22/wrfgeog.html</guid>
+      </item>
+    
+      <item>
         <title>Python Moviepy</title>
         <category>research</category>
         <description>用Python和MoviePy将数据动态可视化用Matplotlib的动画2D/3D绘图库Matplotlib已经有了动画模块，但我发现moviepy可以做出更轻量级，质量更好的视频，却达到了两...</description>
@@ -94,33 +121,6 @@
         <pubDate>2018-07-10 19:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/07/10/matlab.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/10/matlab.html</guid>
-      </item>
-    
-      <item>
-        <title>2018年全国重大天气过程总结和预报技术经验交流会-特邀报告</title>
-        <category>research</category>
-        <description># 2018年全国重大天气过程总结和预报技术经验交流会-特邀报告   1-丁一汇-气候变化对我国夏季极端天气预报的影响.pdf2-沈学顺-国家级业务数值预报进展与发展.pdf3-张庆红-未来冰雹...</description>
-        <pubDate>2018-07-09 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/09/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/09/%E9%87%8D%E7%82%B9%E5%A4%A9%E6%B0%94%E8%BF%87%E7%A8%8B.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Books</title>
-        <category>research</category>
-        <description>Mesoscale modeling with the Weather Research and Forecasting (WRF) model [ATMS 597R Spring 2016]使...</description>
-        <pubDate>2018-07-07 17:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/07/python-books.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-books.html</guid>
-      </item>
-    
-      <item>
-        <title>Python FLEXPART</title>
-        <category>research</category>
-        <description>This programme was written by Lintao Li around 2014-8-20, for analyzing the out put of FLEXPARTLi...</description>
-        <pubDate>2018-07-07 17:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/07/python-flexpart.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/07/python-flexpart.html</guid>
       </item>
     
   </channel>
