@@ -3,6 +3,22 @@
 	"data" : [
 	 
 	{
+		"title" : "Origin - ",
+		"url" : "/2018/08/24/Origin.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "MATLAB - ",
+		"url" : "/2018/08/24/Matlab.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "WRF 地形 - ",
 		"url" : "/2018/08/22/wrfgeog.html"
 	}
@@ -307,6 +323,14 @@
 	
     
 	{
+		"title" : "ftp - ",
+		"url" : "/2018/06/26/ftp.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "little tools - ",
 		"url" : "/2018/06/26/quick.html"
 	}
@@ -317,6 +341,14 @@
 	{
 		"title" : "PPT - ",
 		"url" : "/2018/06/26/PPT.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Times-series - ",
+		"url" : "/2018/06/26/Times-series.html"
 	}
 	
 	,
@@ -397,6 +429,14 @@
 	{
 		"title" : "Statistics - ",
 		"url" : "/2018/06/23/statis.html"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Python Wind - ",
+		"url" : "/2018/06/23/python_wind.html"
 	}
 	
 	,

@@ -16,6 +16,12 @@ tags:
 ```bash
     sed -i "s/liberxue/xigrug/g" `grep liberxue -rl _site`
 ```
+# 删除文件中带有某个字符串的所有行
+
+```bash
+sed -e '/xxx/d' a.txt -->打印出来 文件中包含xxx的行都不会显示 使用－i参数的话就直接修改文件了
+```
+
 
 # 文件大小 <a href="https://www.jb51.net/article/108256.htm" title="Linux中du-查看文件夹大小并按大小进行排序详解">du-</a>
 ```bash
