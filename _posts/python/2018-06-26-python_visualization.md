@@ -61,6 +61,9 @@ python可视化库可以大致分为几类：
 [earthpy](http://earthpy.org/category/data-processing.html)  [seaborn](http://earthpy.org/seaborn_library.html) [PyNGL](http://earthpy.org/komod-mitplot-drawmap.html) [CATEGORY](http://earthpy.org/category/visualization.html) [Basemap](http://earthpy.org/earthpy-basemap-amazon.html)
 
 [MatplotlibClass](https://github.com/ZhaoZhonglun1991/MatplotlibClass)
+
+[sea-py](https://pyoceans.github.io/sea-py/)
+
 ----
 # 总结
 
@@ -147,6 +150,8 @@ python可视化库可以大致分为几类：
 *[pyqtgraph](http://www.pyqtgraph.org/)*
 
 [paraview](https://www.paraview.org/) [pv_atmos for paraview](https://github.com/mjucker/pv_atmos)       [Cloud-resolving simulation over Germany using ICON HighRes](https://vimeo.com/156297434)
+
+**[plotnine](https://plotnine.readthedocs.io/en/stable/)
 
 **[PyNGL](http://www.pyngl.ucar.edu/)** NCL [^MODEL]
 
