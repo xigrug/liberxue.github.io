@@ -21,6 +21,11 @@ redirect_from:
  
 博客图片使用七牛云加速
 
+[Rake让Jekyll写博更优雅](https://www.jianshu.com/p/374d7bfb1016)
+
+[腾讯公益404](http://www.qq.com/404/)
+
+[Gitment：使用 GitHub Issues 搭建评论系统](https://imsun.net/posts/gitment-introduction/)
  
 ## XiGrug简述
  
