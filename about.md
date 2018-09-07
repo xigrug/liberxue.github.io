@@ -15,7 +15,7 @@ redirect_from:
  
 博客主题 感谢作者liberxue
  
-博客使用Jekyll搭建托管在GitHub目前使用主题后期[已开源](https://github.com/Liberxue/liberxue.github.io)
+博客使用[Jekyll](https://www.jekyll.com.cn/)搭建托管在GitHub目前使用主题后期[已开源](https://github.com/Liberxue/liberxue.github.io)
  
 <iframe src="//ghbtns.com/github-btn.html?user=liberxue&repo=liberxue.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
  
