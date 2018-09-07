@@ -19,7 +19,6 @@ tags:
 
 2018-01-09 20:15 来源:[冷暖两心知](//www.sohu.com) [全球变暖](/tag/59976) _/_[辐射](/tag/59981) _/_[中国移动](/tag/48863)
 
-原标题：云加速了全球变暖？
 
 I hate clouds, not because they sometimes bring rain but because they are hard.”
 
@@ -33,7 +32,7 @@ I hate clouds, not because they sometimes bring rain but because they are hard.�
 
 一般而言，地球表面的70%被云所覆盖，云是影响地球气候的重要因子
 
-1\. 复杂的云
+## 1\. 复杂的云
 
 从太空回望我们的地球，蓝色和白色构成了地球的主要基调，蓝色的海洋覆盖地球约70%的表面，白色的云始终覆盖地球70%以上的地区，要想从太空给地球拍一张全球没有云的照片，基本上是不可能的。如果火星上有外星人，火星人给地球取得名字很可能会是“云球”或者“白球”。
 
@@ -43,7 +42,7 @@ I hate clouds, not because they sometimes bring rain but because they are hard.�
 
 在讨论全球变暖问题时，一个无法回避的问题就是云，然而云的复杂多变性使得云的辐射效应存在很大的不确定性，对云定量的描述取决于多种影响因子，云的高低、云的组成成分（水云还是冰云）、云的透明度、云的形态等都会影响到对云的辐射效应的估计，从几乎不遮挡任何太阳的丝缕状高云，到“黑云压城城欲摧的漫天乌云，从头顶小片的云彩，到台风和温带气旋的蔓延数千公里的云带，甚至同一片云，在艳阳和月光下的，带来的辐射影响也是各不相同。
 
-2\. 云的气候效应
+## 2\. 云的气候效应
 
 云的存在，使得部分太阳辐射被反射回太空，造成到达地表面的太阳辐射减小，减弱了到达地表面的太阳辐射，形成制冷效应。云同样具有温室效应，云会吸收来自地球的向外长波辐射，使得只有一小部分长波能量辐射到外层空间，这在冬日有云和无云的早晨会有明显的感受，当夜里繁星闪烁万里无云时，早晨一般清冷异常，而当夜里层云密布时，早晨的温度更为温和，即是因为云层的温室效应。
 
@@ -97,7 +96,7 @@ I hate clouds, not because they sometimes bring rain but because they are hard.�
 
 因此全球几十个复杂的气候模型（大气环流模式、耦合的气候模式，或者地球系统模式）给出的平衡气候敏感度（Equilibrium climate sensitivity，ECS，即当模式中大气的CO2浓度相对于工业化前加倍时，模拟的全球温度的增加值）有较大的离散，预期值从2.0℃到4.5℃各不相等。尽管各个模式均指向一个全球变暖的结果，但是较大的模式离散度给全球变暖研究以及相应的全球政策调整带来较大的不确定性。其中对于云的模拟的不确定性是气候模式中的核心。
 
-3\. 认识云观测云
+## 3\. 认识云观测云
 
 尽管有地基的对于天空云量云状云的分类的感测，但是目前对于全球云的观测倚重于气象卫星，世界气候研究计划（WCRP）在1982年启动了一个长期的” 国际卫星云气候学计划”项目（ISCCP, International satellite cloud climatology project），整合了美国、日本、加拿大、法国等多颗极轨卫星和静止气象卫星，力图得到丰富的关于云的气候资料解，并在此基础上开展对云对全球辐射平衡影响的研究。经过多年的观测，目前积累起丰富的云资料集（及其反演资料），包括总云量、云顶高度、云光学厚度、云含水量、水云量、冰云量、高中低云的云量、云顶气压和云顶温度、云光学厚度、云水路径、臭氧总量、对流层顶高度和温度等130个参数资料。
 
@@ -113,7 +112,7 @@ I hate clouds, not because they sometimes bring rain but because they are hard.�
 
 过去几十年的观测有了很大的进步，例如，美国航空航天局发射了“午后星座”（afternoon constellation），又称午后列车（A-Train），这是由六颗卫星组成的一组卫星，通过卫星姿态的调整，保持相同的轨道飞行，其中的两颗卫星（2006年发射升空），搭载有对全球层的观测设备，分别是云探测卫星（CloudSat）和云-气溶胶激光机红外探测卫星（CALIPSO, Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation），这些都是对云层特性进行全球主动遥感测量的观测仪器，其中CloudSat搭载有第一颗星载毫米波段（94Ghz，3mm）云雷达，可以轻易穿透轻薄的高层云，探测更为密实的低空云层，可以探测云层中尺度更小的液态水和固态冰，判断某片云是在降雪还是在降雨。CALIPSO卫星利用激光雷达对云层进行成像，可以提供高精度的悬浮粒子和云层的垂直剖面，识别云层中的冰晶和水滴，与A-Train中的其他卫星搭配使用，可以在几乎相同的时间对同一云层进行细致观察，研究全球云层的分布和演化，了解云的空间结构和细节。
 
-4\. 卫星资料揭示的云的变化
+## 4\. 卫星资料揭示的云的变化
 
 从2015年开始，来自加州大学圣地亚哥分校Scripps Institution of Oceanography的科学家乔尔·诺里斯（Joel Norris）和美国劳伦斯利弗莫尔国家实验室（Lawrence Livermore National Laboratory）科学家马科·泽林卡（Mark Zelinka）等先后在《Journal of Climate》、《Nature》、《Science》和《Nature Climate Change》等知名刊物上发表文章，总结过去几年在卫星观测和数值模式方面的进展，他们指出对于过去几十年，在全球变暖背景下的云的辐射效应目前逐渐形成较为清晰的认识。其中最主要的发现集中在两方面：
 
@@ -131,7 +130,7 @@ I hate clouds, not because they sometimes bring rain but because they are hard.�
 
 卫星资料揭示的各种云变化情况，1）高云的云量并未有明显变化；2）低云量也没有显著变化；3）高云的高度增加，已经得到卫星资料证实，引起增暖效应；4）云中水滴含量增加，有所证实，但是并没有期望的那么明显；5）云带向两极移动，已经得到卫星资料证实，引起增暖效应。
 
-5\. 对云的认识的逐渐统一
+## 5\. 对云的认识的逐渐统一
 
 云的模拟是认识气候及其变化的核心问题，因为云在各种物理过程中都会发生影响，云不仅与太阳辐射密切相关，也与大气中的气溶胶粒子的变化密不可分，同时也是降水和全球水循环的重要一环。
 
@@ -191,4 +190,4 @@ Li, J. D., and J. Y. Mao, 2015: The preliminary evaluation of global and East As
 
 Li, J. D., Y. M. Liu, and G. X. Wu, 2009: Cloud Radiative Forcing in Asian Monsoon Region Simulated by IPCC AR4 AMIP Models. Advance in Atmospheric Sciences, 26(5): 923–939.
 
-有温度的科学 
+有温度的科学 xigrug
