@@ -7,6 +7,51 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>数值天气预报全球主要模式核心指标展望分析</title>
+        <category>research</category>
+        <description>数值天气预报全球主要模式核心指标展望分析世界上6个主要气象中心2002-2017年业务系统北半球中纬度500hPa位势高度预报有效（距平相关≥80%）预报的天数变化，图中还给出2个再分析结果用于...</description>
+        <pubDate>2018-09-07 18:40:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/07/%E6%95%B0%E5%80%BC%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5%E5%85%A8%E7%90%83%E4%B8%BB%E8%A6%81%E6%A8%A1%E5%BC%8F%E6%A0%B8%E5%BF%83%E6%8C%87%E6%A0%87%E5%B1%95%E6%9C%9B%E5%88%86%E6%9E%90.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/07/%E6%95%B0%E5%80%BC%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5%E5%85%A8%E7%90%83%E4%B8%BB%E8%A6%81%E6%A8%A1%E5%BC%8F%E6%A0%B8%E5%BF%83%E6%8C%87%E6%A0%87%E5%B1%95%E6%9C%9B%E5%88%86%E6%9E%90.html</guid>
+      </item>
+    
+      <item>
+        <title>python绘制地图的利器Cartopy使用说明</title>
+        <category>research</category>
+        <description>python绘制地图的利器Cartopy使用说明 本帖最后由 阿阿飞飞 于 2015-3-25 21:08 编辑python绘制地图一般使用Basemap绘图包，但该包配置相对较繁琐，自定义性不...</description>
+        <pubDate>2018-09-07 17:45:00 </pubDate>
+        <link>https://xigrug.github.io/2018/09/07/Cartopy.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/07/Cartopy.html</guid>
+      </item>
+    
+      <item>
+        <title>Sea Python</title>
+        <category>research</category>
+        <description>SEA-PY: Python Tools for Oceanographic AnalysisA collaborative effort to organize and distribute...</description>
+        <pubDate>2018-09-07 17:25:00 </pubDate>
+        <link>https://xigrug.github.io/2018/09/07/seapy.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/07/seapy.html</guid>
+      </item>
+    
+      <item>
+        <title>云加速了全球变暖?</title>
+        <category>research</category>
+        <description>原文链接云加速了全球变暖？2018-01-09 20:15 来源:冷暖两心知 全球变暖 /辐射 /中国移动I hate clouds, not because they sometimes br...</description>
+        <pubDate>2018-09-07 13:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/07/cloud_sinablog.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/07/cloud_sinablog.html</guid>
+      </item>
+    
+      <item>
+        <title>74项环流指数显示与提取工具【By清风】</title>
+        <category>tools</category>
+        <description>74项环流指数显示与提取工具【By清风】   前两天看到又有人找74项环流指数提取的工具，我已经曾经找到过一个，那个是用delphi写的，分要素提取出N年的数据，不过由于资料站的备份出了点问题，...</description>
+        <pubDate>2018-09-07 11:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/07/74index.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/07/74index.html</guid>
+      </item>
+    
+      <item>
         <title>Satellite-NPP</title>
         <category>research</category>
         <description>数据下载日期推算器综合 NASA Earthdata  downloadDownload Near Real-Time DataNPP 数据下载NPP轨道图VIIRS Imagery and V...</description>
@@ -76,51 +121,6 @@
         <pubDate>2018-07-25 17:00:00 </pubDate>
         <link>https://xigrug.github.io/2018/07/25/seaborn.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/25/seaborn.html</guid>
-      </item>
-    
-      <item>
-        <title>Matplotlib colorbar</title>
-        <category>python</category>
-        <description>matplotlib colorbar placement and size            Property      Description                  orie...</description>
-        <pubDate>2018-07-25 17:00:00 </pubDate>
-        <link>https://xigrug.github.io/2018/07/25/matplotlib-colorbar.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/25/matplotlib-colorbar.html</guid>
-      </item>
-    
-      <item>
-        <title>Python time_series_analysis</title>
-        <category>research</category>
-        <description>Pandas日期数据处理：如何按日期筛选、显示及统计数据Time series analysis with pandasTime series analysis with pandas. Par...</description>
-        <pubDate>2018-07-24 19:03:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/24/time_series_analysis_with_pandas.html</guid>
-      </item>
-    
-      <item>
-        <title>Pandas Index</title>
-        <category>tools</category>
-        <description>indexpandas入门——多重索引df=df.set_index(["country","director_name"],append=True,drop=False,inplace=Tru...</description>
-        <pubDate>2018-07-24 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/24/pandas-index.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/24/pandas-index.html</guid>
-      </item>
-    
-      <item>
-        <title>距离面积</title>
-        <category>research</category>
-        <description>距离面积计算在实际应用当中，一般是通过一个个体的编码来查找该编码对应的地区中心的经纬度，然后再根据这些经纬度来计算彼此的距离，从而估算出某些群体之间的大致距离范围(比如酒店旅客的分布范围-各个旅...</description>
-        <pubDate>2018-07-13 14:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/13/distance.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/13/distance.html</guid>
-      </item>
-    
-      <item>
-        <title>data</title>
-        <category>tools</category>
-        <description>数据下载网站汇总降水TRMM(TMI 3-day)降水数据的详细下载方法直接下载noaa全球气象数据集中的三小时观测数据再分析资料NCEP/NCAR Reanalysis 1: Surface ...</description>
-        <pubDate>2018-07-12 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/07/12/data.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/12/data.html</guid>
       </item>
     
   </channel>
