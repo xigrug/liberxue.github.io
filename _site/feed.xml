@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>WRF 错误总结</title>
+        <category>tech</category>
+        <description>WRF_realNot enough info for a p sfc computation for real.exe : &amp;domain set sfcp_to_sfcp = .true.</description>
+        <pubDate>2018-09-10 18:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/10/wrflog.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/10/wrflog.html</guid>
+      </item>
+    
+      <item>
         <title>数值天气预报全球主要模式核心指标展望分析</title>
         <category>research</category>
         <description>数值天气预报全球主要模式核心指标展望分析世界上6个主要气象中心2002-2017年业务系统北半球中纬度500hPa位势高度预报有效（距平相关≥80%）预报的天数变化，图中还给出2个再分析结果用于...</description>
@@ -112,15 +121,6 @@
         <pubDate>2018-07-28 22:00:00 </pubDate>
         <link>https://xigrug.github.io/2018/07/28/mk-analysis.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/07/28/mk-analysis.html</guid>
-      </item>
-    
-      <item>
-        <title>Seaborn</title>
-        <category>python</category>
-        <description>Seaborn绘图timeseriesmin-max-shadingSeaborn timeseries plot with multiple serieslegendHow to add le...</description>
-        <pubDate>2018-07-25 17:00:00 </pubDate>
-        <link>https://xigrug.github.io/2018/07/25/seaborn.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/25/seaborn.html</guid>
       </item>
     
   </channel>
