@@ -7,6 +7,15 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>IDL</title>
+        <category>software</category>
+        <description>IDL系列软件安装教程2015年8月3日，IDL 8.5正式发布，与之对应的ENVI版本为5.3。在IDL 8.5中，主要新增ESE API for IDL，可以方便地在IDL中调用ENVI S...</description>
+        <pubDate>2018-09-11 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/11/IDL.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/11/IDL.html</guid>
+      </item>
+    
+      <item>
         <title>WRF 错误总结</title>
         <category>tech</category>
         <description>WRF_realNot enough info for a p sfc computation for real.exe : &amp;domain set sfcp_to_sfcp = .true.</description>
@@ -61,6 +70,15 @@
       </item>
     
       <item>
+        <title>CALIPSO</title>
+        <category>research</category>
+        <description>CALIPSO数据下载方法与可视化引言CALIPSO (Cloud–Aerosol Lidar and Infrared Path nder Satellite Observation) 是NA...</description>
+        <pubDate>2018-08-28 10:23:56 </pubDate>
+        <link>https://xigrug.github.io/2018/08/28/calipso-down.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/08/28/calipso-down.html</guid>
+      </item>
+    
+      <item>
         <title>Satellite-NPP</title>
         <category>research</category>
         <description>数据下载日期推算器综合 NASA Earthdata  downloadDownload Near Real-Time DataNPP 数据下载NPP轨道图VIIRS Imagery and V...</description>
@@ -103,24 +121,6 @@
         <pubDate>2018-08-05 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/08/05/python_Moviepy.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/08/05/python_Moviepy.html</guid>
-      </item>
-    
-      <item>
-        <title>get book</title>
-        <category>python</category>
-        <description>利用Python2.7 爬图书方法利用Python2.7 爬图书方法：# -*- coding: utf-8 -*-# 爬取OLDLee PDF文档,网址：http://www.micaps.c...</description>
-        <pubDate>2018-07-29 17:00:00 </pubDate>
-        <link>https://xigrug.github.io/2018/07/29/getbook.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/29/getbook.html</guid>
-      </item>
-    
-      <item>
-        <title>MK</title>
-        <category>python</category>
-        <description>Python实现MK检验算法Python 实现MK检验算法，需要用到numpy模块。需要注意输入文件数据格式为一行一数据如附件data.png.输出文件格式，第一列为UF，第二列为UB，第三四列...</description>
-        <pubDate>2018-07-28 22:00:00 </pubDate>
-        <link>https://xigrug.github.io/2018/07/28/mk-analysis.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/07/28/mk-analysis.html</guid>
       </item>
     
   </channel>
