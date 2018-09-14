@@ -7,6 +7,24 @@
     <atom:link href="https://xigrug.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Cloudsat</title>
+        <category>research</category>
+        <description>How to download a month of CloudSat files from ICARE using python#!/usr/bin/env pythonimport nump...</description>
+        <pubDate>2018-09-12 13:23:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/12/Cloudsat.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/12/Cloudsat.html</guid>
+      </item>
+    
+      <item>
+        <title>NCL</title>
+        <category>software</category>
+        <description>速查表颜色color_tablemarkerfillpatterns字符角标</description>
+        <pubDate>2018-09-11 10:13:56 </pubDate>
+        <link>https://xigrug.github.io/2018/09/11/NCL.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/09/11/NCL.html</guid>
+      </item>
+    
+      <item>
         <title>IDL</title>
         <category>software</category>
         <description>IDL系列软件安装教程2015年8月3日，IDL 8.5正式发布，与之对应的ENVI版本为5.3。在IDL 8.5中，主要新增ESE API for IDL，可以方便地在IDL中调用ENVI S...</description>
@@ -70,6 +88,15 @@
       </item>
     
       <item>
+        <title>MERRA</title>
+        <category>research</category>
+        <description>分享求贡献值！！merra2数据下载和运用wget下载数据方法-数据资料-气象家园_气象人自己的家园版主大人啊，我需要贡献值啊，可怜可怜我这个新人小白吧，没有贡献值，连资料都下不了啊，把我这小小...</description>
+        <pubDate>2018-08-28 10:23:56 </pubDate>
+        <link>https://xigrug.github.io/2018/08/28/merra2_down.html</link>
+        <guid isPermaLink="true">https://xigrug.github.io/2018/08/28/merra2_down.html</guid>
+      </item>
+    
+      <item>
         <title>CALIPSO</title>
         <category>research</category>
         <description>CALIPSO数据下载方法与可视化引言CALIPSO (Cloud–Aerosol Lidar and Infrared Path nder Satellite Observation) 是NA...</description>
@@ -94,33 +121,6 @@
         <pubDate>2018-08-24 10:13:56 </pubDate>
         <link>https://xigrug.github.io/2018/08/24/Origin.html</link>
         <guid isPermaLink="true">https://xigrug.github.io/2018/08/24/Origin.html</guid>
-      </item>
-    
-      <item>
-        <title>MATLAB</title>
-        <category>software</category>
-        <description>MATLAB系列软件安装教程 installMatlab2018a链接：https://pan.baidu.com/s/11Gyyv8k1BE4VNNpCdeArJQ密码：hommMatlab2...</description>
-        <pubDate>2018-08-24 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/08/24/Matlab.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/08/24/Matlab.html</guid>
-      </item>
-    
-      <item>
-        <title>WRF 地形</title>
-        <category>tools</category>
-        <description>应用高精度地形数据到WRF中（ASTER,SRTM） 应用高精度地形数据到WRF中首先是下载数据，在pdf里，他给的网址是第一页中的三个，在此我并不推荐这三个，我用的网址是：earthexplo...</description>
-        <pubDate>2018-08-22 13:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/08/22/wrfgeog.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/08/22/wrfgeog.html</guid>
-      </item>
-    
-      <item>
-        <title>Python Moviepy</title>
-        <category>research</category>
-        <description>用Python和MoviePy将数据动态可视化用Matplotlib的动画2D/3D绘图库Matplotlib已经有了动画模块，但我发现moviepy可以做出更轻量级，质量更好的视频，却达到了两...</description>
-        <pubDate>2018-08-05 10:13:56 </pubDate>
-        <link>https://xigrug.github.io/2018/08/05/python_Moviepy.html</link>
-        <guid isPermaLink="true">https://xigrug.github.io/2018/08/05/python_Moviepy.html</guid>
       </item>
     
   </channel>
